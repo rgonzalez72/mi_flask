@@ -117,7 +117,7 @@
         "name": "Batido Nutella",
         "ingredients": ["plátano", "avellanas", "leche", "dátil", "cacao", "vainilla" ],
         "steps": [
-            "Batir Dos platanos maduros, avellanas, leche de almendras (u otro tipo), un dátil, cacao en polvo y vainilla."
+            "Batir Dos plátanos maduros, avellanas, leche de almendras (u otro tipo), un dátil, cacao en polvo y vainilla."
         ],
         "tags": ["batido"]
     },
@@ -142,7 +142,7 @@
     {
         "name": "Curry vegetal con patata",
         "ingredients": ["cebolla", "ajo", "jenjibre", "cominos", "cilantro", "cúrcuma", "curry", "cayena",
-            "patatas", "guisantes", "cilantro", "lima"],
+            "patata", "guisantes", "cilantro", "lima"],
         "steps": [
             "Saltea la cebolla, el ajo y el jengibre en ½ taza de agua 3 o 4 minutos", 
             "Añade todas las especias y remueve 1 minuto.",
@@ -168,49 +168,70 @@
         "tags": ["desayuno"]
     },
     {
-        "name": "",
+        "name": "Avena al punto con frambuesas",
         "ingredients": ["avena", "leche", "jenjibre", "canela", "frambuesas", "lino", "goji" ],
         "steps": [
-            "",
-            ""
+            "En un bote añade todos los ingredientes menos las semillas.",
+            "Puedes taparlo y dejarlo en la nevera toda la noche o prepararlo unos minutos antes de desayunar.",
+            "Puedes tomarlo frío o calentarlo. Añade las semillas molidas.",
+            "Puedes añadir un poco más de bebida vegetal si está muy espeso."
         ],
-        "tags": [""]
+        "tags": ["desayuno"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Puré de patatas, verduras asadas con salsa mejicana y guisantes",
+        "ingredients": ["patata", "leche", "levadura nutricional", "berenjena", "pimiento", "cebolla",
+            "tomate", "ajo", "salsa de soja", "guisantes", "salsa mejicana" ],
         "steps": [
-            "",
-            ""
+            "Cuece las patatas, escúrrelas, déjalas atemperar.",
+            "Machácalas con un masher junto a la leche y la levadura para hacer el puré.",
+            "Se puede preparar por adelantado y guardarlo en la nevera.",
+            "Prepara las verduras cortándolas a tiras y gajos.",
+            "Añade la soja, remueve bien y hornea a 180 grados unos 25 minutos.",
+            "En una sartén añade los guisantes y la salsa mejicana.",
+            "Calienta y retira.",
+            "En un plato pon la mitad del plato de puré y la otra mitad de verduras asadas.",
+            "Por encima añade los guisantes y la salsa mejicana."
         ],
-        "tags": [""]
+        "tags": []
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Sopa de brócoli con arroz integral",
+        "ingredients": ["brócoli", "patata", "cebolla", "caldo", "ajo", "eneldo", "leche", "mostaza",
+            "levadura nutricional", "arroz"],
         "steps": [
-            "",
-            ""
+            "Lava bien el arroz y ponlo a hervir en el triple de agua 35 minutos.",
+            "Pon todos los ingredientes menos la mostaza, la leche de soja y la levadura nutricional en una cazuela.",
+            "Hervir 15 minutos.",
+            "Añade el resto de ingredientes y tritura con la batidora.",
+            "Servir el plato con arroz integral y llenar el plato con la cantidad de sopa que te apetezca."
         ],
-        "tags": [""]
+        "tags": ["sopa"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Yogur de soja con frutas y semillas",
+        "ingredients": ["yogur", "plátano", "manzana", "lino", "frutos rojos" ],
         "steps": [
-            "",
-            ""
+            "Descongelar los frutos rojos congelados dos minutos en el microondas.",
+            "Batir el yogur de soja con el plátano.",
+            "En un cuenco poner la manzana troceada, añadir el yogur batido.",
+            "Moler las semillas y añadirlas encima.",
+            "Añadir encima la compota de frutos rojos hecha en el microondas."
         ],
-        "tags": [""]
+        "tags": ["desayuno"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Ensalada 5 verduras y dorada al horno",
+        "ingredients": ["lechuga", "pimiento", "zanahoria", "tomate", "cebolla", "maíz", "vinagre",
+            "dorada"],
         "steps": [
-            "",
-            ""
+            "Hornear la dorada 20 en el horno a 200 grados.",
+            "Trocear los ingredientes de la ensalada",
+            "Añadir vinagre de Módena y remover.",
+            "Servir.",
+            "Si no comes pescado sustituye por 80 gramos de quinoa hervida."
         ],
-        "tags": [""]
+        "tags": ["pescado"]
     },
     {
         "name": "",
