@@ -65,11 +65,12 @@ def ingredient_select (recipes):
     return component
 
 def getListOfTags (recipes):
-    tags = set()
+    tags = []
     for R in recipes:
         for i in R["tags"]:
-            tags.add (i)
-    return sorted(list(tags))
+            if not findInList (i, tags):
+                tags.append (i.lower())
+    return sorted(tags)
 
 def tag_select (recipes):
     tag_list = getListOfTags (recipes)

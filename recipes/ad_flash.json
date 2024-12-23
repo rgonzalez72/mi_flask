@@ -104,53 +104,72 @@
         "tags": ["Ensalada"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Crema de zanahoria",
+        "ingredients": ["zanahoria", "cebolla", "lima", "cayena" ],
         "steps": [
-            "",
-            ""
+            "Hervir la zanahoria y la cebolla con un poco de agua durante 5 minutos.",
+            "Pasar las verduras y el agua a la batidora junto con el zumo de lima y la cayena.",
+            "Batir hasta que tenga consistencia de puré."
         ],
-        "tags": [""]
+        "tags": ["puré"]
+    },
+    {
+        "name": "Batido Nutella",
+        "ingredients": ["plátano", "avellanas", "leche", "dátil", "cacao", "vainilla" ],
+        "steps": [
+            "Batir Dos platanos maduros, avellanas, leche de almendras (u otro tipo), un dátil, cacao en polvo y vainilla."
+        ],
+        "tags": ["batido"]
+    },
+    {
+        "name": "Fideos de arroz con verduras",
+        "ingredients": ["fideos", "cebolla", "zanahoria", "brotes de soja", "calabacín", "pimiento",
+            "salsa de soja", "jenjibre", "vinagre", "caldo", "sésamo", "anacardos", "cilantro"],
+        "steps": [
+            "Hervir los fideos según indique el paquete.",
+            "En una sartén grande o wok añadir un chorro de caldo y las verduras cortadas en juliana.",
+            "Tapar y dejar cocer 5 minutos.",
+            "Destapar, remover y seguir rehogando.",
+            "Añadir la salsa de soja, el vinagre de arroz y el jengibre.",
+            "Seguir rehogando.",
+            "Tostar los anacardos en una sartén.",
+            "Retirar los fideos del fuego.",
+            "Volcar encima de las verduras y remover bien.",
+            "Servir y adornar con los anacardos y cilantro fresco."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Curry vegetal con patata",
+        "ingredients": ["cebolla", "ajo", "jenjibre", "cominos", "cilantro", "cúrcuma", "curry", "cayena",
+            "patatas", "guisantes", "cilantro", "lima"],
+        "steps": [
+            "Saltea la cebolla, el ajo y el jengibre en ½ taza de agua 3 o 4 minutos", 
+            "Añade todas las especias y remueve 1 minuto.",
+            "Añade el resto del agua, las patatas troceadas y los guisantes.",
+            "Cocina a fuego lento sin tapar, removiendo unos 10 minutos.",
+            "Sirve y adorna con cilantro y zumo de lima."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Tarta de manzana, zanahoria y avena",
+        "ingredients": ["manzana", "zanahoria", "avena", "azúcar", "bicarbonato", "limón" ],
+        "steps": [
+            "Pon los copos de avena en tu batidora y tritúralos hasta obtener una harina gruesa.",
+            "Si queda algún trozo de avena entero no pasa nada.",
+            "Pela y trocea las tres manzanas, y tritúralas con la batidora, hasta reducirlas en puré.",
+            "Haz lo mismo con la zanahoria, hasta que quede bien picada.",
+            "Pon todos los ingredientes en un bol y mezcla bien hasta crear una masa húmeda y homogénea.",
+            "Pon la masa en un molde de silicona (no hace falta poner ningún tipo de grasa ni harina en el molde) y alisa la superficie con una espátula.",
+            "Hornea durante 50 minutos.",
+            "Deja enfriar la tarta por completo antes de desmoldarla."
+        ],
+        "tags": ["desayuno"]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
-        "steps": [
-            "",
-            ""
-        ],
-        "tags": [""]
-    },
-    {
-        "name": "",
-        "ingredients": ["", "" ],
-        "steps": [
-            "",
-            ""
-        ],
-        "tags": [""]
-    },
-    {
-        "name": "",
-        "ingredients": ["", "" ],
-        "steps": [
-            "",
-            ""
-        ],
-        "tags": [""]
-    },
-    {
-        "name": "",
-        "ingredients": ["", "" ],
-        "steps": [
-            "",
-            ""
-        ],
-        "tags": [""]
-    },
-    {
-        "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": ["avena", "leche", "jenjibre", "canela", "frambuesas", "lino", "goji" ],
         "steps": [
             "",
             ""
