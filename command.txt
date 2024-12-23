@@ -2,5 +2,5 @@
 docker build -t flask_docker .
 
 docker run -d --name mi_flask -p 5000:5000 \
-        -v /home/rgonzalez/provis/myflask:/python-docker \
+        -v /home/rgonzalez/provis/mi_flask:/python-docker \
         flask_docker
