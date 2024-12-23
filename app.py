@@ -155,7 +155,7 @@ def get_recipe_page (hash_value):
 def getRecipesWithTag (recipes, tag_name):
     recipesTag = []
     for R in recipes:
-        if tag_name in R["tags"]:
+        if findInList (tag_name, R["tags"]):
             recipesTag.append (R)
     return recipesTag
 
@@ -166,7 +166,7 @@ def getListOfRecipes(recipes):
 
     page += "<UL>\n"
     list_of_names = [d["name"] for d in recipes]
-    for name in list_of_names:
+    for name in sorted(list_of_names):
         hash_value = calculateHash (name)
         page += '\t<li><a href="/recipe?recipe_names=' + hash_value + '">' + name + '</a></li>\n'
     page += "</UL>\n"
@@ -187,7 +187,7 @@ def show_tag ():
 def getRecipesWithIngredient (recipes, ing):
     recipesIng = []
     for R in recipes:
-        if ing in R["ingredients"]:
+        if findInList (ing, R["ingredients"]):
             recipesIng.append (R)
     return recipesIng
 

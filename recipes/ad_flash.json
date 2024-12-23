@@ -1,0 +1,226 @@
+[
+    {
+        "name": "Pepino express",
+        "ingredients": ["pepino", "espinacas", "acelgas", "lechuga", "perejil", "manzana", "lima" ],
+        "steps": [
+            "Poner en la licuadora: ", 
+            "3 pepinos, 1 puñado de hojas verdes (espinacas, lechuga, acelgas u hojas de remolacha),",
+            "1 taza de perejil, 1 manzana, 1 lima pelada",
+            "Licuar y beber a sorbos."
+        ],
+        "tags": ["Desayuno", "licuado"]
+    },
+    {
+        "name": "Crema de alubias blancas y brócoli",
+        "ingredients": ["Cebolla", "Ajo", "alubias", "brócoli", "anacardos", "levadura nutricional",
+            "salsa soja", "gomasio" ],
+        "steps": [
+            "Poner los anacardos en remojo dos horas.",
+            "Gomasio son semillas de sésamo molidas.",
+            "Rehogar la cebolla con agua durante 3 minutos.",
+            "Añadir los ajos y seguir rehogando, si te quedas sin agua añade un poco más.",
+            "Añadir agua, las alubias y la mitad del brócoli.",
+            "Dejar hervir 10 minutos.",
+            "Mientras tanto trocear el resto del brócoli muy pequeño y saltearlo con agua unos minutos.",
+            "Hacer un puré con la sopa añadiendo los anacardos escurridos, la soja y la levadura nutricional.",
+            "Servir con 2 cucharadas del brócoli al vapor y una cucharada de gomasio"
+        ],
+        "tags": ["puré"]
+    },
+    {
+        "name": "Ensalada de col lombarda",
+        "ingredients": ["lombarda", "zanahoria", "uva", "piña", "maíz", "tahini", "vinagre", "naranja",
+        "levadura nutricional", "dátil" ],
+        "steps": [
+           "Rallar la zanahoria.",
+           "Trocear o rallar la col y ponerla en un bol, añadir un vaso de agua hirviendo por encima.",
+           "Dejar reposar unos minutos y escurrir.",
+           "Mezclar con el resto de los ingredientes.",
+           "Hacer la vinagreta mezclando tahini, vinagre, zumo de naranja, levadura y dátil en la batidora.",
+           "Mezclar todo bien y dejar reposar en la nevera una media hora antes de servir.",
+           "Masticar bien y lentamente para asegurar una buena digestión."
+        ],
+        "tags": ["ensalada"]
+    },
+    {
+        "name": "Boniato asado con hummus de lentejas",
+        "ingredients": ["Boniato", "lentejas", "tahini", "ajo", "limón", "cominos" ],
+        "steps": [
+            "Asar el boniato en el horno o hervirlo",
+            "Prepara el hummus con el resto de ingredientes.",
+            "Añade agua si es necesario para dar la textura adecuada."
+        ],
+        "tags": []
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    }
+]

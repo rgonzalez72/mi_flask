@@ -47,6 +47,37 @@
         "tags": ["sopa"]
     },
     {
+        "name": "Tortitas de avena y plátano",
+        "ingredients": ["avena", "huevo", "plátano", "levadura" ],
+        "steps": [
+            "Aplastar un plátano con un tenedor en un bol.",
+            "Echar un huevo, pizca de levadura química y pizca de sal.",
+            "Añadir avena hasta que tenga la consistencia adecuada. Aproximadamente 3 cucharadas.",
+            "Calentar una sartén y poner una gota de aceite.",
+            "Echar la masa en la sartén hasta que salgan burbujitas.",
+            "Dar la vuelta y hacer por el otro lado."
+        ],
+        "tags": ["desayuno"]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
         "name": "",
         "ingredients": ["", "" ],
         "steps": [
