@@ -3,6 +3,7 @@ import json
 import sys
 import os
 import hashlib
+import re
 app = Flask(__name__)
 
 
@@ -82,6 +83,15 @@ def tag_select (recipes):
     component += '<br>\n'
     return component
 
+def search_area ():
+    component = '<form method="GET" action="/search">'
+    component += '<label for="search_term">Buscar: </label>\n'
+    component += '<input name="search_term" id="snames">\n'
+    component += '<button type="submit">Ir</button>\n'
+    component += '</form>\n'
+    component += '<br>\n'
+    return component
+
 
 @app.route('/')
 def main_page ():
@@ -91,12 +101,12 @@ def main_page ():
     page += recipes_name_select (recipes)
     page += ingredient_select (recipes)
     page += tag_select (recipes)
+    page += search_area ()
     return page
 
 def find_recipe (recipes, hash_value):
     recipe = None
     for R in recipes:
-        print (R["hash"], hash_value)
         if R["hash"]  == hash_value:
             recipe = R
             break
@@ -185,9 +195,59 @@ def getRecipesWithIngredient (recipes, ing):
 def show_ingredient ():
     recipes = loadRecipes ()
     ing = request.args.get("ingredients")
-    page = "<h2>Platos con ingrediente: " + ing + "</h2>"
+    page = "<h2>Platos con ingrediente: " + ing + "</h2>\n"
     recipesIng =  getRecipesWithIngredient (recipes, ing)
     page += getListOfRecipes (recipesIng)
+    return page
+
+def normalizeString (string):
+    fromStr = "áéíóúÁÉÍÓÚüÜ"
+    toStr = "aeiouaeiouuu"
+    trans = str.maketrans(fromStr, toStr)
+    return string.casefold().translate(trans)
+
+def findInList (term, listOfTerms):
+    """ Find is case insensitive. """
+    found = False
+    term = normalizeString (term)
+    for t in listOfTerms:
+        if normalizeString(term) in normalizeString(t):
+            found = True
+            break
+    return found
+
+def findInRecipes (recipes, term):
+    foundRecipes = []
+
+    for R in recipes:
+        if normalizeString (term) in normalizeString(R["name"]):
+            foundRecipes.append (R)
+            continue
+
+        if findInList (term, R["ingredients"]):
+            foundRecipes.append (R)
+            continue
+
+        if findInList (term, R["steps"]):
+            foundRecipes.append (R)
+            continue
+
+    return foundRecipes
+
+@app.route ('/search')
+def search_term ():
+    recipes = loadRecipes ()
+    term = request.args.get("search_term")
+    foundRecipes = findInRecipes (recipes, term)
+    page = "<h2>Resultado de búsqueda: " + term + "</h2>\n"
+    if len(foundRecipes) > 0:
+        page += getListOfRecipes (foundRecipes)
+
+    else:
+        page += "No he encontrado ninguna receta. "
+        page += '<br>\n'
+        page += '<a href="/">Página principal</a>\n'
+    
     return page
 
 if __name__ == "__main__":
