@@ -1,8 +1,9 @@
 [
     { 
         "name": "Crema fría de espárragos",
-        "ingredients": ["Espárragos de bote", "Huevo duro", "Mahonesa"],
+        "ingredients": ["espárragos de bote", "huevo", "mahonesa"],
         "steps": [ 
+            "Cocer el huevo",
             "Mezclar todos los ingredientes con la batidora.",
             "Añadir agua del bote de esparrágos para darle la textura adecuada."
         ],
@@ -10,7 +11,7 @@
     },
     {
         "name": "Gazpacho",
-        "ingredients": ["Pan", "Ajo", "Cebolla", "Pimiento verde", "Pepino", "Tomate", "Aceite" ],
+        "ingredients": ["pan", "ajo", "cebolla", "pimiento verde", "pepino", "tomate", "aceite" ],
         "steps": [
             "Pon el pan en agua.",
             "Mezcla todos los ingredientes con la batidora",
@@ -20,7 +21,7 @@
     },
     {
         "name": "Avena de toda la noche",
-        "ingredients": ["Avena", "Leche", "Pasas", "Chía" ],
+        "ingredients": ["avena", "leche", "pasas", "chía" ],
         "steps": [
             "Mezclar leche y avena hasta que quede espeso.",
             "Opcionalmente incluir pasas o chía.",
@@ -28,16 +29,22 @@
             "Se puede usar yogurt en lugar de leche",
             "Acompañar con nueces, chocolate, fruta cortada, ..."
         ],
-        "tags": ["Desayuno"]
+        "tags": ["desayuno"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Sopa de miso",
+        "ingredients": ["miso", "bacon", "ajo", "cebolla", "pimiento", "zanahoria", "tofu", "kombu", "wakame" ],
         "steps": [
-            "",
-            ""
+            "Sofreír las verduras y el bacon en orden.",
+            "Añadir agua alga kombu y wakame.",
+            "Si se usa tofu añadirlo ahora.",
+            "Cocer unos 10 minutos",
+            "Disolver el miso en agua caliente (casi hirviendo)",
+            "Apagar el fuego y echar el miso a la olla",
+            "Dejar unos 5 minutos que se mezcle pero no vuelva a hervir",
+            "Si se usan fideos, cocer por separado y servir con la sopa"
         ],
-        "tags": [""]
+        "tags": ["sopa"]
     },
     {
         "name": "",

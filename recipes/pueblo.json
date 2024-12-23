@@ -1,7 +1,7 @@
 [
     {
         "name": "Migas",
-        "ingredients": ["Pan", "Ajo", "Aceite" ],
+        "ingredients": ["pan", "ajo", "aceite" ],
         "steps": [
             "Cortar el pan fino la noche anterior.",
             "Poner en remojo toda la noche, para que hidrate el pan (poca agua).",

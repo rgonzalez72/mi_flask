@@ -30,7 +30,7 @@ def loadRecipes ():
 
 def recipes_name_select (recipes):
     component = '<form method="GET" action="/recipe">'
-    component += '<label for="recipe_names">Select by name: </label>\n'
+    component += '<label for="recipe_names">Seleccionar por nombre: </label>\n'
     component += '<select name="recipe_names" id="names">\n'
     list_of_names = [d["name"] for d in recipes]
     for name in sorted (list_of_names):
@@ -39,7 +39,49 @@ def recipes_name_select (recipes):
     component += '</select>\n'
     component += '<button type="submit">Ir</button>\n'
     component += '</form>\n'
+    component += '<br>\n'
     return component
+
+def getListOfIngredients (recipes):
+    ingredients = set()
+    for R in recipes:
+        for i in R["ingredients"]:
+            ingredients.add (i)
+    return sorted(list(ingredients))
+
+def ingredient_select (recipes):
+    ing_list = getListOfIngredients (recipes)
+    component = '<form method="GET" action="/ingredient">'
+    component += '<label for="ingredients">Seleccionar por ingrediente: </label>\n'
+    component += '<select name="ingredients" id="inames">\n'
+    for ing in ing_list:
+        component += '\t<option value="' + ing + '">' + ing + '</option>\n'
+    component += '</select>\n'
+    component += '<button type="submit">Ir</button>\n'
+    component += '</form>\n'
+    component += '<br>\n'
+    return component
+
+def getListOfTags (recipes):
+    tags = set()
+    for R in recipes:
+        for i in R["tags"]:
+            tags.add (i)
+    return sorted(list(tags))
+
+def tag_select (recipes):
+    tag_list = getListOfTags (recipes)
+    component = '<form method="GET" action="/tag">'
+    component += '<label for="tags">Seleccionar por etiqueta: </label>\n'
+    component += '<select name="tags" id="tnames">\n'
+    for tag in tag_list:
+        component += '\t<option value="' + tag + '">' + tag + '</option>\n'
+    component += '</select>\n'
+    component += '<button type="submit">Ir</button>\n'
+    component += '</form>\n'
+    component += '<br>\n'
+    return component
+
 
 @app.route('/')
 def main_page ():
@@ -47,6 +89,8 @@ def main_page ():
     recipes = loadRecipes ()
 
     page += recipes_name_select (recipes)
+    page += ingredient_select (recipes)
+    page += tag_select (recipes)
     return page
 
 def find_recipe (recipes, hash_value):
@@ -73,7 +117,7 @@ def get_recipe_page (hash_value):
 
     page = '<h2>' + recipe["name"] + '</h2>\n'
     page += '<br>\n'
-    page += '<a href="/">Volver</a>\n'
+    page += '<a href="/">Página principal</a>\n'
 
     page += '<h3>Ingredientes</h3>\n'
     page += "<UL>\n"
@@ -90,17 +134,13 @@ def get_recipe_page (hash_value):
     if len (recipe["tags"]) > 0:
         page += "Etiquetas: "
         for tag in recipe["tags"]:
-            page += '<a href="/tag/' + tag + '">' + tag +  "</a>" + " "
+            page += '<a href="/tag?tags=' + tag + '">' + tag +  "</a>" + " "
         page += "<br>\n"
     page += '<br>\n'
-    page += '<a href="/">Volver</a>\n'
+    page += '<a href="/">Página principal</a>\n'
 
     return page
 
-@app.route('/recipes/<hash_value>')
-def show_recipe_path (hash_value):
-    print ("show_recipe_path: " + hash_value)
-    return get_recipe_page (hash_value)
 
 def getRecipesWithTag (recipes, tag_name):
     recipesTag = []
@@ -108,26 +148,47 @@ def getRecipesWithTag (recipes, tag_name):
         if tag_name in R["tags"]:
             recipesTag.append (R)
     return recipesTag
-    
 
-@app.route ('/tag/<tag_name>')
-def show_tag (tag_name):
-    recipes = loadRecipes ()
-    page = "<h2>Platos con etiqueta: " + tag_name + "</h2>\n"
-    recipesTag = getRecipesWithTag (recipes, tag_name)
-    page += '<a href="/">Página principal</a>\n'
+
+def getListOfRecipes(recipes):
+    page = '<a href="/">Página principal</a>\n'
     page += "<br>\n"
 
     page += "<UL>\n"
-    list_of_names = [d["name"] for d in recipesTag]
+    list_of_names = [d["name"] for d in recipes]
     for name in list_of_names:
         hash_value = calculateHash (name)
-        page += '\t<li><a href="/recipes/' + hash_value + '">' + name + '</a></li>\n'
+        page += '\t<li><a href="/recipe?recipe_names=' + hash_value + '">' + name + '</a></li>\n'
     page += "</UL>\n"
 
     page += '<a href="/">Página principal</a>\n'
     return page
+    
 
+@app.route ('/tag')
+def show_tag ():
+    tag_name = request.args.get("tags")
+    recipes = loadRecipes ()
+    page = "<h2>Platos con etiqueta: " + tag_name + "</h2>\n"
+    recipesTag = getRecipesWithTag (recipes, tag_name)
+    page += getListOfRecipes (recipesTag)
+    return page
+
+def getRecipesWithIngredient (recipes, ing):
+    recipesIng = []
+    for R in recipes:
+        if ing in R["ingredients"]:
+            recipesIng.append (R)
+    return recipesIng
+
+@app.route ('/ingredient')
+def show_ingredient ():
+    recipes = loadRecipes ()
+    ing = request.args.get("ingredients")
+    page = "<h2>Platos con ingrediente: " + ing + "</h2>"
+    recipesIng =  getRecipesWithIngredient (recipes, ing)
+    page += getListOfRecipes (recipesIng)
+    return page
 
 if __name__ == "__main__":
     app.run(debug=True)
