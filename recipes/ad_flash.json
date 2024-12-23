@@ -137,7 +137,7 @@
             "Volcar encima de las verduras y remover bien.",
             "Servir y adornar con los anacardos y cilantro fresco."
         ],
-        "tags": []
+        "tags": ["pasta"]
     },
     {
         "name": "Curry vegetal con patata",
@@ -232,6 +232,153 @@
             "Si no comes pescado sustituye por 80 gramos de quinoa hervida."
         ],
         "tags": ["pescado"]
+    },
+    {
+        "name": "Hervido de verduras a la italiana",
+        "ingredients": ["coliflor", "zanahoria", "calabacín", "cebolla", "judías verdes", "orégano",
+            "albahaca" ],
+        "steps": [
+            "Poner las verduras troceadas a trozos no muy pequeños en una cazuela.",
+            "Añadir agua hasta cubrir, sal y una cucharada sopera de cada especia.",
+            "Llevar a ebullición a fuego alto.",
+            "Cuando hierva bajar el fuego, tapar y dejar cocer 18 minutos.",
+            "Servir una taza del caldo y en un plato las verduras.",
+            "Se pueden rociar con vinagre de Módena o de manzana."
+        ],
+        "tags": ["sopa"]
+    },
+    {
+        "name": "Tortillas de maíz con hummus y verduras asadas",
+        "ingredients": ["tortillas", "garbanzos", "tahini", "cominos", "limón", "ajo", "berenjena",
+            "pimiento", "cebolla", "tomate", "salsa de soja", "salsa mejicana"],
+        "steps": [
+            "Cortar las verduras a tiras.",
+            "Añadirlas a un cuenco y condimentar con la soja.",
+            "Asar en el horno  15 minutos a 180 grados (o en el horno).",
+            "Mientras tanto preparar el hummus mezclando todos los ingredientes.",
+            "En una tortilla añadir las verduras, el hummus y una cucharada de salsa mejicana, enrollar y servir."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Ensalada 5 verduras y langostinos",
+        "ingredients": ["lechuga", "pimiento", "zanahoria", "tomate", "cebolla", "maíz", "vinagre",
+            "langostinos"],
+        "steps": [
+            "Cocer los langostinos.",
+            "Trocear los ingredientes de la ensalada",
+            "Añadir vinagre de Módena y remover.",
+            "Servir."
+        ],
+        "tags": ["pescado"]
+    },
+    {
+        "name": "Quinoa con guisantes y verduras rehogadas",
+        "ingredients": ["quinoa", "cebolla", "zanahoria", "calabacín", "guisantes" ],
+        "steps": [
+            "Poner la quinoa a hervir con el doble de agua y sal en un cazo tapado.",
+            "Hervir 18 minutos.",
+            "Mientras tanto trocear la cebolla y ponerla a rehogar en una sartén con un chorrito de caldo vegetal.",
+            "Cuando esté tierna añadir el resto de las verduras y un chorro de caldo vegetal.",
+            "Tapar y dejar cocer hasta que esté tierno.",
+            "Servir la quinoa en la mitad del plato, añadir las verduras y los guisantes.",
+            "Puedes condimentar con vinagre balsámico o salsa de soja."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Patata asada con judías pintas",
+        "ingredients": ["patata", "pimiento", "cebolla", "alubias", "salsa mejicana" ],
+        "steps": [
+            "Hornear o cocinar en el microondas las patatas con la piel.",
+            "Calienta una sartén, añade agua o caldo vegetal a la sartén y rehoga las cebollas troceadas.",
+            "Deja que desaparezca el agua y que se ponga un poco marroncita la cebolla.",
+            "Vuelve a añadir agua y los pimientos.",
+            "Rehoga hasta que estén tiernos los pimientos.",
+            "Añade las judías pintas y remueve durante 3 minutos.",
+            "Aparta la sartén.", 
+            "Cuando las patatas estén listas ábrelas y con un tenedor haz puré parte de la pulpa.",
+            "Añade las verduras con las alubias y, si quieres, puedes añadir un poco de vinagre balsámico y la salsa de tomate mejicana."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Menestra de verduras con tomates cherry y maíz dulce",
+        "ingredients": ["menestra congelada", "tomate", "maíz", "levadura nutricional" ],
+        "steps": [
+            "Hervir la menestra según indicaciones de la bolsa.",
+            "Mezclar con los tomates cherry partidos por la mitad y el maíz y la levadura nutricional.",
+            "Remover."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Espagueti con salsa Alfredo y espárragos",
+        "ingredients": ["cebolla", "ajo", "coliflor", "caldo", "levadura nutricional", "miso", "limón",
+            "espagueti", "esparrágos", "nueces", "albahaca"],
+        "steps": [
+            "Para hacer la salsa calienta 60 ml de agua en una sartén a fuego medio-fuerte.",
+            "Añade la cebolla y rehógala 4 minutos hasta que esté tierna.",
+            "Añade los ajos picados y rehoga 30 segundos.",
+            "Añade la coliflor y el caldo y lleva a ebullición.",
+            "Baja el fuego, tapa y deja cocinar 12 minutos o hasta que la coliflor esté cocinada.",
+            "Pasa toda la mezcla a la batidora o procesador y mezcla a alta velocidad.",
+            "Añade la levadura nutricional, el miso y el limón y vuelve a mezclar.",
+            "Vierte la salsa en la sartén de nuevo y mantenla caliente a fuego muy bajo.",
+            "Mientras tanto hierve la pasta al dente y cocina los espárragos en el horno a 220 grados durante 15 minutos.",
+            "Mezcla la pasta y los espárragos y añade la salsa.",
+            "Remueve.",
+            "Sirve y añade las nueces de Brasil ralladas y la albahaca fresca por encima."
+        ],
+        "tags": ["pasta"]
+    },
+    {
+        "name": "Crema de calabacín",
+        "ingredients": ["calabacín", "cebolla", "caldo", "nuez moscada", "huevo" ],
+        "steps": [
+            "Meter todos los ingredientes menos la nuez moscada en una cazuela.",
+            "Llevar a ebullición.",
+            "Hervir 18 minutos.",
+            "Añadir la nuez moscada y batir hasta que esté cremoso.",
+            "Servir con un huevo duro troceado."
+        ],
+        "tags": ["sopa"]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
     },
     {
         "name": "",

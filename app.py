@@ -31,7 +31,7 @@ def loadRecipes ():
 
 def recipes_name_select (recipes):
     component = '<form method="GET" action="/recipe">'
-    component += '<label for="recipe_names">Seleccionar por nombre: </label>\n'
+    component += '<label for="recipe_names">Seleccionar por nombre(' + str(len(recipes)) + '): </label>\n'
     component += '<select name="recipe_names" id="names">\n'
     list_of_names = [d["name"] for d in recipes]
     for name in sorted (list_of_names):
@@ -54,7 +54,7 @@ def getListOfIngredients (recipes):
 def ingredient_select (recipes):
     ing_list = getListOfIngredients (recipes)
     component = '<form method="GET" action="/ingredient">'
-    component += '<label for="ingredients">Seleccionar por ingrediente: </label>\n'
+    component += '<label for="ingredients">Seleccionar por ingrediente(' + str(len(ing_list)) + '): </label>\n'
     component += '<select name="ingredients" id="inames">\n'
     for ing in ing_list:
         component += '\t<option value="' + ing + '">' + ing + '</option>\n'
@@ -75,7 +75,7 @@ def getListOfTags (recipes):
 def tag_select (recipes):
     tag_list = getListOfTags (recipes)
     component = '<form method="GET" action="/tag">'
-    component += '<label for="tags">Seleccionar por etiqueta: </label>\n'
+    component += '<label for="tags">Seleccionar por etiqueta(' + str(len(tag_list)) + '): </label>\n'
     component += '<select name="tags" id="tnames">\n'
     for tag in tag_list:
         component += '\t<option value="' + tag + '">' + tag + '</option>\n'
