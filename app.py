@@ -44,11 +44,12 @@ def recipes_name_select (recipes):
     return component
 
 def getListOfIngredients (recipes):
-    ingredients = set()
+    ingredients = []
     for R in recipes:
         for i in R["ingredients"]:
-            ingredients.add (i)
-    return sorted(list(ingredients))
+            if not findInList (i, ingredients):
+                ingredients.append (i.lower())
+    return sorted(ingredients)
 
 def ingredient_select (recipes):
     ing_list = getListOfIngredients (recipes)

@@ -53,40 +53,55 @@
         "tags": []
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Batido calentito de tarta de manzana",
+        "ingredients": ["avena", "dátil", "espinacas", "leche", "manzana", "canela", "nuez moscada"],
         "steps": [
-            "",
-            ""
+            "Calentar medio vaso de agua",
+            "La leche puede ser de almendras sin azucar.",
+            "Pon el agua caliente, tres dátiles troceados y dos cucharadas de avena dentro de la batidora.", 
+            "Espera 5 minutos antes de batir.",
+            "Añade el resto de los ingredientes y bate durante 60 segundos.",
+            "Servir, espolvorear con un poco más de canela y tomar inmediatamente."
         ],
-        "tags": [""]
+        "tags": ["Desayuno"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Verduras al vapor con arroz integral y lechuga",
+        "ingredients": ["Arroz", "Verduras", "tahini", "vinagre", "naranja", "levadura nutricional",
+            "dátil", "ajo", "verdura"],
         "steps": [
-            "",
-            ""
+            "Saltea en agua (o caldo vegetal) las verduras que tengas en casa o hazlas al vapor",
+            "y mezcla con 1,5 dl de arroz integral ya hervido y las hojas de media lechuga.",
+            "Mezclar el resto de ingredientes para la vinagreta",
+            "El arroz integral necesito el triple de agua y 40 minutos de cocción."
         ],
-        "tags": [""]
+        "tags": ["Ensalada"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Espárragos y champiñones marinados",
+        "ingredients": ["Espárrago", "Champiñón", "Cebolla", "ajo", "calabacín", "miso", "limón" ],
         "steps": [
-            "",
-            ""
+            "Saltear en un poco de aceite los espárragos, los ajos, el calabacín y los champiñones.",
+            "Cuando estén tiernos apartar del fuego y añadir el miso blanco.",
+            "Remover bien.",
+            "Añadir la cebolla o cebolleta troceada por encima.",
+            "Dejar reposar hasta que se incorporen los sabores.",
+            "Añadir un poco de zumo de limón antes de servir."
         ],
-        "tags": [""]
+        "tags": []
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Ensalada oriental",
+        "ingredients": ["judías verdes", "arroz", "tomate", "rúcula", "tahini", "salsa soja", "vinagre",
+            "levadura nutricional", "sirope"],
         "steps": [
-            "",
-            ""
+            "Hervir las judías verdes con poca agua durante 15 minutos.",
+            "Cocer el arroz",  
+            "Preparar la ensalada mezclando las judías verdes, el arroz, el tomate y la rúcula.",
+            "Preparar la vinagreta.",
+            "Si te vas a llevar la ensalada al trabajo llévate la vinagreta en un botecito y añádela cuando te la vayas a comer"
         ],
-        "tags": [""]
+        "tags": ["Ensalada"]
     },
     {
         "name": "",
