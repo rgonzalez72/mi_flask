@@ -56,7 +56,7 @@ class PDF(FPDF):
     def recipe_steps (self, steps):
         self.set_font('Times', 'B', 12)
         # Output justified text
-        self.cell(0, 5, "Steps:")
+        self.cell(0, 5, "Pasos:")
         self.ln(5)
 
         self.set_font('Times', '', 12)

@@ -394,7 +394,7 @@
     {
         "name": "Ensalada Arco iris Con guisantes y hélices de espelta integral",
         "ingredients": ["pimiento", "zanahoria", "calabacín", "remolacha", "nueces", "manzana", "lechuga",
-            "guisantes", "espirales",
+            "guisantes", "pasta",
             "mostaza", "sirope", "vinagre", "salsa soja"],
         "steps": [
             "Cortar todos los ingredientes de la ensalada en juliana gorda.",
@@ -531,31 +531,141 @@
         "tags": ["ensalada"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Calabacetis al pesto con judías blancas",
+        "ingredients": ["ajo", "anacardos", "levadura nutricional", "nueces", "miso", "albahaca", "limón",
+            "alubias", "tomate", "espinacas", "calabacín" ],
         "steps": [
-            "",
-            ""
+            "Para preparar el pesto bate todos los ingredientes.",
+            "Prepara las cintas de calabacín.",
+            "Calienta las alubias, las espinacas y los tomates cherry en una sartén junto con las tiras de calabacín y 2 cucharadas de pesto, durante 5 minutos.",
+            "Sirve."
         ],
-        "tags": [""]
+        "tags": []
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Sopa de guisantes y tomates secos",
+        "ingredients": ["guisantes", "cebolla", "zanahoria", "apio", "patata", "tomate seco", "champiñón",
+            "ajo", "perejil", "orégano", "albahaca", "romero", "pimentón", "laurel", "espinacas", "arroz" ],
         "steps": [
-            "",
-            ""
+            "Cuece el arroz",
+            "Pon todos los ingredientes en una cazuela menos el arroz.",
+            "Si es una cazuela de vapor a presión deja cocer 10 minutos.",
+            "Si es una cazuela normal, cuece 25 minutos.",
+            "Cuando esté listo añade un puñado de hojas verdes.",
+            "Puedes servir sobre un fondo de arroz integral hervido."
         ],
-        "tags": [""]
+        "tags": ["sopa"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Chips de boniato con champiñones Y lentejas",
+        "ingredients": ["boniato", "lentejas", "cebolla", "ajo", "salsa de soja", "champiñón", "oregano",
+            "rúcula"],
         "steps": [
-            "",
-            ""
+            "Corta el boniato en tiras, deja la piel",
+            "Precalienta el horno o el air fryer a 200 grados.",
+            "Pon las tiras de boniato en una bandeja de horno con papel de hornear.",
+            "Hornea 30 minutos. Recuerda remover cuando ya lleven 15 minutos.",
+            "En el air fryer estarán listas antes.", 
+            "Mientras tanto corta la cebolla finita y los ajos en láminas y ponlas en una sartén con un poco de agua o caldo vegetal.",
+            "Deja rehogar 4 minutos.",
+            "Añade los champiñones y rehoga unos 6 minutos o hasta que estén empezando a dorarse.",
+            "Añade la salsa de soja, las lentejas y las especias y deja cocinar a fuego lento 7 u 8 minutos.",
+            "Servir al lado de las chips de boniato y con un puñado de hojas verdes."
         ],
-        "tags": [""]
+        "tags": []
+    },
+    {
+        "name": "Hervido valenciano con garbanzos",
+        "ingredients": ["patata", "zanahoria", "judías verdes", "garbanzos", "vinagre" ],
+        "steps": [
+            "En una cazuela poner a hervir con agua hasta cubrir las verduras.",
+            "Dejar cocer 18 minutos.",
+            "Servir en un plato con un poco de caldo, el vinagre y los garbanzos."
+        ],
+        "tags": ["sopa"]
+    },
+    {
+        "name": "Arroz con leche",
+        "ingredients": ["arroz", "manzana", "leche", "canela", "jengibre", "vainilla", "cardomomo" ],
+        "steps": [
+            "Pon la leche y las especias en un cazo y lleva a ebullición.",
+            "Añade el resto de los ingredientes y vuelve a llevar a ebullición.",
+            "Baja el fuego, tapa y deja cocer 10 minutos. O hasta que se absorba el líquido."
+        ],
+        "tags": ["arroz", "desayuno"]
+    },
+    {
+        "name": "Ensalada de remolacha y mango con pasta",
+        "ingredients": ["remolacha", "mango", "cebolla", "cilantro", "rúcula", "pasta" ],
+        "steps": [
+            "Hervir la pasta.",
+            "Mezclar con el resto de ingredientes y servir."
+        ],
+        "tags": ["ensalada", "pasta"]
+    },
+    {
+        "name": "Calabaza rellena con garbanzos al curri rojo",
+        "ingredients": ["curri rojo", "calabaza", "cominos", "cilantro", "caldo", "cebolla", "pimiento",
+            "garbanzos", "tomate", "levadura nutricional", "pimentón"],
+        "steps": [
+            "Precalienta el horno o el air fryer a 200 grados.",
+            "Prepara una bandeja de horno con papel de hornear.",
+            "Coloca la calabaza entera en el horno y hornea unos 20 minutos.",
+            "Saca del horno.",
+            "Deja enfriar hasta que puedas tocarla sin quemarte.",
+            "Córtala por la mitad a la larga y luego corta cada mitad en dos partes.",
+            "Coloca las piezas en la bandeja de nuevo y vierte encima los cominos y el cilantro.",
+            "Hornea 20 minutos más.",
+            "Remueve y hornea 15 minutos más.",
+            "Mientras tanto prepara los garbanzos.",
+            "En una cazuela calienta el caldo y añade la cebolla y el ajo.",
+            "Rehoga 4 minutos.",
+            "Añade 1 cucharada de pasta de curry rojo, los pimientos y el bote de tomate.",
+            "Tapa y lleva a ebullición.",
+            "Baja el fuego y deja cocer 20 minutos.",
+            "Cuando esté listo pasa la batidora de mano para triturar parte de los vegetales.",
+            "Añade la levadura nutricional, el pimentón en polvo y los garbanzos y deja cocer 10 minutos.",
+            "Para servir pon un trozo de calabaza en el plato y rellena con la mezcla de garbanzos."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Leche de plátano con gofres",
+        "ingredients": ["plátano", "vainilla", "harina", "avena", "sirope", "levadura", "manzana" ],
+        "steps": [
+            "Para la leche de platano, poner platano, vainilla y un vaso de agua y batir todo.",
+            "Para la compota de manzana, mete 6 manzanas troceadas en el microondas durante 6 minutos",
+            "Luego ponlo en la batidora con canela",
+            "Ralla una manzana y mezcla todos los ingredientes en un cuenco.",
+            "Mezcla hasta que esté bien combinado.",
+            "Cubre con un trapo y deja reposar en un sitio cálido 40 minutos.",
+            "Hacer 3 gofres en una gofrera. Si no tienes puedes hacer tortitas."
+        ],
+        "tags": ["desayuno"]
+    },
+    {
+        "name": "Quinoa con alcachofas y tomates secos",
+        "ingredients": ["quinoa", "tomates secos", "alcachofas", "albahaca" ],
+        "steps": [
+            "Enjuaga la quinoa.",
+            "Pon la quinoa, el agua y los tomates en un cazo.",
+            "Tapar y cocer 18 minutos.",
+            "Cuando falten 5 minutos añadir las alcachofas congeladas, el ajo en polvo y la albahaca.",
+            "Servir."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Hervido de brócoli con legumbres o huevo duro",
+        "ingredients": ["patata", "cebolla", "zanahoria", "brócoli", "vinagre" ],
+        "steps": [
+            "Poner en una cazuela con agua la patata cortada a cuartos, la zanahoria troceada y la cebolla con agua hasta cubrir más 1 dedo.", 
+            "Hervir 12 minutos.",
+            "Añadir el brócoli y hervir 6 minutos más.",
+            "Servir con un poco de caldo y vinagre al gusto.",
+            "Añadir por encima 3 cucharadas de legumbres o un huevo duro troceado."
+        ],
+        "tags": ["sopa"]
     },
     {
         "name": "",
