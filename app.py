@@ -341,10 +341,11 @@ def my_list ():
     page += "<h2>Mi lista de recetas</h2>\n"
     page += getListOfRecipes (recipesInList)
 
-    page += '<a href="/reset">Limpiar lista</a>\n'
-    session['url'] = request.full_path
-    page += '<br>\n'
-    page += '<a href="/download">Descargar</a>\n'
+    if len (recipesInList) > 0:
+        page += '<a href="/reset">Limpiar lista</a>\n'
+        session['url'] = request.full_path
+        page += '<br>\n'
+        page += '<a href="/download">Descargar</a>\n'
     return page
 
 
