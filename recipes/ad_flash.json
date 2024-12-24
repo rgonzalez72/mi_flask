@@ -75,11 +75,11 @@
             "Mezclar el resto de ingredientes para la vinagreta",
             "El arroz integral necesito el triple de agua y 40 minutos de cocción."
         ],
-        "tags": ["Ensalada"]
+        "tags": ["Ensalada", "arroz"]
     },
     {
         "name": "Espárragos y champiñones marinados",
-        "ingredients": ["Espárrago", "Champiñón", "Cebolla", "ajo", "calabacín", "miso", "limón" ],
+        "ingredients": ["Espárrago", "champiñón", "Cebolla", "ajo", "calabacín", "miso", "limón" ],
         "steps": [
             "Saltear en un poco de aceite los espárragos, los ajos, el calabacín y los champiñones.",
             "Cuando estén tiernos apartar del fuego y añadir el miso blanco.",
@@ -101,7 +101,7 @@
             "Preparar la vinagreta.",
             "Si te vas a llevar la ensalada al trabajo llévate la vinagreta en un botecito y añádela cuando te la vayas a comer"
         ],
-        "tags": ["Ensalada"]
+        "tags": ["Ensalada", "arroz"]
     },
     {
         "name": "Crema de zanahoria",
@@ -124,7 +124,7 @@
     {
         "name": "Fideos de arroz con verduras",
         "ingredients": ["fideos", "cebolla", "zanahoria", "brotes de soja", "calabacín", "pimiento",
-            "salsa de soja", "jenjibre", "vinagre", "caldo", "sésamo", "anacardos", "cilantro"],
+            "salsa de soja", "jengibre", "vinagre", "caldo", "sésamo", "anacardos", "cilantro"],
         "steps": [
             "Hervir los fideos según indique el paquete.",
             "En una sartén grande o wok añadir un chorro de caldo y las verduras cortadas en juliana.",
@@ -141,7 +141,7 @@
     },
     {
         "name": "Curry vegetal con patata",
-        "ingredients": ["cebolla", "ajo", "jenjibre", "cominos", "cilantro", "cúrcuma", "curry", "cayena",
+        "ingredients": ["cebolla", "ajo", "jengibre", "cominos", "cilantro", "cúrcuma", "curry", "cayena",
             "patata", "guisantes", "cilantro", "lima"],
         "steps": [
             "Saltea la cebolla, el ajo y el jengibre en ½ taza de agua 3 o 4 minutos", 
@@ -169,7 +169,7 @@
     },
     {
         "name": "Avena al punto con frambuesas",
-        "ingredients": ["avena", "leche", "jenjibre", "canela", "frambuesas", "lino", "goji" ],
+        "ingredients": ["avena", "leche", "jengibre", "canela", "frambuesas", "lino", "goji" ],
         "steps": [
             "En un bote añade todos los ingredientes menos las semillas.",
             "Puedes taparlo y dejarlo en la nevera toda la noche o prepararlo unos minutos antes de desayunar.",
@@ -206,7 +206,7 @@
             "Añade el resto de ingredientes y tritura con la batidora.",
             "Servir el plato con arroz integral y llenar el plato con la cantidad de sopa que te apetezca."
         ],
-        "tags": ["sopa"]
+        "tags": ["sopa", "arroz"]
     },
     {
         "name": "Yogur de soja con frutas y semillas",
@@ -334,42 +334,201 @@
     },
     {
         "name": "Crema de calabacín",
-        "ingredients": ["calabacín", "cebolla", "caldo", "nuez moscada", "huevo" ],
+        "ingredients": ["calabacín", "cebolla", "caldo", "nuez moscada", "huevo", "champiñón" ],
         "steps": [
             "Meter todos los ingredientes menos la nuez moscada en una cazuela.",
             "Llevar a ebullición.",
             "Hervir 18 minutos.",
             "Añadir la nuez moscada y batir hasta que esté cremoso.",
-            "Servir con un huevo duro troceado."
+            "Servir con un huevo duro troceado o champiñones a la plancha, o los dos."
         ],
         "tags": ["sopa"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Porridge de avena con manzana y canela",
+        "ingredients": ["avena", "manzana", "canela", "jengibre", "leche" ],
         "steps": [
-            "",
-            ""
+            "Poner en un cacito la avena (1/4 de taza), el agua (1 taza), sal, la manzana troceada y las especias.", 
+            "Llevar a ebullición, bajar el fuego.",
+            "Remover 2 minutos.",
+            "Servir y acompañar con un poco de leche vegetal sin aceite."
         ],
-        "tags": [""]
+        "tags": ["desayuno"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Sopa de kale y alubias",
+        "ingredients": ["caldo", "cebolla", "ajo", "boniato", "kale", "laurel", "alubias", "miso",
+            "levadura nutricional", "orégano", "tomillo", "perejil"],
         "steps": [
-            "",
-            ""
+            "En una cazuela añade una taza de caldo y rehoga la cebolla 5 minutos.",
+            "Añade el boniato, la kale (o acelgas), las hojas de laurel y el resto del caldo.",
+            "Lleva a ebullición.",
+            "Cuando hierva baja el fuego, añade las alubias (ya cocidas) y cocina 20 minutos.",
+            "En una taza disuelve el miso y, con la olla fuera del fuego, añádelo a la sopa.",
+            "Añade la levadura nutricional y las especias.",
+            "Deja reposar 10 minutos y sirve."
         ],
-        "tags": [""]
+        "tags": ["sopa"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Bol de patata, calabacín y humus",
+        "ingredients": ["patata", "calabacín", "tomate", "levadura nutricional", "garbanzos", "tahini" ],
         "steps": [
-            "",
-            ""
+            "Preparar el hummus, ver otras recetas.",
+            "Hierve las patatas con piel.",
+            "Trocea los calabacines en medias lunas.",
+            "Espolvorea con sal y levadura nutricional",
+            "Mételos en el air fryer (o el horno) 15 minutos o hasta que estén doraditos.",
+            "Mientras tanto en un plato hondo, pon las patatas, el tomate, los calabacines y 2 cucharadas de hummus."
         ],
-        "tags": [""]
+        "tags": []
+    },
+    {
+        "name": "Pudding de chocolate",
+        "ingredients": ["plátano", "caqui", "cacao", "leche" ],
+        "steps": [
+            "Batir bien y servir."
+        ],
+        "tags": ["desayuno"]
+    },
+    {
+        "name": "Ensalada Arco iris Con guisantes y hélices de espelta integral",
+        "ingredients": ["pimiento", "zanahoria", "calabacín", "remolacha", "nueces", "manzana", "lechuga",
+            "guisantes", "espirales",
+            "mostaza", "sirope", "vinagre", "salsa soja"],
+        "steps": [
+            "Cortar todos los ingredientes de la ensalada en juliana gorda.",
+            "Preparar la vinagreta mezclando los ingredientes.",
+            "Hervir la pasta.",
+            "Servir la pasta en la mitad del plato y en la otra mitad la ensalada.",
+            "Agregar los guisantes por encima."
+        ],
+        "tags": ["ensalada", "pasta"]
+    },
+    {
+        "name": "Brownie con fruta",
+        "ingredients": ["fresas", "plátano", "manzana", "boniato", "cacao", "dátil", "avena", "vainilla",
+            "leche" ],
+        "steps": [
+            "Asa el boniato.",
+            "Mezcla los ingredientes del brownie en la batidora con una pizca de sal.",
+            "Sirvete un cuenco.",
+            "Puedes calentarlo en el microondas o tomarlo así con la fruta."
+        ],
+        "tags": ["desayuno"]
+    },
+    {
+        "name": "Chili saludable",
+        "ingredients": ["tomate", "alubias", "cebolla", "apio", "chili", "caldo", "quinoa", "patata",
+            "levadura nutricional", "leche"],
+        "steps": [
+            "Hervir las patatas por separado.",
+            "Enjuaga la quinoa, trocea todas las verduras y lava las legumbres.",
+            "Tritura el tomate.", 
+            "Ponlo todo en una cazuela excepto las patatas.",
+            "Dejar cocer hasta que no quede líquido.",
+            "Servir sobre las patatas hechas puré añadiendo la levadura nutricional y un poco de leche vegetal sin azúcar."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Sopa de coliflor al curri",
+        "ingredients": ["caldo", "cebolla", "ajo", "jengibre", "curri", "azúcar", "albahaca", "coliflor",
+            "limón", "tomate" ],
+        "steps": [
+            "Trocea la coliflor en cachos pequeños.",
+            "Ralla la piel del limón",
+            "En una cazuela calienta una taza de caldo y añade la cebolla para rehogarla hasta que esté tierna.",
+            "Añade el ajo, el jengibre, el curry, el azúcar y la albahaca.",
+            "Remueve.",
+            "Añade la coliflor y el resto del caldo.",
+            "Lleva a ebullición. Baja el fuego y deja cocinar 30 minutos.",
+            "Puedes servir así la sopa o hacer un puré con la batidora o la termomix.",
+            "Al servir, decora con cuadraditos de tomate pera."
+        ],
+        "tags": ["sopa"]
+    },
+    {
+        "name": "Smoothie de pera",
+        "ingredients": ["plátano", "pera", "espinacas", "avena", "lino", "leche", "jengibre" ],
+        "steps": [
+            "Batir bien batido y servir"
+        ],
+        "tags": ["desayuno", "licuado"]
+    },
+    {
+        "name": "Plato de sushi sencillo",
+        "ingredients": ["arroz", "pepino", "zanahoria", "pimiento", "boniato", "sésamo", "salsa de soja",
+            "nori", "vinagre", "azúcar", "wasabi" ],
+        "steps": [
+            "Preparar arroz de sushi y servirlo en la mitad del plato",
+            "En la otra mitad poner las verduras crudas y el boniato troceado.",
+            "Decorar con semillas de sésamo.",
+            "Servir en un cuenquito salsa de soja y un poquito de wasabi.",
+            "Trocear el alga nori y añadir al plato.",
+            "Comer mezclando los ingredientes y condimentando con la soja."
+        ],
+        "tags": ["arroz"]
+    },
+    {
+        "name": "Pasta pesto con verduras asadas",
+        "ingredients": ["ajo", "rúcula", "albahaca", "tahini", "miso", "vinagre", "cebolla", 
+            "pimiento", "calabacín", "champiñón", "tomate", "pasta"],
+        "steps": [
+            "Pica el ajo.",
+            "Añade la rúcula y la albahaca y pica.",
+            "Añade el tahín, el miso y el vinagre y sigue mezclando.",
+            "Reserva el pesto obtenido.",
+            "Hornea las verduras troceadas en el horno o en el air fryer.",
+            "Mientras tanteo cuece la pasta.",
+            "Reserva ½ taza de agua de la cocción y añade al pesto.",
+            "Sirve la pasta y las verduras y añade por encima el pesto."
+        ],
+        "tags": ["pasta"]
+    },
+    {
+        "name": "Ensalada de patatas",
+        "ingredients": ["patata", "cebolla", "apio", "aguacate", "mostaza", "eneldo", "vinagre", "sirope",
+            "pimentón", "lechuga"],
+        "steps": [
+            "Cuece las patatas y déjalas enfriar.",
+            "Mezcla todos los ingredientes menos el apio y la cebolla troceada con un tenedor.",
+            "Trocea las patatas a cuadraditos.",
+            "Mezcla la salsa con las patatas y decora con la cebolla y el apio.",
+            "Espolvorea pimienta y pimentón dulce al gusto por encima.",
+            "Puedes acompañarla con hojas de cogollos de Tudela o cualquier ensalada de tu elección."
+        ],
+        "tags": ["ensalada"]
+    },
+    {
+        "name": "Fritata de verduras",
+        "ingredients": ["tomate", "zanahoria", "calabacín", "espinacas", "brócoli", "harina de garbanzos",
+            "cúrcuma", "levadura nutricional" ],
+        "steps": [
+            "Mezcla todos los ingredientes de la masa en un cuenco grande.", 
+            "(1 taza de harina de garbanzos, 1 taza de agua, ½ cucharadita de sal, ½ cucharadita de cúrcuma, ¼ de taza de levadura nutricional)",
+            "Ralla y corta bien cortado todos los vegetales (menos el brócoli) y añádelos a la masa.",
+            "Mezcla bien.",
+            "Calienta una sartén antiadherente.",
+            "Añade una cantidad de la mezcla.",
+            "Cocina de 5 a 10 minutos, gira y cocina 5 minutos más.",
+            "Repite hasta que hayas acabado toda la mezcla.",
+            "Servir medio plato con la fritata y medio plato con brócoli al vapor."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Ensaladilla de garbanzos",
+        "ingredients": ["garbanzos", "maíz", "nori", "ajo", "pimiento", "pepino", "yogur", "limón", "pan" ],
+        "steps": [
+            "Chafar los garbanzos en un cuenco con el tenedor.",
+            "Añade el maíz y las algas molidas, los ajos chafados el pimiento verde y el pepino.",
+            "Remueve.",
+            "Añade el yogur, el limón, la sal y la pimienta.",
+            "Remueve y deja enfriar 30 minutos en la nevera.",
+            "Se puede servir con una tostada de pan integral."
+        ],
+        "tags": ["ensalada"]
     },
     {
         "name": "",
