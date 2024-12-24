@@ -58,6 +58,7 @@ def loadRecipes ():
                     for recipe in list_of_recipes:
                         if "name" in recipe and recipe["name"] != "":
                             recipe ["hash_value"] = calculateHash (recipe["name"])
+                            recipe ["selected"] = hashInList (recipe["hash_value"])
                             recipes.append (recipe)
     return recipes
 
@@ -87,6 +88,7 @@ def getListSize ():
 
 @app.route('/')
 def main_page ():
+    session ['url'] = request.full_path
     recipes = loadRecipes ()
     ing_list = getListOfIngredients (recipes)
     tag_list = getListOfTags (recipes)
@@ -108,49 +110,21 @@ def find_recipe (recipes, hash_value):
 
 @app.route('/recipe')
 def show_recipe ():
+    session ['url'] = request.full_path
     hash_value = request.args.get("recipe_names")
-    return get_recipe_page (hash_value)
-
-def get_recipe_page (hash_value):
     recipes = loadRecipes()
     recipe = find_recipe (recipes, hash_value)
     if recipe is None:
         return "Recipe not found", 404
 
-    page = getHeader()
-    page += '<h2>' + recipe["name"] + '</h2>\n'
-    page += '<br>\n'
-
+    selected = False 
     if recipeInList (recipe):
-        page += 'Esta receta está en tu lista. <a href="/remove/' + recipe ["hash_value"] + '">Quitar</a>.'
-    else:
-        page += 'Esta receta no está en tu lista. <a href="/add/' + recipe ["hash_value"] + '">Añadir</a>.'
-    page += '<br>\n'
-    session['url'] = request.full_path
+        selected = True
 
-
-
-    page += '<h3>Ingredientes</h3>\n'
-    page += "<UL>\n"
-    for ing in recipe["ingredients"]:
-        page += "\t<li>" + ing + "</li>\n"
-    page += "</UL>\n"
-
-    page += '<h3>Pasos</h3>\n'
-    page += "<UL>\n"
-    for step in recipe["steps"]:
-        page += "\t<li>" + step + "</li>\n"
-    page += "</UL>\n"
-
-    if len (recipe["tags"]) > 0:
-        page += "Etiquetas: "
-        for tag in recipe["tags"]:
-            page += '<a href="/tag?tags=' + tag + '">' + tag +  "</a>" + " "
-        page += "<br>\n"
-    page += '<br>\n'
-
-    return page
-
+    return render_template ("recipe.html",
+            list_size = getListSize (),
+            recipe = recipe,
+            recipe_selected = selected)
 
 def getRecipesWithTag (recipes, tag_name):
     recipesTag = []
@@ -183,13 +157,16 @@ def getListOfRecipes(recipes):
 
 @app.route ('/tag')
 def show_tag ():
+    session ['url'] = request.full_path
     tag_name = request.args.get("tags")
     recipes = loadRecipes ()
-    page = getHeader()
-    page += "<h2>Platos con etiqueta: " + tag_name + "</h2>\n"
     recipesTag = getRecipesWithTag (recipes, tag_name)
-    page += getListOfRecipes (recipesTag)
-    return page
+
+    title ="Platos con etiqueta: " + tag_name
+    return render_template ("recipe_list.html",
+            list_size = getListSize (),
+            title = title, 
+            recipes = recipesTag)
 
 def getRecipesWithIngredient (recipes, ing):
     recipesIng = []
@@ -200,13 +177,16 @@ def getRecipesWithIngredient (recipes, ing):
 
 @app.route ('/ingredient')
 def show_ingredient ():
+    session ['url'] = request.full_path
     recipes = loadRecipes ()
     ing = request.args.get("ingredients")
-    page = getHeader ()
-    page += "<h2>Platos con ingrediente: " + ing + "</h2>\n"
     recipesIng =  getRecipesWithIngredient (recipes, ing)
-    page += getListOfRecipes (recipesIng)
-    return page
+
+    title = "Platos con ingrediente: " + ing 
+    return render_template ("recipe_list.html",
+            list_size = getListSize (),
+            title = title, 
+            recipes = recipesIng)
 
 def normalizeString (string):
     fromStr = "áéíóúÁÉÍÓÚüÜ"
@@ -244,20 +224,16 @@ def findInRecipes (recipes, term):
 
 @app.route ('/search')
 def search_term ():
+    session ['url'] = request.full_path
     recipes = loadRecipes ()
     term = request.args.get("search_term")
     foundRecipes = findInRecipes (recipes, term)
-    page = getHeader ()
-    page += "<h2>Resultado de búsqueda: " + term + "</h2>\n"
-    if len(foundRecipes) > 0:
-        page += getListOfRecipes (foundRecipes)
 
-    else:
-        page += "No he encontrado ninguna receta. "
-        page += '<br>\n'
-        page += '<a href="/">Página principal</a>\n'
-    
-    return page
+    title = "Resultado de búsqueda: " + term 
+    return render_template ("recipe_list.html",
+            list_size = getListSize (),
+            title = title, 
+            recipes = foundRecipes)
 
 @app.route('/add/<hash_value>')
 def add_to_list (hash_value):
@@ -292,11 +268,17 @@ def getRecipesInList (recipes):
 
 @app.route('/my_list')
 def my_list ():
+    session ['url'] = request.full_path
     recipes = loadRecipes ()
     recipesInList = getRecipesInList (recipes)
-    page = getHeader()
-    page += "<h2>Mi lista de recetas</h2>\n"
-    page += getListOfRecipes (recipesInList)
+
+    title = "Mi lista de recetas"
+    return render_template ("recipe_list.html",
+            list_size = getListSize (),
+            title = title, 
+            recipes = recipesInList,
+            is_my_list = True)
+
 
     if len (recipesInList) > 0:
         page += '<a href="/reset">Limpiar lista</a>\n'

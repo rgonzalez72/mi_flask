@@ -1,0 +1,38 @@
+<html>
+<header>
+<title>Busca recetas</title>
+</header>
+<body>
+<a href="/"><b>&#8656;</b></a> Mi <a href="/my_list">lista</a> tiene {{ list_size }} receta/s.
+<br>
+<h2>{{ recipe["name"] }}</h2>
+
+{% if recipe["selected"] %}
+Esta receta está en tu lista. <a href="/remove/{{ recipe["hash_value"] }}">Quitar</a>.
+{% else %}
+Esta receta no está en tu lista. <a href="/add/{{ recipe["hash_value"] }}">Añadir</a>.
+{% endif %}
+
+<h3>Ingredientes</h3>
+<UL>
+{% for ing in recipe["ingredients"] %}
+    <li>{{ ing }}</li>
+{% endfor %}
+</UL>
+
+<h3>Pasos</h3>
+<UL>
+{% for s in recipe["steps"] %}
+    <li>{{ s }}</li>
+{% endfor %}
+</UL>
+
+{% if recipe["tags"]|length %}
+Etiquetas: 
+{% for t in recipe["tags"] %}
+    <a href="/tag?tags={{ t }}">{{ t }}</a> 
+{% endfor %}
+{% endif %}
+
+</body>
+</html>

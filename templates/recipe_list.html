@@ -1,0 +1,31 @@
+<html>
+<header>
+<title>Busca recetas</title>
+</header>
+<body>
+<a href="/"><b>&#8656;</b></a> Mi <a href="/my_list">lista</a> tiene {{ list_size }} receta/s.
+<br>
+<h2>{{ title }}</h2>
+
+<UL>
+{% for R in recipes|sort(attribute='name')  %}
+    <li><a href="/recipe?recipe_names={{ R["hash_value"] }}">{{ R["name"] }}</a> 
+    {% if R["selected"] %}
+        <a href="/remove/{{ R["hash_value"] }}">-</a>
+    {% else %}
+        <a href="/add/{{ R["hash_value"] }}">+</a>
+    {% endif %}
+    </li>
+{% endfor %}
+</UL>
+
+{% if is_my_list is defined %}
+    {% if recipes|length  %}
+        <a href="/reset">Limpiar lista</a>
+        <br>
+        <a href="/download">Descargar</a>
+    {% endif %}
+{% endif %}
+
+</body>
+</html>
