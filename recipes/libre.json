@@ -28,7 +28,7 @@
     {
         "name": "Ensalada de 5 verduras con quinoa",
         "ingredients": ["lechuga", "albahaca", "zanahoria", "cebolla", "tomate", "lombarda", "manzana",
-            "maíz", "quinoa", "vinagre", "sirope", "proteina de cacahuete", "salsa de soja",
+            "maíz", "quinoa", "vinagre", "sirope", "proteína de cacahuete", "salsa de soja",
             "levadura nutricional"],
         "steps": [
             "Hierve la quinoa.",
@@ -152,22 +152,44 @@
         "tags": ["sopa"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Pastel de chocolate",
+        "ingredients": ["avena", "cacao", "levadura", "leche", "yogur", "azúcar", "proteína de cacahuete" ],
         "steps": [
-            "",
-            ""
+            "¾ taza de copos de avena, 1 cucharada de cacao en polvo, ½ cucharadita de levadura royal",
+            "1 taza (250 ml) de leche vegetal, 1 yogur de soja, 1 cucharada de azúcar de coco",
+            "1 cucharada sopera de proteína de cacahuete en polvo (opcional)",
+            "Puedes prepararlo en la air fryer o en el horno o en el microondas, con antelación.",
+            "En un cuenco mezcla todos los ingredientes.",
+            "Pon en un recipiente pequeño en el que puedas hornear y hornea a 180º"
         ],
-        "tags": [""]
+        "tags": ["desayuno"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Ensalada crujiente de lentejas de bote",
+        "ingredients": ["lentejas", "pimentón", "quinoa", "lechuga", "limón", "ajo", "sirope", "mostaza",
+            "tahini", "pepino", "pimiento", "apio", "nueces", "perejil"],
         "steps": [
-            "",
-            ""
+            "Puedes asar las lentejas en el air fryer 15 minutos.",
+            "En el horno para que estén más crujientes (opcional): Precalienta el horno a 200º.",
+            "Transfiere las lentejas a una bandeja para hornear con papel de hornear.",
+            "Añade una pizca de sal, pimentón, y una cucharada de ajo en polvo.",
+            "Mezcla.",
+            "Asa durante unos 15 minutos o hasta que esté crujiente.",
+            "Dejar enfriar.",
+            "Cocina el trigo sarraceno o la quinoa según las instrucciones del paquete.",
+            "Revuelva con un tenedor y dejar enfriar.",
+            "Prepara el aderezo en un cuenco: añade el tahini, jugo y ralladura de limón, ajos picados, miel o azúcar de coco y mostaza.",
+            "Agregue sal y pimienta y añade un poquito de agua si está muy espeso.",
+            "En cada frasco, agrega 4 ½ cucharadas de aderezo, ½ cebolla morada, 1 taza de pepino troceado,",
+            "¾ taza de pimiento morrón, un tercio taza de apio, 1 taza de lentejas tostadas,",
+            "1 taza de quinua, un tercio de taza de nueces y un tercio taza de especias frescas picadas.",
+            "Tapa y refrigera hasta por 5 días.",
+            "Invierte el frasco y agítelo sobre un tazón mediano en el que has puesto rúcula o lechuga.",
+            "Mezclar para combinar.",
+            "Agrega sal, pimienta y más jugo de limón al gusto."
+ 
         ],
-        "tags": [""]
+        "tags": ["ensalada"]
     },
     {
         "name": "",
