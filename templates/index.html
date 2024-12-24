@@ -1,0 +1,52 @@
+<html>
+<header>
+<title>Busca recetas</title>
+</header>
+<body>
+Mi <a href="/my_list">lista</a> tiene {{ list_size }} receta/s.
+</br>
+<h2>Consulta recetas</h2>
+
+<form method="GET" action="/recipe">
+<label for="recipe_names">Seleccionar por nombre({{ recipes|length }}): </label>
+<br>
+<select name="recipe_names" id="names">
+{% for recipe in recipes | sort(attribute='name') %}
+    <option value="{{ recipe["hash_value"] }}">{{ recipe["name"] }}</option>
+{% endfor %}
+</select>
+<button type="submit">Ir</button>
+</form>
+<br>
+
+<form method="GET" action="/ingredient"><label for="ingredients">Seleccionar por ingrediente({{ ingredients|length }}): </label>
+<br>
+<select name="ingredients" id="inames">
+{% for ing in ingredients | sort %}
+    <option value="{{ ing }}">{{ ing }}</option>
+{% endfor %}
+</select>
+<button type="submit">Ir</button>
+</form>
+<br>
+
+<form method="GET" action="/tag"><label for="tags">Seleccionar por etiqueta({{ tags|length }}): </label>
+<br>
+<select name="tags" id="tnames">
+{% for tag in tags | sort %}
+    <option value="{{ tag }}">{{ tag }}</option>
+{% endfor %}
+</select>
+<button type="submit">Ir</button>
+</form>
+<br>
+
+<form method="GET" action="/search"><label for="search_term">Buscar: </label>
+<br>
+<input name="search_term" id="snames">
+<button type="submit">Ir</button>
+</form>
+<br>
+
+</body>
+</html>

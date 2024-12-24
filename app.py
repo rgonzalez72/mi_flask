@@ -1,4 +1,4 @@
-from flask import Flask, request, session, redirect, make_response, send_file
+from flask import Flask, request, session, redirect, make_response, send_file, render_template
 from flask_session import Session
 from fpdf import FPDF
 import json
@@ -62,20 +62,6 @@ def loadRecipes ():
     return recipes
 
 
-def recipes_name_select (recipes):
-    component = '<form method="GET" action="/recipe">'
-    component += '<label for="recipe_names">Seleccionar por nombre(' + str(len(recipes)) + '): </label>\n'
-    component += '<select name="recipe_names" id="names">\n'
-    list_of_names = [d["name"] for d in recipes]
-    for name in sorted (list_of_names):
-        hash_value = calculateHash (name)
-        component += '\t<option value="' + hash_value +'">' + name + '</option>\n'
-    component += '</select>\n'
-    component += '<button type="submit">Ir</button>\n'
-    component += '</form>\n'
-    component += '<br>\n'
-    return component
-
 def getListOfIngredients (recipes):
     ingredients = []
     for R in recipes:
@@ -83,19 +69,6 @@ def getListOfIngredients (recipes):
             if not findInList (i, ingredients):
                 ingredients.append (i.lower())
     return sorted(ingredients)
-
-def ingredient_select (recipes):
-    ing_list = getListOfIngredients (recipes)
-    component = '<form method="GET" action="/ingredient">'
-    component += '<label for="ingredients">Seleccionar por ingrediente(' + str(len(ing_list)) + '): </label>\n'
-    component += '<select name="ingredients" id="inames">\n'
-    for ing in ing_list:
-        component += '\t<option value="' + ing + '">' + ing + '</option>\n'
-    component += '</select>\n'
-    component += '<button type="submit">Ir</button>\n'
-    component += '</form>\n'
-    component += '<br>\n'
-    return component
 
 def getListOfTags (recipes):
     tags = []
@@ -105,40 +78,24 @@ def getListOfTags (recipes):
                 tags.append (i.lower())
     return sorted(tags)
 
-def tag_select (recipes):
-    tag_list = getListOfTags (recipes)
-    component = '<form method="GET" action="/tag">'
-    component += '<label for="tags">Seleccionar por etiqueta(' + str(len(tag_list)) + '): </label>\n'
-    component += '<select name="tags" id="tnames">\n'
-    for tag in tag_list:
-        component += '\t<option value="' + tag + '">' + tag + '</option>\n'
-    component += '</select>\n'
-    component += '<button type="submit">Ir</button>\n'
-    component += '</form>\n'
-    component += '<br>\n'
-    return component
+def getListSize ():
+    if 'r_list' not in session:
+        session ['r_list'] = []
 
-def search_area ():
-    component = '<form method="GET" action="/search">'
-    component += '<label for="search_term">Buscar: </label>\n'
-    component += '<input name="search_term" id="snames">\n'
-    component += '<button type="submit">Ir</button>\n'
-    component += '</form>\n'
-    component += '<br>\n'
-    return component
+    return len(session["r_list"])
 
 
 @app.route('/')
 def main_page ():
-    page = getHeader (True)
-    page += '<h2>Consulta recetas</h2>\n'
     recipes = loadRecipes ()
-
-    page += recipes_name_select (recipes)
-    page += ingredient_select (recipes)
-    page += tag_select (recipes)
-    page += search_area ()
-    return page
+    ing_list = getListOfIngredients (recipes)
+    tag_list = getListOfTags (recipes)
+    
+    return render_template ("index.html", 
+            list_size = getListSize (),
+            recipes=recipes,
+            ingredients=ing_list,
+            tags= tag_list)
 
 def find_recipe (recipes, hash_value):
     recipe = None
