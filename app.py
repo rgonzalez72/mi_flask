@@ -15,18 +15,6 @@ app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
-def getHeader (isHome=False):
-    component = ""
-    if not isHome:
-        component += '<a href="/"><b>&#8656;</b></a> '
-
-    if 'r_list' not in session:
-        session ['r_list'] = []
-
-    component += 'Mi <a href="/my_list">lista</a> tiene ' + str(len(session['r_list'])) + " receta/s.\n"
-    component += "</br>\n"
-    return component
-
 def recipeInList (recipe):
     return recipe ["hash_value"] in session['r_list']
 
@@ -132,28 +120,6 @@ def getRecipesWithTag (recipes, tag_name):
         if findInList (tag_name, R["tags"]):
             recipesTag.append (R)
     return recipesTag
-
-
-def getListOfRecipes(recipes):
-    page = "<UL>\n"
-    list_of_names = [d["name"] for d in recipes]
-    for name in sorted(list_of_names):
-        hash_value = calculateHash (name)
-        
-        listStr = ' <a href="/'
-        if hashInList (hash_value):
-            listStr += 'remove/' + hash_value + '">-'
-        else:
-            listStr += 'add/' + hash_value + '">+'
-        listStr += "</a> "
-
-        # Save the path to redirect back here
-        session ['url'] = request.full_path
-        
-        page += '\t<li><a href="/recipe?recipe_names=' + hash_value + '">' + name + '</a>' + listStr + '</li>\n'
-    page += "</UL>\n"
-    return page
-    
 
 @app.route ('/tag')
 def show_tag ():
@@ -278,16 +244,6 @@ def my_list ():
             title = title, 
             recipes = recipesInList,
             is_my_list = True)
-
-
-    if len (recipesInList) > 0:
-        page += '<a href="/reset">Limpiar lista</a>\n'
-        session['url'] = request.full_path
-        page += '<br>\n'
-        page += '<a href="/download">Descargar</a>\n'
-    return page
-
-
 
 @app.route('/download')
 def download_pdf ():
