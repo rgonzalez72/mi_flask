@@ -12,12 +12,15 @@ app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
-def getHeader ():
+def getHeader (isHome=False):
+    component = ""
+    if not isHome:
+        component += '<a href="/"><b>&#8656;</b></a> '
 
     if 'r_list' not in session:
         session ['r_list'] = []
 
-    component = 'Mi <a href="/my_list">lista</a> tiene ' + str(len(session['r_list'])) + " receta/s.\n"
+    component += 'Mi <a href="/my_list">lista</a> tiene ' + str(len(session['r_list'])) + " receta/s.\n"
     component += "</br>\n"
     return component
 
@@ -124,7 +127,7 @@ def search_area ():
 
 @app.route('/')
 def main_page ():
-    page = getHeader ()
+    page = getHeader (True)
     page += '<h2>Consulta recetas</h2>\n'
     recipes = loadRecipes ()
 
@@ -157,8 +160,6 @@ def get_recipe_page (hash_value):
     page = getHeader()
     page += '<h2>' + recipe["name"] + '</h2>\n'
     page += '<br>\n'
-    page += '<a href="/">Página principal</a>\n'
-    page += '<br>\n'
 
     if recipeInList (recipe):
         page += 'Esta receta está en tu lista. <a href="/remove/' + recipe ["hash_value"] + '">Quitar</a>.'
@@ -187,7 +188,6 @@ def get_recipe_page (hash_value):
             page += '<a href="/tag?tags=' + tag + '">' + tag +  "</a>" + " "
         page += "<br>\n"
     page += '<br>\n'
-    page += '<a href="/">Página principal</a>\n'
 
     return page
 
@@ -201,10 +201,7 @@ def getRecipesWithTag (recipes, tag_name):
 
 
 def getListOfRecipes(recipes):
-    page = '<a href="/">Página principal</a>\n'
-    page += "<br>\n"
-
-    page += "<UL>\n"
+    page = "<UL>\n"
     list_of_names = [d["name"] for d in recipes]
     for name in sorted(list_of_names):
         hash_value = calculateHash (name)
@@ -221,8 +218,6 @@ def getListOfRecipes(recipes):
         
         page += '\t<li><a href="/recipe?recipe_names=' + hash_value + '">' + name + '</a>' + listStr + '</li>\n'
     page += "</UL>\n"
-
-    page += '<a href="/">Página principal</a>\n'
     return page
     
 
@@ -318,6 +313,13 @@ def remove_from_list (hash_value):
         return (redirect (session['url']))
     return (redirect ('/'))
 
+@app.route('/reset')
+def reset_list ():
+    session["r_list"] = []
+    if 'url' in session:
+        return (redirect (session['url']))
+    return (redirect ('/'))
+
 def getRecipesInList (recipes):
     recipesInList = []
 
@@ -333,8 +335,11 @@ def my_list ():
     recipes = loadRecipes ()
     recipesInList = getRecipesInList (recipes)
     page = getHeader()
-    page += "<h2>Mi list de recetas</h2>\n"
+    page += "<h2>Mi lista de recetas</h2>\n"
     page += getListOfRecipes (recipesInList)
+
+    page += '<a href="/reset">Limpiar lista</a>'
+    session['url'] = request.full_path
     return page
 
 if __name__ == "__main__":
