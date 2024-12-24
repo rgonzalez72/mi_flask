@@ -1,10 +1,13 @@
-from flask import Flask, request, session, redirect
+from flask import Flask, request, session, redirect, make_response, send_file
 from flask_session import Session
+from fpdf import FPDF
 import json
 import sys
 import os
 import hashlib
 import re
+
+from .createPdf import PDF
 
 app = Flask(__name__)
 
@@ -338,9 +341,27 @@ def my_list ():
     page += "<h2>Mi lista de recetas</h2>\n"
     page += getListOfRecipes (recipesInList)
 
-    page += '<a href="/reset">Limpiar lista</a>'
+    page += '<a href="/reset">Limpiar lista</a>\n'
     session['url'] = request.full_path
+    page += '<br>\n'
+    page += '<a href="/download">Descargar</a>\n'
     return page
+
+
+
+@app.route('/download')
+def download_pdf ():
+    pdf = PDF ()
+    pdf.set_title ('Lista de recetas')
+    recipes = loadRecipes ()
+    recipesInList = getRecipesInList (recipes)
+    index = 1
+    for R in recipesInList:
+        pdf.add_recipe (index, R)
+        index += 1
+    pdf.add_shopping_list (recipesInList)
+    pdf.output("recetas.pdf")
+    return send_file ('recetas.pdf', as_attachment=True)
 
 if __name__ == "__main__":
     app.run(debug=True)
