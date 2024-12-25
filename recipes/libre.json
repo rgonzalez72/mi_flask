@@ -192,65 +192,114 @@
         "tags": ["ensalada"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Verduras orientales con guisantes",
+        "ingredients": ["repollo", "brócoli", "coliflor", "ajetes", "ajo", "guisantes", "salsa de soja",
+            "vinagre", "sirope", "miso", "jengibre", "maicena" ],
         "steps": [
-            "",
-            ""
+            "Pon el repollo cortado a tiras en el fondo de una sartén grande y profunda.",
+            "Añade la soja y el agua.",
+            "Enciende el fuego a tope.",
+            "Añade encima las verduras congeladas, los ajos chafados, los guisantes y tapa.", 
+            "Si las verduras son frescas tendrás que añadir más agua para que se cuezan al vapor.",
+            "No añadas sal, basta con la soja y la salsa.",
+            "Mientras se cocinan las verduras haz la salsa en un cacito.",
+            "Añade todos los ingredientes al cazo menos la maicena.",
+            "Pon el cazo a calentar al fuego.",
+            "Mientras disuelve la maicena en dos dedos de agua fría.",
+            "Cuando lo del cazo empiece a hervir, añade la maicena disuelta.",
+            "Remueve.",
+            "Añade la salsa a las verduras, remueve, baja el fuego y deja cocer 2 o 3 minutos."
         ],
-        "tags": [""]
+        "tags": []
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Hummus de lenteja roja con coliflor y zanahoria asadas",
+        "ingredients": ["pimentón", "cominos", "ajo", "cúrcuma", "orégano", "canela", "coliflor", "zanahoria",
+            "perejil", "lentejas", "tahini", "limón"],
         "steps": [
-            "",
-            ""
+            "Precalienta el horno a 200 grados.",
+            "Pon papel de horno en una bandeja.",
+            "Mezcla todas las especies con un poco de agua en un cuenco.",
+            "Trocea la coliflor y las zanahorias y viértelas en la mezcla de especias.",
+            "Remueve bien.",
+            "Pon en la bandeja de horno y hornea 35 minutos.",
+            "Cuece las lentejas en el agua hasta que estén hechas puré (12 a 16 minutos).",
+            "Si queda mucha agua escúrrelas.",
+            "Añade las lentejas con el resto de los ingredientes y bate hasta que esté cremoso.",
+            "Pon una cama de hummus en el plato y las verduras encima.",
+            "Espolvorea perejil o cilantro picado."
         ],
-        "tags": [""]
+        "tags": []
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Revuelto de huevo con espinacas y boniato asado",
+        "ingredients": ["espinacas", "ajo", "boniato", "huevo" ],
         "steps": [
-            "",
-            ""
+            "Asa el boniato",
+            "Pon las espinacas y los ajos en una sartén, a fuego medio, añade sal y tapa.",
+            "Rehoga las espinacas hasta que se hayan quedado sin agua.",
+            "Agrega el huevo y revuelve.",
+            "Abre el boniato por el medio y rellena con el revuelto."
         ],
-        "tags": [""]
+        "tags": []
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Tacos veganos",
+        "ingredients": ["tofu", "salsa de soja", "cominos", "pimentón", "tortillas", "tomate",
+            "cebolla", "ajo", "zumo de naranja", "cilantro", "yogur", "tahini", "limón", "sirope" ],
         "steps": [
-            "",
-            ""
+            "Prepara salsa verde con cilantro, ajo, yogur, tahini, zumo de limón, miel o sirope y cominos",
+            "Rallar el tofu con un rallador.",
+            "Añadir salsa de soja, agua, cominos, pimentón y sal y hornear durante 30 minutos a 175 grados.",
+            "En una sartén rehogar la cebolla y los ajos con un poco de agua.",
+            "Añadir cominos, pimentón y salsa de soja.",
+            "Añadir el tomate concentrado y el zumo de piña (o naranja).",
+            "Dejar que se concentre.",
+            "Añadir el tofu cuando esté ya horneado y remover.",
+            "Montar los tacos con el tofu, la salsa y un poco de tomate troceado, cilantro, cebolla picada, lechuga al gusto."
         ],
-        "tags": [""]
+        "tags": []
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Boniato asado con garbanzos y crumble",
+        "ingredients": ["garbanzos", "ajo", "cebolla", "orégano", "nueces", "romero", "sirope", "rúcula", 
+            "Arándanos secos"],
         "steps": [
-            "",
-            ""
+            "Asa el boniato",
+            "Mezcla los garbanzos con ajo y cebolla en polvo y orégano.",
+            "Ásalos en el horno o en la airfryer hasta que estén dorados.",
+            "Picar las nueces y mezclar con romero, sirope, sal",
+            "Abre el boniato.",
+            "Rellena con la mezcla de garbanzos y espolvorea con el crumble.",
+            "Puedes añadir la vinagreta sin aceite de las ensaladas por encima."
         ],
-        "tags": [""]
+        "tags": []
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Ensalada arcoiris",
+        "ingredients": ["pimiento", "zanahoria", "calabacín", "remolacha", "nueces", "manzana", "lechuga",
+            "mostaza", "sirope", "vinagre", "aceite" ],
         "steps": [
-            "",
-            ""
+            "Cortar en juliana y mezclar todo en un cuenco y servir encima de hojas de lechuga de roble.",
+            "Preparar la vinagreta y mezclar."
         ],
-        "tags": [""]
+        "tags": ["ensalada"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Pizza de patata",
+        "ingredients": ["patata", "arroz", "levadura nutricional", "vinagre", "leche", "tomate", "champiñón",
+            "espinacas"],
         "steps": [
-            "",
-            ""
+            "Cuece unas patatas.",
+            "Haz puré algunas patatas y haz una bola",
+            "En una bandeja de hornear pizza estira la bola y haz la base con las manos.",
+            "Hornea 40 minutos dándole la vuelta con cuidado a los 20 minutos.",
+            "En la batidora pon patatas hervidas, media taza de arroz hervido,",
+            "un tercio de levadura nutricional, una cucharada de vinagre, sal, tres cuartos de taza de leche.",
+            "Bate hasta obtener una crema espesa.",
+            "En la base poner tomate concentrado.",
+            "Luego los toppings (tomate en rodajas, espinacas) y finalmente la crema.",
+            "Hornea 10 minutos más o hasta que esté lista."
         ],
         "tags": [""]
     },

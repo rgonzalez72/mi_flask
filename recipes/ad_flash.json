@@ -392,7 +392,7 @@
         "tags": ["desayuno"]
     },
     {
-        "name": "Ensalada Arco iris Con guisantes y hélices de espelta integral",
+        "name": "Ensalada arco iris con guisantes y hélices de espelta integral",
         "ingredients": ["pimiento", "zanahoria", "calabacín", "remolacha", "nueces", "manzana", "lechuga",
             "guisantes", "pasta",
             "mostaza", "sirope", "vinagre", "salsa soja"],
@@ -557,8 +557,8 @@
         "tags": ["sopa"]
     },
     {
-        "name": "Chips de boniato con champiñones Y lentejas",
-        "ingredients": ["boniato", "lentejas", "cebolla", "ajo", "salsa de soja", "champiñón", "oregano",
+        "name": "Chips de boniato con champiñones y lentejas",
+        "ingredients": ["boniato", "lentejas", "cebolla", "ajo", "salsa de soja", "champiñón", "orégano",
             "rúcula"],
         "steps": [
             "Corta el boniato en tiras, deja la piel",

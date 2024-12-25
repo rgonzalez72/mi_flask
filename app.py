@@ -33,6 +33,9 @@ def calculateHash (name):
 
 
 def loadRecipes ():
+    if 'r_list' not in session:
+        session ['r_list'] = []
+
     recipes = []
 
     recipes_dir = os.path.join (os.path.dirname (__file__), "recipes")
