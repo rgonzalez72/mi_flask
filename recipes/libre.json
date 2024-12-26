@@ -764,6 +764,102 @@
         "tags": []
     },
     {
+        "name": "Arroz a la cubana con tomate tamizado, verduras al vapor y plátano macho.",
+        "ingredients": ["plátano macho", "arroz", "tomate", "coliflor", "cebolla", "ajo" ],
+        "steps": [
+            "Hervir el arroz con el doble de agua (si es blanco) o con el triple (si es integral).",
+            "Poner a guisar las verduras al vapor o en el air fryer o rehogadas o ligeramente hervidas.",
+            "Hacerle un corte a la piel al plátano macho y meterlo en el microondas 6 minutos a máxima potencia.", 
+            "Sacarlo, dejarlo enfriar un poco y retirar la piel.",
+            "Reservar.",
+            "Servir el arroz y el plátano en la mitad del plato.",
+            "Llenar el resto del plato con verduras.",
+            "Añadir tomate tamizado."
+        ],
+        "tags": ["arroz"]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
         "name": "Caldo de verduras",
         "ingredients": ["zanahoria", "apio", "brócoli", "cebolla", "lombarda" ],
         "steps": [
