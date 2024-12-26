@@ -26,7 +26,7 @@
             "Mezclar leche y avena hasta que quede espeso.",
             "Opcionalmente incluir pasas o chía.",
             "Dejar toda la noche en la nevera para que se hidrate la avena",
-            "Se puede usar yogurt en lugar de leche",
+            "Se puede usar yogur en lugar de leche",
             "Acompañar con nueces, chocolate, fruta cortada, ..."
         ],
         "tags": ["desayuno"]
@@ -80,13 +80,17 @@
         "tags": []
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Pan de avena",
+        "ingredients": ["avena", "huevo", "yogur", "levadura", "pasas", "pipas" ],
         "steps": [
-            "",
-            ""
+            "Mezclar 3 tazas de copos de avena, unas pasas, con 2 huevos.",
+            "Añadir 2 yogures poco a poco hasta que tenga la textura pastosa.",
+            "Se cae de la cuchara pero le cuesta.",
+            "Añadir sal y levadura",
+            "Poner en el molde y decorar con pipas",
+            "Hornear a 180 grados durante 35 minutos"
         ],
-        "tags": [""]
+        "tags": ["pan"]
     },
     {
         "name": "",

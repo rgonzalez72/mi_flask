@@ -258,7 +258,7 @@
             "Añadir el tofu cuando esté ya horneado y remover.",
             "Montar los tacos con el tofu, la salsa y un poco de tomate troceado, cilantro, cebolla picada, lechuga al gusto."
         ],
-        "tags": []
+        "tags": ["tacos"]
     },
     {
         "name": "Boniato asado con garbanzos y crumble",
@@ -276,7 +276,7 @@
         "tags": []
     },
     {
-        "name": "Ensalada arcoiris",
+        "name": "Ensalada arcoíris",
         "ingredients": ["pimiento", "zanahoria", "calabacín", "remolacha", "nueces", "manzana", "lechuga",
             "mostaza", "sirope", "vinagre", "aceite" ],
         "steps": [
@@ -529,7 +529,7 @@
     {
         "name": "Tacos de lentejas y nueces",
         "ingredients": ["caldo", "cebolla", "ajo", "lentejas", "nueces", "cominos", "pimentón", "chili",
-            "tomate", "salsa de soja", "cilantro", "lima", "tortillas", "aguacate", "yogurt", "cilantro"],
+            "tomate", "salsa de soja", "cilantro", "lima", "tortillas", "aguacate", "yogur", "cilantro"],
         "steps": [
             "Calienta la sartén y añade la cebolla y los ajos y un poco de caldo de verduras.",
             "Rehoga 3 minutos.",
@@ -545,7 +545,7 @@
             "Para la salsa mezcla ½ aguacate con 1 yogur de soja, 1 ajo, cilantro, zumo de lima y sal",
             "Añade un poco de agua si queda muy espesa."
         ],
-        "tags": []
+        "tags": ["tacos"]
     },
     {
         "name": "Ensalada en bote con quinoa y judías verdes",
@@ -571,7 +571,7 @@
     {
         "name": "Ensalada con pasta y tofu ahumado",
         "ingredients": ["pasta", "tofu", "tomate", "pepino", "cebolla", "pimiento", "maíz",
-            "brotes", "yogurt", "cilantro", "limón", "mostaza"],
+            "brotes", "yogur", "cilantro", "limón", "mostaza"],
         "steps": [
             "Cocer la pasta. Por ejemplo, pasta de lenteja roja.",
             "Hacer la vinagreta.",
@@ -580,22 +580,188 @@
         "tags": ["pasta", "ensalada"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Crema de lombarda y pera",
+        "ingredients": ["aceite", "cebolla", "lombarda", "patata", "pera", "caldo", "limón",
+            "nuez moscada"],
         "steps": [
-            "",
-            ""
+            "Pochar la cebolla picada 5 minutos.",
+            "Añadir la col picada fina, la patata en cubos, la pera pelada y despepitada.",
+            "Añadir agua (o caldo) hirviendo y cocer 20 minutos.",
+            "Mientras tanto, hacer taquitos con las otras peras y saltearlos en una sartén.",
+            "Emplatar la crema, echar el zumo de limón y poner los taquitos de pera por encima"
         ],
-        "tags": [""]
+        "tags": ["sopa"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Remolacha asada con alioli de alubias",
+        "ingredients": ["remolacha", "aceite", "ajo", "alubias", "limón", "albahaca" ],
         "steps": [
-            "",
-            ""
+            "Pela la remolacha y corta en cubos.",
+            "Pon sobre papel de hornear con aceite de oliva virgen extra, sal, pimienta y hierbas.",
+            "Hornea 20-30 min a 200°C.",
+            "Mientras se enfría, prepara el alioli de alubias:",
+            "Calienta aceite en una sartén y pon los dientes de ajo un par de minutos.",
+            "No los dores, sólo caliéntalos a fuego bajo para que el aceite infusione y coja el sabor del ajito.",
+            "Pon en la batidora el ajo, las alubias, limón y sal y tritura.",
+            "Añádele agua a tu gusto",
+            "Extiende en un plato como base la salsa alioli, añade la remolacha y la albahaca fresca"
         ],
-        "tags": [""]
+        "tags": []
+    },
+    {
+        "name": "Tacos arcoíris",
+        "ingredients": ["tortillas", "cilantro", "zanahoria", "pimiento", "ajo", "cebolla", "aguacate", "lima" ],
+        "steps": [
+            "En una sartén cocinar las verduras, echar un poco de agua o aceite e incorporar la cebolla y los ajos.", 
+            "Rehogar unos minutos, incorporar la zanahoria rehogar 2 minutos.",
+            "Incorporar los pimientos, tapar e ir removiendo de vez en cuanto durante 15 minutos.",
+            "Cuando las verduras ya estén hechas al dente salpimentar y reservar.",
+            "Machacar el aguacate con la lima y el cilantro.",
+            "Tostar ligeramente las tortitas en una sartén, sin aceite ni nada.",
+            "Poner el guacamole machado de la tortita y a continuación las verduritas."
+        ],
+        "tags": ["tacos"]
+    },
+    {
+        "name": "Arroz chino mandarín",
+        "ingredients": ["arroz", "guisantes", "zanahoria", "espárragos", "ajo", "cebolla", "limón", 
+            "salsa de soja", "sirope"],
+        "steps": [
+            "Cocer el arroz integral.",
+            "En una sartén o wok cocinar las verduras.",
+            "Poner un poco de agua o aceite rehogar la cebolla y los ajos durante 2 minutos.",
+            "Incorporar la zanahoria, rehogar otros 2 minutos.",
+            "Incorporar los espárragos, rehogar 5 minutos y por último los guisantes.",
+            "Dejar que se cocine todo hasta que esté la zanahoria y espárragos al dente.",
+            "Incorporar el arroz cocido a la sartén mezclar.",
+            "Mezclar un ajo machacado, zumo de limón, salsa de soja, sal y sirope. Reservar.",
+            "A la hora de consumirlo, regar por encima el aderezo."
+        ],
+        "tags": ["arroz"]
+    },
+    {
+        "name": "Cookies de melaza de caña",
+        "ingredients": ["sirope", "manzana", "avena", "canela", "bicarbonato", "nuez moscada", "jengibre" ],
+        "steps": [
+            "Proporciones: 4 cucharadas de melaza de caña, 4 cucharadas de puré de manzana,",
+            "2 tazas colmadas de harina de avena, 1 cucharadita de canela, 1 cucharadita de bicarbonato,",
+            "Nuez moscada en polvo, clavo y jengibre en polvo al gusto",
+            "Muele muy finamente los copos de avena.",
+            "Mezcla los ingredientes secos (copos molidos, especias y bicarbonato).",
+            "Mezcla en un cuenco el puré de manzana y la melaza.",
+            "Añade los ingredientes húmedos a los secos y mezcla bien.",
+            "Divide la masa en 12 bolitas.",
+            "Colócalas en una bandeja de horno en el que has puesto un papel de hornear.",
+            "Puedes aplanar las bolitas con un tenedor.",
+            "Hornea 10 minutos a 200 grados."
+        ],
+        "tags": ["desayuno"]
+    },
+    {
+        "name": "Ensalada 5 estrellas con piña",
+        "ingredients": ["lechuga", "col", "eneldo", "cebolla", "pepino", "remolacha", "piña", "tomate",
+            "nueces", "dátil", "limón", "ajo"],
+        "steps": [
+            "Mezclar con la batidora 3 cucharadas de nueces, 2 dátiles, medio limón pelado, un diente de ajo,",
+            "eneldo seco y agua",
+            "Mezclar el aderezo con la ensalada."
+        ],
+        "tags": ["ensalada"]
+    },
+    {
+        "name": "Tofu marinado con salsa de cilantro y champiñones",
+        "ingredients": ["tofu", "sirope", "salsa de soja", "orégano", "maicena", "ajo", 
+            "cilantro", "yogur", "mostaza"],
+        "steps": [
+            "Cortar el taco de tofu en barritas largas rectangulares.",
+            "En un cuenco mezclar una cucharada de miel (o sirope), 2 cucharadas de salsa de soja,",
+            "1 cucharada de orégano, 1 cucharadita de maizena o harina de arroz o de garbanzos,",
+            "1 cucharadita de ajo molido.",
+            "Embadurnar bien el tofu con la mezcla y dejar que macere un par de horas.",
+            "Hacer salsa de cilantro con: 1 yogur de soja, 1 puñado grande de hojas de cilantro o perejil",
+            "1 ajo chafado, 1 pizca de sal 1 cucharadita de endulzante, ½ cucharadita de mostaza.",
+            "Asarlo una vez marinado al horno o en la air fryer o en la sartén.",
+            "Los champiñones pueden prepararse a la plancha o asados en la air fryer o el horno junto con el tofu.",
+            "Servir el tofu con los champiñones y la salsa.",
+            "Puedes añadir tomates Cherry y rúcula."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Revuelto de tofu con boniato y aguacate",
+        "ingredients": ["tofu", "cebolla", "boniato", "ajo", "tomate", "cúrcuma", "caldo", 
+            "levadura nutricional", "aguacate", "lechuga"],
+        "steps": [
+            "Asa el boniato",
+            "Pela el boniato asado y trocéalo en cubos.",
+            "Saltea la cebolla y el ajo, agrega todas las especias y remueve hasta que las estén tiernos.",
+            "Desmenuza el tofu y agrégalo a la sartén con los tomates y la hoja verde.",
+            "Saltea hasta que el tofu se haya mezclado bien con todas las especias y el color sea amarillo.",
+            "Espolvorea con levadura nutricional.",
+            "Puedes servir con una tostada de pan de centeno y una rodaja de aguacate."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Sopa de tomates asados",
+        "ingredients": ["tomate", "ajo", "cebolla", "caldo", "alubias", "pimentón", "albahaca" ],
+        "steps": [
+            "Hornear los tomates con sal y pimienta 40 minutos a 200 grados.",
+            "Saltear, en una cazuela la cebolla y el ajo picados con caldo de verduras.",
+            "Si horneas los tomates con antelación puedes reservarlos en un tupper hasta el día que los vayas a comer.", 
+            "Batir en la batidora con el caldo, las judías blancas y el pimentón.",
+            "Servir y decorar con unas hojas de albahaca."
+        ],
+        "tags": ["sopa"]
+    },
+    {
+        "name": "Pasta longevity",
+        "ingredients": ["pasta", "brócoli", "alubias", "limón", "levadura nutricional", "nueces", "ajo",
+            "pimiento", "chili"],
+        "steps": [
+            "Pon a calentar el agua y cuece la pasta.",
+            "Cuando falten 3 minutos añade el brócoli.",
+            "Pon a rehogar en una sartén el ajo y el pimiento con un poco de agua y chili.",
+            "Añade las legumbres a la sartén y sigue rehogando.",
+            "Cuando esté hervida la pasta reserva un vasito del agua de cocción y escurre.",
+            "Añade la pasta y el brocollini a la sartén con el agua de cocción.",
+            "Remueve bien.",
+            "Añade la levadura nutricional, sal y pimienta y remueve.",
+            "Sirve en un plato y espolvorea con nueces picadas"
+        ],
+        "tags": ["pasta"]
+    },
+    {
+        "name": "Milanesa de berenjena",
+        "ingredients": ["berenjena", "huevo", "orégano", "romero", "pan rallado", "yogur", "limón", "harina",
+            "aceite"],
+        "steps": [
+            "Haz una salsa con yogur, ajo en polvo, zumo de limón, cilantro fresco, sal y pimienta.",
+            "Lava la berenjena y córtala por la mitad a lo largo sin quitar el rabito.",
+            "Calienta el horno 200º y asa durante 30 min con la piel hacia arriba.",
+            "Bate el huevo con sal, orégano, romero, ...",
+            "Tritura los crackers de centeno para obtener un pan rallado más saludable",
+            "Una vez que ya están horneadas, deja enfriar un poco para poder quitar la piel.", 
+            "Aplasta la berenjena para que quede como un filete, pásala por harina, huevo y pan rallado.",
+            "Coloca las berenjenas en el horno, pulveriza con aceite de oliva y hornea a 200 grados 30 minutos (que queden doraditas)"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Dahl de lentejas a nuestra manera",
+        "ingredients": ["lentejas", "leche de coco", "cebolla", "zanahoria", "boniato", "brócoli", "jengibre",
+            "ajo", "tomate", "caldo", "curri", "cominos", "canela", "cúrcuma" ],
+        "steps": [
+            "Pon a cocinar el brócoli al vapor aparte.",
+            "Sofríer en una cazuela la cebolla y los ajos con caldo.",
+            "A los 4 minutos añadir la zanahoria y el boniato rallados y seguir rehogando.",
+            "Añade el tronco del brócoli rayado y rehoga.",
+            "Ya puedes añadir el tomate de bote triturado y seguir rehogando 3 minutos.",
+            "Añadir el caldo, la leche de coco y las lentejas.",
+            "Tapar y dejar cocinar 25 minutos.",
+            "Servir con el brócoli al vapor y puedes añadir arroz hervido."
+        ],
+        "tags": []
     },
     {
         "name": "Caldo de verduras",
