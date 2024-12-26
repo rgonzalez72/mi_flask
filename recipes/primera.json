@@ -1,6 +1,6 @@
 [
     { 
-        "name": "Crema fría de espárragos",
+        "name": "Crema fría de espárragos blancos",
         "ingredients": ["espárragos de bote", "huevo", "mahonesa"],
         "steps": [ 
             "Cocer el huevo",
@@ -33,10 +33,10 @@
     },
     {
         "name": "Sopa de miso",
-        "ingredients": ["miso", "bacon", "ajo", "cebolla", "pimiento", "zanahoria", "tofu", "kombu", "wakame" ],
+        "ingredients": ["miso", "bacon", "ajo", "cebolla", "pimiento", "zanahoria", "tofu", "konbu", "wakame" ],
         "steps": [
             "Sofreír las verduras y el bacon en orden.",
-            "Añadir agua alga kombu y wakame.",
+            "Añadir agua alga konbu y wakame.",
             "Si se usa tofu añadirlo ahora.",
             "Cocer unos 10 minutos",
             "Disolver el miso en agua caliente (casi hirviendo)",
@@ -60,13 +60,24 @@
         "tags": ["desayuno"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Tofu marinado con setas",
+        "ingredients": ["tofu", "setas", "boletus", "ajo", "cebolla", "harina", "salsa de soja", "limón",
+            "mostaza", "sirope", "konbu", "anacardos" ],
         "steps": [
-            "",
-            ""
+            "Poner a hidratar los boletus deshidratados con un trozo de alga konbu.",
+            "Dejar por lo menos tres horas.",
+            "Poner el tofu a marinar con el caldo de boletus, salsa de soja, limón, mostaza y sirope.",
+            "Dejar al menos dos horas marinando.",
+            "En una sartén caliente, tostar el tofu hasta que tome algo de color.",
+            "Saltear ajo y cebolla.",
+            "Poner los boletus y las setas.",
+            "Cuando este blando añadir una cucharada de harina y tostar un poco.",
+            "Añadir el tofu en dados y la marinada", 
+            "Dejar que se espese el caldo.",
+            "Servir con anacardos machacados."
+
         ],
-        "tags": [""]
+        "tags": []
     },
     {
         "name": "",
