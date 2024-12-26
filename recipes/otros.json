@@ -28,10 +28,12 @@
     },
     {
         "name": "Bolitas de tarta de zanahoria",
-        "ingredients": ["", "" ],
+        "ingredients": ["tortitas de arroz inflado", "zanahoria", "dátil", "vainilla", "canela", 
+            "proteína de cacahuete"],
         "steps": [
-            "",
-            ""
+            "Rallar la zanahoria.",
+            "Merclar con el resto de ingredientes y procesar.",
+            "Hacer bolitas con la masa o servir en un cuenco con yogur de coco."
         ],
         "tags": ["desayuno"]
     },
