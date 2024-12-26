@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Crepes de trigo sarraceno relleno de compota de manzana y plátano",
+        "ingredients": ["trigo sarraceno", "dátil", "leche", "canela", "aceite", "manzana", "plátano" ],
+        "steps": [
+            "Poner los dátiles en agua una hora",
+            "Se ponen en un recipiente con media taza de trigo sarraceno, un tercio de taza de leche, canela y sal",
+            "Triturar hasta que quede homogéneo.",
+            "Calentar una sartén y engrasar con aceite.", 
+            "Extender una cucharra de masa y que cubra todo el fondo.",
+            "Tras unos segundos dar la vuelta.",
+            "Rellenar con compota de manzana y rodajas de plátano"
+        ],
+        "tags": ["desayuno"]
+    },
+    {
+        "name": "Trufas de cacao",
+        "ingredients": ["calabacín", "tortitas de arroz inflado", "dátil", "cacao", "proteína de cacahuete",
+            "vainilla" ],
+        "steps": [
+            "Ralla un calabacín pequeño.",
+            "Poner en el procesador junto con 5 tortitas de arroz, 6 dátiles, 2 cucharadas de cacao,",
+            "2 cucharadas de proteína de cacahuete y la vainilla.",
+            "Procesar hasta que haya hecho una masa.",
+            "Forma bolitas y reserva en la nevera."
+        ],
+        "tags": ["desayuno"]
+    },
+    {
+        "name": "Bolitas de tarta de zanahoria",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": ["desayuno"]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    }
+]
