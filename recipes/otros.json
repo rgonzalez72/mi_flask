@@ -38,6 +38,133 @@
         "tags": ["desayuno"]
     },
     {
+        "name": "Bolitas energéticas",
+        "ingredients": ["avena", "nueces", "dátil", "zanahoria", "naranja", "cúrcuma", "sirope", "canela",
+            "coco" ],
+        "steps": [
+            "Proporciones: 1 taza de copos de avena, media taza de nueces, 12 dátiles, 2 zanahorias ralladas, ",
+            "ralladura de una naranja, una cucharadita de cúrcuma, 1 cucharada de sirope,",
+            "1 cucharadita de canela y coco rallado.",
+            "Quitar los huesos de los dátiles y remojarlos en agua tibia durante 5 minutos.",
+            "Poner todos los ingredientes en una batidora, excepto el coco.",
+            "Batir hasta que quede una masa.",
+            "Formar una bola y rebozar con coco rallado"
+        ],
+        "tags": ["desayuno"]
+    },
+    {
+        "name": "Ensalada de lentejas y mango",
+        "ingredients": ["lentejas", "mango", "remolacha", "cebolla", "pepino", "canónigos", "tahini",
+            "mostaza", "sirope", "limón", "aceite"],
+        "steps": [
+            "Hacer el aliño: 2 cucharadas de tahini, 1 cucharadita de mostaza dulce,",
+            "sirope de agave o miel, 2 cucharada de zumo limón, sal y aceite, remover.",
+            "Mezclar con el resto de ingredientes."
+        ],
+        "tags": ["ensalada"]
+    },
+    {
+        "name": "Ensalada quinoa o bulgur con melocotón",
+        "ingredients": ["quinoa", "melocotón", "tomate", "cebolla", "aguacate", "rúcula",
+            "nectarina", "limón", "cilantro", "aceite"],
+        "steps": [
+            "Cocer la quinoa",
+            "Poner en la batidora media nectarina, limón, cilantro, sal y aceite para el aliño.",
+            "Mezclar todos los ingredientes." 
+        ],
+        "tags": ["ensalada"]
+    },
+    {
+        "name": "Ensalada de sandía con tofu de albahaca",
+        "ingredients": ["sandía", "tofu", "cebolla", "tomate", "pepino", "espinacas", "limón", "cilantro",
+            "albahaca", "aceite"],
+        "steps": [
+            "Cocinar el tofu, poner a calentar una sartén a fuego alto con un cucharadita de aceite de oliva.",
+            "Cortar el tofu en cuadraditos e incorporar a la sartén para que se dore.",
+            "Bajar a fuego medio/bajo e ir moviendo de vez en cuando para que se quede crujiente por todos los lados.",
+            "Hacer el aliño con zumo de limón, hojas de cilantro y albahaca, sal y aceite"
+        ],
+        "tags": ["ensalada"]
+    },
+    {
+        "name": "Ensalada de pasta de lenteja roja",
+        "ingredients": ["pasta", "tomate", "pepino", "huevo", "pimiento", "cebolla", "aceite", "vinagre"],
+        "steps": [
+            "Cocer la pasta.",
+            "Cocer el huevo.",
+            "Asar los pimientos rojos",
+            "Hacer una vinagreta con pimiento, cebolla en daditos, aceite, sal y vinagre."
+        ],
+        "tags": ["ensalada", "pasta"]
+    },
+    {
+        "name": "Ensalada de verano",
+        "ingredients": ["patata", "zanahoria", "tomate", "pepino", "pimiento", "huevo", "cebolla", "aceite",
+            "vinagre" ],
+        "steps": [
+            "Cocer la patata y la zanahoria.",
+            "Cocer el huevo.",
+            "Asar el pimiento rojo",
+            "Aliñar con aceite, vinagre y sal"
+        ],
+        "tags": ["ensalada"]
+    },
+    {
+        "name": "Crema de espárragos blancos",
+        "ingredients": ["espárragos de bote", "pepino", "pimiento", "cebolla", "calabacín", "aceite",
+            "vinagre" ],
+        "steps": [
+            "Poner todos los ingredientes en el procesador y triturar durante 1 minuto a velocidad máxima."
+        ],
+        "tags": ["sopa", "frío"]
+    },
+    {
+        "name": "Gazpacho de remolacha",
+        "ingredients": ["tomate", "pepino", "pimiento", "remolacha", "aceite", "cebolla", "ajo", "comino",
+            "vinagre" ],
+        "steps": [
+            "Poner todos los ingredientes en el procesador y triturar durante 2 minutos a velocidad máxima."
+        ],
+        "tags": ["sopa", "frío"]
+    },
+    {
+        "name": "Crema de pepino",
+        "ingredients": ["pepino", "melón", "cebolla", "yogur", "limón" ],
+        "steps": [
+            "Poner todos los ingredientes en el procesador y triturar durante 1 minuto a velocidad máxima hasta tener la textura deseada.",
+            "Servir muy fría."
+        ],
+        "tags": ["sopa", "frío"]
+    },
+    {
+        "name": "Quinoa",
+        "ingredients": ["quinoa", "aceite", "ajo" ],
+        "steps": [
+            "Lavar muy bien la quinoa.",
+            "Poner en una sartén los 2 ajos en láminas junto con el aceite para que se doren un poco.",
+            "Echar la quinoa en la sartén y rehogar.",
+            "Echar el agua y la sal.",
+            "Poner a fuego alto hasta que empiece a hervir.",
+            "Tapar y bajarlo a fuego medio durante 15 min.",
+            "Pasados esos 15 min apagar y retirar del fuego dejando reposar otros 15 min con la sartén tapada."
+        ],
+        "tags": ["acompañamiento"]
+    },
+    {
+        "name": "Verduras a la mexicana con tofu o pollo",
+        "ingredients": ["tofu", "pollo", "pimiento", "calabacín", "ajo", "cebolla", "canela", "comino",
+            "pimentón", "orégano", "salsa de soja" ],
+        "steps": [
+            "Marinar el tofu o el pollo, con especias y salsa de soja.",
+            "Encendemos el horno a 180º.",
+            "En la bandeja de horno ponemos un papel de horno.",
+            "Lavamos los pimientos y los cortamos en tiras, pelamos el calabacín medias lunas.",
+            "Echamos las verduras en la bandeja del horno, junto con las especias y removemos.",
+            "Hornear a 180º durante 30 minutos."
+        ],
+        "tags": []
+    },
+    {
         "name": "",
         "ingredients": ["", "" ],
         "steps": [

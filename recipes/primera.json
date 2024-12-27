@@ -93,22 +93,27 @@
         "tags": ["pan"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Ensalada de zanahorias",
+        "ingredients": ["zanahorias", "salsa de soja", "limón", "mostaza", "sirope" ],
         "steps": [
-            "",
-            ""
+            "Cortar la zanahoria en rodajas.",
+            "Cocer las zanahorias 10 minutos, que queden ni muy duras ni muy blandas.",
+            "Aliñar con el resto de ingredientes."
         ],
-        "tags": [""]
+        "tags": ["ensalada"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Crema de zanahorias",
+        "ingredients": ["zanahoria", "ajo", "cebolla", "miso", "cilantro", "patata", "aceite" ],
         "steps": [
-            "",
-            ""
+            "En una olla rehogar ajo y cebolla con aciete.",
+            "Añadir las zanahorias y las patatas.",
+            "Echar agua hasta cubrir y cocer 20 minutos.",
+            "Cuando acabe disolver una cucharada de miso en agua caliente o caldo de cocción.",
+            "Apagar el fuego y mezclar el miso en la olla.", 
+            "Dejar 5 minutos y hacer la crema con la batidora."
         ],
-        "tags": [""]
+        "tags": ["sopa"]
     },
     {
         "name": "",

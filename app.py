@@ -58,7 +58,8 @@ def getListOfIngredients (recipes):
     ingredients = []
     for R in recipes:
         for i in R["ingredients"]:
-            if not findInList (i, ingredients):
+            i = i.lower()
+            if not i in ingredients:
                 ingredients.append (i.lower())
     return sorted(ingredients)
 

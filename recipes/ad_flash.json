@@ -79,7 +79,7 @@
     },
     {
         "name": "Espárragos y champiñones marinados",
-        "ingredients": ["Espárrago", "champiñón", "Cebolla", "ajo", "calabacín", "miso", "limón" ],
+        "ingredients": ["espárragos", "champiñón", "Cebolla", "ajo", "calabacín", "miso", "limón" ],
         "steps": [
             "Saltear en un poco de aceite los espárragos, los ajos, el calabacín y los champiñones.",
             "Cuando estén tiernos apartar del fuego y añadir el miso blanco.",
