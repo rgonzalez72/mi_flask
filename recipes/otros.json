@@ -165,6 +165,125 @@
         "tags": []
     },
     {
+        "name": "Crema fría de vichyssoise con manzana y albahaca",
+        "ingredients": ["puerro", "calabacín", "manzana", "apio", "caldo", "patata", "nuez moscada",
+            "albahaca" ],
+        "steps": [
+            "Poner todos los ingredientes en una cazuela a fuego medio excepto la albahaca, ir rehogando con un poquito de agua.",
+            "Cubrir con agua o caldo y tapar a fuego alto.",
+            "Cuando empiece a hervir, bajar el fuego a medio-bajo y dejar cocer durante 20 minutos.",
+            "Pasados los 20 min incorpore una hojas de albahaca.",
+            "Apagar el fuego.",
+            "Triture hasta obtener textura deseada.",
+            "Se puede tomar tanto fría como caliente."
+        ],
+        "tags": ["sopa", "frío"]
+    },
+    {
+        "name": "Salmorejo verde",
+        "ingredients": ["pepino", "calabacín", "melón", "aguacate", "pimiento", "cebolla",
+            "yogur", "limón"],
+        "steps": [
+            "Tritura todo en un procesador de alimentos con sal y pimienta.",
+            "Se puede acompañar con huevo cocido."
+        ],
+        "tags": ["sopa", "frío"]
+    },
+    {
+        "name": "Ensalada tropical con salsa rosa",
+        "ingredients": ["tomate", "esparrágos de bote", "piña", "mango", "maíz", "aguacate", "manzana",
+            "zanahoria", "garbanzos", "lechuga", "yogur", "ketchup", "naranja", "salsa de soja"],
+        "steps": [
+            "Hacer la salsa rosa con yogur, ketchup, zumo de naranja y salsa de soja.",
+            "Mezclar con los ingredientes de la ensalada."
+        ],
+        "tags": ["ensalada"]
+    },
+    {
+        "name": "Ensalada variada con salsa pimiento del piquillo y pera",
+        "ingredients": ["tomate", "cebolla", "maíz", "manzana", "aguacate", "zanahoria", "quinoa", "brotes",
+            "pimiento del piquillo", "ajo", "perejil", "pera", "aceite", "vinagre"],
+        "steps": [
+            "Hervir la quinoa",
+            "Hacer la salsa con pimiento del piquillo, ajo, perejil, pera, aceite, vinagre, sal y pimienta."
+        ],
+        "tags": ["ensalada"]
+    },
+    {
+        "name": "Verduras asadas",
+        "ingredients": ["calabaza", "boniato", "setas", "cebolla", "romero" ],
+        "steps": [
+            "Encender el horno a 200 grados.",
+            "Poner en la bandeja de horno un papel de horno.",
+            "Pelar y cortar la cebolla en juliana, incorporar a la bandeja.",
+            "Pelar y cortar la calabaza en cuadrados medianos, incorporar a la bandeja.",
+            "Pelar y cortar el boniato en cuadrados medianos, incorporar a la bandeja.",
+            "Echar en la bandeja la bolsa de setas o si son frescas lavarlas y cortarlas en tiras. incorporar a la bandeja.",
+            "Echar, el agua o caldo, el romero, sal y pimienta.",
+            "Meterlo en el horno durante 30 min a 180 grados"
+        ],
+        "tags": ["acompañamiento"]
+    },
+    {
+        "name": "Garbanzos horneados con verduras",
+        "ingredients": ["pimiento", "cebolla", "tomate", "zanahoria", "garbanzos", "pimentón", "caldo", 
+            "comino"],
+        "steps": [
+            "Pela y pica la verdura muy pequeñita para que se cocine mejor.",
+            "Escurre y lava los garbanzos cocidos.",
+            "Pon la verdura y los garbanzos en una fuente para horno.",
+            "Añade la sal, las especias, el agua o caldo y el tomate tamizado.",
+            "Tapa con un papel de horno humedecido para que se cocine al vapor",
+            "Lleva al horno 30 minutos a 200°C"
+        ],
+        "tags": []
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    },
+    {
         "name": "",
         "ingredients": ["", "" ],
         "steps": [
