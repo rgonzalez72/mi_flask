@@ -1,0 +1,178 @@
+[
+    {
+        "name": "Granola",
+        "ingredients": ["avena", "frutos secos", "pipas", "sirope", "proteína de cacahuete", "naranja" ],
+        "steps": [
+            "1 taza de copos de avena.", 
+            "1 taza de frutos secos crudos troceados (anacardos, almendras, avellanas, etc).",
+            "1/2 taza de semillas de calabaza y girasol.",
+            "1 cucharada de sirope de agave.",
+            "1 cucharada de crema de cacahuete (mezcla 2 cucharadas de polvo de cacachuete con el zumo de naranja).",
+            "Ralladura de naranja",
+            "Mezcla todo bien en la bandeja de horno (pon papel de hornear en la base).",
+            "Hornea 20 minutos a 180 grados, remueve cada 7 minutos para que no se queme."
+        ],
+        "tags": ["acompañamiento"]
+    },
+    {
+        "name": "Boloñesa de calabaza con garbanzos",
+        "ingredients": ["cebolla", "ajo", "zanahoria", "apio", "calabaza", "tomate seco", "tomate", "laurel",
+            "garbanzos"],
+        "steps": [
+            "Pica bien toda la verdura en trozos pequeños, cebolla, dientes de ajos, zanahoria, apio y calabaza.",
+            "Pon toda la verdura en una cazuela de horno, echa los tomates secos en trocitos, incorpora el tomate tamizado, la hoja de laurel y la sal.",
+            "Mete en el horno a 200º durante 40 min.",
+            "Servir con los garbanzos."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Crema de brócoli y alubias",
+        "ingredients": ["cebolla", "ajo", "brócoli", "alubias", "anacardos", "tamari", "miso",
+            "levadura nutricional" ],
+        "steps": [
+            "En una cazuela rehogar la cebolla y los ajos con un poco de agua durante 5 minutos.",
+            "Añadir las judías blancas, un brócoli entero, un poco de sal cubrir con agua.",
+            "Cocer 8 minutos.",
+            "Mientras tanto, trocear el otro medio brócoli y rehogar con una cucharada de aceite de oliva o agua.",
+            "Poner la sopa, los anacardos, la mostaza o el miso, la levadura nutricional (opcional),",
+            "y el tamari en una batidora potente y batir hasta que esté cremoso.",
+            "Servir y decorar con el brócoli rehogado"
+        ],
+        "tags": ["sopa"]
+    },
+    {
+        "name": "Lombarda con quinoa",
+        "ingredients": ["quinoa", "lombarda", "pasas", "manzana", "ajo", "pimentón" ],
+        "steps": [
+            "Pica la lombarda en un procesador de alimentos.",
+            "En una sartén pon un poco de agua.",
+            "Corta los dientes de ajo en láminas, ponlos en la sartén para que se doren.",
+            "Baja el fuego separa la sartén y pon el pimentón para que se dore un poco y no se queme.",
+            "Pon la lombarda, las pasas y la sal",
+            "Rehoga, echa ½ taza de agua, tapa la sartén, cuece durante 10-15 min, ves removiendo de vez en cuando.",
+            "Calienta la quinoa y sírvela con la lombarda"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Tortilla de calabacín y espárragos trigueros",
+        "ingredients": ["calabacín", "esparrágos", "huevos" ],
+        "steps": [
+            "Poner los espárragos a hervir en un cacito hasta que estén tiernos.", 
+            "Sacar y hacer trozos de 1 centímetro.",
+            "En una sartén antiadherente, saltear el calabacín y los espárragos con un poco de agua o caldo de verduras.",
+            "Cuando estén tiernos y haya desaparecido el agua añade los huevos batidos y haz la tortilla.",
+            "Servir con tomatitos Cherry o cualquier otra verdura cruda."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Tofu salteado con alcachofas",
+        "ingredients": ["alcachofas", "tofu", "salsa de soja", "pimentón", "limón", "orégano" ],
+        "steps": [
+            "Marinar el tofu en dados doce horas con:",
+            "2 cucharadas de salsa de soja, ½ cucharadita de pimentón, ajo en polvo,",
+            "zumo de limón, ½ cucharadita de orégano, 2 cucharadas de agua.",
+            "Cocer las alcachofas y dorar un poquito a la plancha.",
+            "Dorar el tofu en una sartén",
+            "Servir todo junto"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Tubérculos otoñales asados con quinoa",
+        "ingredients": ["calabaza", "boniato", "setas", "cebolla", "tofu", "caldo", "romero", "quinoa" ],
+        "steps": [
+            "Cocer la quinoa.",
+            "Encender el horno a 180 grados.",
+            "Poner en la bandeja de horno un papel de horno.",
+            "Pelar y cortar la cebolla en trozos pequeños incorporar a la bandeja.",
+            "Pelar y cortar la calabaza en cuadrados medianos, incorporar a la bandeja.",
+            "Pelar y cortar el boniato en cuadrados medianos, incorporar a la bandeja.",
+            "Echar en la bandeja la bolsa de setas o si son frescas lavarlas y cortarlas en tiras.",
+            "Echar el tofu en dados.",
+            "Echar, el agua o caldo, el romero, la sal, la pimienta.",
+            "Meterlo en el horno durante 40 min a 180"
+        ],
+        "tags": []
+    },
+    {
+        "name": "Pizza vegetal",
+        "ingredients": ["tortilla", "tomate", "calabacín", "cebolla", "pimiento", "champiñón" ],
+        "steps": [
+            "Si tienes tomate tamizado o triturado para echar en la base usa ese sino tritura un tomate con un poco de sal y pimienta.",
+            "Echar el tomate por encima a la tortilla.",
+            "Después pelar el calabacín en circulo y rellanar toda la tortilla, pimiento rojo y verde en tiras,", 
+            "Por último la cebolla y el champiñón laminados.",
+            "Meter en la fryer durante (15min) o en el horno durante 20 min a 200º."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Quesadillas con aguacate",
+        "ingredients": ["ajo", "sirope", "pimiento", "calabacín", "cebolla", "alubias", "lima", "aceite",
+            "cominos", "cilantro", "tortillas", "aguacate", "tomate", "brotes" ],
+        "steps": [
+            "Para empezar, pon la lima, el aceite, los cominos, la pimienta, la sal, el ajo en trozos muy pequeños y el sirope en un cuenco y remueve.",
+            "Añade entonces el pimiento, el calabacín y la cebolla. Remueve bien y deja reposar 30 minutos, para que todos se integre perfectamente.",
+            "En una sartén grande caliente añade las verduras y saltealas durante 10 minutos removiendo.",
+            "Reserva y añade el cilantro con los alubias rojas.",
+            "En otro cuenco, aplasta la pulpa de los aguacates con un tenedor.",
+            "En una sartén con un pelín de aceite coloca 1 tortilla y déjala que se dore unos 4 minutos.",
+            "Gírala y déjala 2 minutos más.",
+            "Unta la mitad de cada tortilla con la pasta de aguacate. Sal pimenta y añade un poco de salsa de tomate.", 
+            "Añade una capa de verduras y frijoles y un puñado de brotes verdes, luego cierra la tortilla."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Purrusalda",
+        "ingredients": ["puerro", "zanahoria", "calabaza", "ajo", "cebolla", "patata", "quinoa" ],
+        "steps": [
+            "Pon en una cazuela un poco de agua o aceita, el puerro, la zanahoria, la calabaza, los ajos, y la cebolla.",
+            "Rehoga todo durante 10 min. a fuego medio.",
+            "Incorpora agua de poquito en poquito para que no se pegue.",
+            "Añada las patatas, la quinoa bien lavada y el agua y deje hervir durante 20 min.",
+            "Apagamos y dejamos reposar otros 5 min."
+        ],
+        "tags": ["sopa"]
+    },
+    {
+        "name": "Patatas en salsa verde",
+        "ingredients": ["patata", "ajo", "cebolla", "puerro", "guisantes", "caldo", "perejil",
+            "espárragos de bote", "alubias", "aceite"],
+        "steps": [
+            "Sofríe la cebolla con el puerro y los dientes de ajo en una cazuela con fondo de agua o aceite.",
+            "Añade sal.", 
+            "Cuando la verdura esté al dente (unos 5-7 minutos a fuego medio).",
+            "Añade las patatas laminadas (1cm de grosor aproximadamente) junto con los guisantes y las judías blancas lavadas, añade otra pizca de sal.",
+            "Rehoga y cubre con el caldo vegetal (justo que cubra las patatas) y cocina durante 15 minutos con tapa.",
+            "Pasados los 15 minutos, pincha las patatas para asegurarte de que están perfectas.",
+            "Añade el perejil fresco, integra, incorpora los espárragos blancos troceados."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Creps de garbanzos",
+        "ingredients": ["harina de garbanzos", "harina de avena", "leche", "huevo" ],
+        "steps": [
+            "Proporciones: I70 gr de harina de garbanzos, 70 gr de harina de avena o harina de trigo sarraceno,",
+            "150 gr de agua o leche vegetal, 1 huevo, 1 pizca de sal.",
+            "Opcional: 1 diente de ajo -1 oregano / albahaca/hierbas provenzales/cebolla en polvo, ajo en polvo, cúrcuma, pimienta.",
+            "Triturar todos los ingredientes de los creps, si queda muy espeso añadir un poco de agua.",
+            "Hacer en la sartén con una gotita de aceite.",
+            "Aproximadamente salen 8 tortitas pequeñas o 3-4 grandes."
+        ],
+        "tags": ["acompañamiento"]
+    },
+    {
+        "name": "",
+        "ingredients": ["", "" ],
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [""]
+    }
+]

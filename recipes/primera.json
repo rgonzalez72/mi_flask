@@ -116,49 +116,84 @@
         "tags": ["sopa"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Mejillones al curri",
+        "ingredients": ["mejillones", "laurel", "ajo", "cayena", "vino", "aceite", "cebolla", "harina",
+            "curi", "apio", "puerro", "perejil", "nata"  ],
         "steps": [
-            "",
-            ""
+            "Para comenzar, cocemos los mejillones.",
+            "Para ello, en un olla, ponemos un chorrito de aceite de oliva, el diente de ajo, el laurel y la cayena.", 
+            "Incorporamos los mejillones, regamos con el vino blanco y cocinamos hasta que se abran.",
+            "Colamos los mejillones, quedándonos con el líquido y sacando la carne de las conchas.",
+            "Después, picamos las cebollas y las rehogamos en un cazo con aceite de oliva durante tres minutos.",
+            "Cuando estén transparentes, incorporamos el curry y la harina y cocinamos durante 3 minutos más.",
+            "Pasado el tiempo, agregamos el caldo de los mejillones, el puerro y el apio.",
+            "Dejamos que hierva y cocinamos durante 20 minutos.",
+            "Entonces, vertemos la nata y cocinamos 5 minutos más.", 
+            "Colamos y trituramos la salsa de curry resultante con la mitad de los mejillones.  Salpimentamos.",
+            "Emplatamos la salsa de curry con mejillones y terminamos con los otros mejillones enteros.",
+            "Decoramos con perejil picado y servimos."
         ],
-        "tags": [""]
+        "tags": ["pescado"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Boniato otoñal",
+        "ingredients": ["boniato", "yogur", "granola", "granada" ],
         "steps": [
-            "",
-            ""
+            "Lava el boniato pártelo por la mitad y ásalo en la airfryer o en el horno durante 30 min a 180º.",
+            "Mezcla con el resto de ingredientes."
         ],
-        "tags": [""]
+        "tags": ["desayuno"]
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Boloñesa de lentejas y tofu con calabacín",
+        "ingredients": ["calabacín", "aceite", "ajo", "cebolla", "zanahoria", "apio", "lentejas", "tofu",
+            "tomate", "levadura nutricional", "orégano", "pimentón", "comino", "salsa de soja", "sirope" ],
         "steps": [
-            "",
-            ""
+            "Mete en el horno el calabacín cortado a lo largo a la mitad durante 15-20min a 200ª.",
+            "Desmenuza el tofu con las manos.",
+            "Incorpora en un bol el tofu desmenuzado, la levadura nutricional, el orégano, el pimentón ahumado,", 
+            "el ajo en polvo, la cebolla en polvo, el comino, el tamari y el jarabe de arce.",  
+            "Usa tus manos para mezclar los ingredientes hasta que estén completamente incorporados.",
+            "Calienta 1 cucharada de aceite de oliva o un chorro de caldo o agua, en una sartén.",
+            "Agrega la cebolla y las zanahorias y cocine por unos 3 minutos, o hasta que esté transparente.",
+            "Agrega el ajo y cocine por 1 minuto más.",
+            "Agrega la mezcla de tofu y las lentejas y cocine durante 5 a 7 minutos.",
+            "Incorpora el tomate, hasta que la mezcla se seque, revolviendo con frecuencia.",
+            "Sazona con sal y pimienta al gusto.",
+            "Rellena los calabacines con la boloñesa"
         ],
-        "tags": [""]
+        "tags": []
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Boloñesa de lentejas",
+        "ingredients": ["lentejas", "cebolla", "aceite", "ajo", "zanahoria", "apio", "vino", "orégano",
+        "tomate" ],
         "steps": [
-            "",
-            ""
+            "Cocer las lentejas, si es necesario.",
+            "Picar la verdura finita.",
+            "En una sartén sofreir el ajo y la cebolla.", 
+            "Añadir la zanahoria y el apio.",
+            "Después incorporar el vino tinto. Dejar que se evapore el alcohol.",
+            "Añadir el tomate triturado y el orégano", 
+            "Dejar que se haga la salsa, que este un poco seca."
         ],
-        "tags": [""]
+        "tags": []
     },
     {
-        "name": "",
-        "ingredients": ["", "" ],
+        "name": "Crema verde con guisantes salteados",
+        "ingredients": ["cebolla", "ajo", "apio", "calabacín", "brócoli", "judías verdes", "guisantes",
+            "albahaca", "anacardos" ],
         "steps": [
-            "",
-            ""
+            "Rehogar la cebolla y los ajos con el aceite de oliva o agua en una cazuela.",
+            "Añadir el resto de verduras troceadas (reservar la albahaca) y la sal.",
+            "Añadir agua hasta cubrir. Llevar a ebullición.",
+            "Tapar y dejar hervir a fuego medio bajo durante 20 minutos.",
+            "Pasar las verduras y parte del líquido a una batidora.",
+            "Añadir los anacardos y las hojas de albahaca y batir hasta que esté cremoso.",
+            "Rehogar los guisantes y echar por encima.",
+            "Ajusta la sal y servir."
         ],
-        "tags": [""]
+        "tags": ["sopa"]
     },
     {
         "name": "",
