@@ -22,7 +22,7 @@
             "pan": {},
             "ajo": {},
             "cebolla": {},
-            "pimiento verde": {},
+            "pimiento": {"type": "verde"},
             "pepino": {},
             "tomate": {},
             "aceite": {}
@@ -160,7 +160,7 @@
     {
         "name": "Ensalada de zanahorias",
         "ingredients": {
-            "zanahorias": {},
+            "zanahoria": {},
             "salsa de soja": {},
             "limón": {},
             "mostaza": {},
@@ -209,7 +209,7 @@
             "aceite": {},
             "cebolla": {},
             "harina": {},
-            "curi": {},
+            "curri": {},
             "apio": {},
             "puerro": {},
             "perejil": {},
@@ -264,7 +264,7 @@
             "levadura nutricional": {},
             "orégano": {},
             "pimentón": {},
-            "comino": {},
+            "cominos": {},
             "salsa de soja": {},
             "sirope": {}
         },
@@ -272,7 +272,7 @@
             "Mete en el horno el calabacín cortado a lo largo a la mitad durante 15-20min a 200ª.",
             "Desmenuza el tofu con las manos.",
             "Incorpora en un bol el tofu desmenuzado, la levadura nutricional, el orégano, el pimentón ahumado,",
-            "el ajo en polvo, la cebolla en polvo, el comino, el tamari y el jarabe de arce.",
+            "el ajo en polvo, la cebolla en polvo, los cominos, el tamari y el jarabe de arce.",
             "Usa tus manos para mezclar los ingredientes hasta que estén completamente incorporados.",
             "Calienta 1 cucharada de aceite de oliva o un chorro de caldo o agua, en una sartén.",
             "Agrega la cebolla y las zanahorias y cocine por unos 3 minutos, o hasta que esté transparente.",

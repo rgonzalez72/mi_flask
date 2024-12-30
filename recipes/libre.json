@@ -410,7 +410,7 @@
             "tomate": {},
             "cebolla": {},
             "ajo": {},
-            "zumo de naranja": {},
+            "naranja": {"prep": "zumo"},
             "cilantro": {},
             "yogur": {},
             "tahini": {},

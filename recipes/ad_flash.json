@@ -30,7 +30,7 @@
             "brócoli": {},
             "anacardos": {},
             "levadura nutricional": {},
-            "salsa soja": {},
+            "salsa de soja": {},
             "gomasio": {}
         },
         "steps": [
@@ -168,7 +168,7 @@
             "tomate": {},
             "rúcula": {},
             "tahini": {},
-            "salsa soja": {},
+            "salsa de soja": {},
             "vinagre": {},
             "levadura nutricional": {},
             "sirope": {}
@@ -698,7 +698,7 @@
             "mostaza": {},
             "sirope": {},
             "vinagre": {},
-            "salsa soja": {}
+            "salsa de soja": {}
         },
         "steps": [
             "Cortar todos los ingredientes de la ensalada en juliana gorda.",
@@ -898,7 +898,7 @@
             "calabacín": {},
             "espinacas": {},
             "brócoli": {},
-            "harina de garbanzos": {},
+            "garbanzos": {"type": "harina"},
             "cúrcuma": {},
             "levadura nutricional": {}
         },
@@ -971,7 +971,7 @@
             "zanahoria": {},
             "apio": {},
             "patata": {},
-            "tomate seco": {},
+            "tomates secos": {},
             "champiñón": {},
             "ajo": {},
             "perejil": {},
@@ -1082,7 +1082,7 @@
     {
         "name": "Calabaza rellena con garbanzos al curri rojo",
         "ingredients": {
-            "curri rojo": {},
+            "curri": {"type": "rojo"},
             "calabaza": {},
             "cominos": {},
             "cilantro": {},

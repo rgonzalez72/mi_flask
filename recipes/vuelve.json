@@ -31,7 +31,7 @@
             "zanahoria": {},
             "apio": {},
             "calabaza": {},
-            "tomate seco": {},
+            "tomates secos": {},
             "tomate": {},
             "laurel": {},
             "garbanzos": {}
@@ -252,13 +252,13 @@
     {
         "name": "Creps de garbanzos",
         "ingredients": {
-            "harina de garbanzos": {},
-            "harina de avena": {},
-            "leche": {},
-            "huevo": {}
+            "garbanzos": {"quantity": "170 gramos", "type": "harina"},
+            "avena": {"quantity": "70 gramos", "type": "harina"},
+            "leche": {"quantity": "150 gramos", "type": "vegetal"},
+            "huevo": {"quantity": "1 unidad"}
         },
         "steps": [
-            "Proporciones: I70 gr de harina de garbanzos, 70 gr de harina de avena o harina de trigo sarraceno,",
+            "Proporciones: 170 gr de harina de garbanzos, 70 gr de harina de avena o harina de trigo sarraceno,",
             "150 gr de agua o leche vegetal, 1 huevo, 1 pizca de sal.",
             "Opcional: 1 diente de ajo -1 orégano / albahaca/hierbas provenzales/cebolla en polvo, ajo en polvo, cúrcuma, pimienta.",
             "Triturar todos los ingredientes de los creps, si queda muy espeso añadir un poco de agua.",
@@ -279,7 +279,7 @@
             "pimentón": {},
             "tomate": {},
             "caldo": {},
-            "comino": {},
+            "cominos": {},
             "laurel": {}
         },
         "steps": [
@@ -334,7 +334,7 @@
             "cebollino": {},
             "cúrcuma": {},
             "cilantro": {},
-            "comino": {},
+            "cominos": {},
             "jengibre": {},
             "pimentón": {},
             "tomillo": {},
@@ -390,7 +390,7 @@
             "naranja": {"quantity": "media unidad"},
             "bicarbonato": {"quantity": "media cucharadita"},
             "canela": {"quantity": "1 cucharadita"},
-            "yogurt": {}
+            "yogur": {}
         },
         "steps": [
             "Precalienta el horno a 170 ºC.",
