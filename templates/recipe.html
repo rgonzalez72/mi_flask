@@ -17,7 +17,14 @@ Esta receta no está en tu lista. <a href="/add/{{ recipe["hash_value"] }}">Aña
 <h3>Ingredientes</h3>
 <UL>
 {% for ing in recipe["ingredients"] %}
-    <li>{{ ing }}</li>
+    <li>{{ ing }}.
+    {% if "quantity" in recipe["ingredients"][ing] %}
+          {{ recipe["ingredients"][ing]["quantity"] }}.
+    {% endif %}
+    {% if "type" in recipe["ingredients"][ing] %}
+        Tipo: {{ recipe["ingredients"][ing]["type"] }}.
+    {% endif %}
+    </li>
 {% endfor %}
 </UL>
 

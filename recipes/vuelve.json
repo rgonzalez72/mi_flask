@@ -381,14 +381,15 @@
     {
         "name": "Tarta de manzana y zanahoria",
         "ingredients": {
-            "manzana": {},
-            "zanahoria": {},
-            "plátano": {},
-            "avena": {},
-            "pasas": {},
-            "bicarbonato": {},
-            "canela": {},
-            "limón": {},
+            "manzana": {"quantity": "2 piezas"},
+            "boniato": {"quantity": "1 pieza pequeña"},
+            "zanahoria": {"quantity": "1 pieza"},
+            "plátano": {"quantity": "1 pieza"},
+            "avena": {"quantity": "2 tazas"},
+            "pasas": {"quantity": "2 cucharadas"},
+            "naranja": {"quantity": "media unidad"},
+            "bicarbonato": {"quantity": "media cucharadita"},
+            "canela": {"quantity": "1 cucharadita"},
             "yogurt": {}
         },
         "steps": [
@@ -490,17 +491,17 @@
     {
         "name": "Banana Bread",
         "ingredients": {
-            "plátano": {},
-            "aciete": {},
-            "huevos": {},
-            "dátil": {},
-            "nueces": {},
-            "arandanos": {},
-            "chocolate": {},
-            "avena": {},
-            "cacao": {},
-            "canela": {},
-            "levadura": {}
+            "plátano": {"quantity": "4 unidades + 1 para decorar"},
+            "aceite": {"quantity": "120 ml", "type": "oliva"},
+            "huevos": {"quantity": "2 unidades"},
+            "dátil": {"quantity": "150 gramos"},
+            "nueces": {"quantity": "50 gramos"},
+            "arándanos": {"quantity": "50 gramos"},
+            "chocolate": {"quantity": "50 gramos de pepitas", "type": "negro"},
+            "avena": {"quantity": "250 gramos", "type": "harina"},
+            "cacao": {"quantity": "1 cucharada"},
+            "canela": {"quantity": "1 cucharadita"},
+            "levadura": {"quantity": "1 cucharada"}
         },
         "steps": [
             "Proporciones: 4 plátanos, 120ml de aceite de oliva, 2 huevos, 150 g de dátiles, 100 ml de agua,",
