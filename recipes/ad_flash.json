@@ -119,14 +119,13 @@
         "name": "Verduras al vapor con arroz integral y lechuga",
         "ingredients": {
             "Arroz": {},
-            "Verduras": {},
             "tahini": {},
             "vinagre": {},
             "naranja": {},
             "levadura nutricional": {},
             "dátil": {},
             "ajo": {},
-            "verdura": {}
+            "menestra": {}
         },
         "steps": [
             "Saltea en agua (o caldo vegetal) las verduras que tengas en casa o hazlas al vapor",
@@ -534,7 +533,7 @@
     {
         "name": "Menestra de verduras con tomates cherry y maíz dulce",
         "ingredients": {
-            "menestra congelada": {},
+            "menestra": {"type": "congelada"},
             "tomate": {},
             "maíz": {},
             "levadura nutricional": {}

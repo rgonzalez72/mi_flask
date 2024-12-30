@@ -272,15 +272,15 @@
     {
         "name": "Garbanzos con setas",
         "ingredients": {
-            "garbanzos": {},
-            "cebolla": {},
-            "ajo": {},
-            "setas": {},
-            "pimentón": {},
-            "tomate": {},
-            "caldo": {},
-            "cominos": {},
-            "laurel": {}
+            "garbanzos": {"quantity": "1 bote pequeño", "prep": "cocidos"},
+            "cebolla": {"quantity": "1 unidad", "prep": "En trozos (3-4 cm)"},
+            "ajo": {"quantity": "1 diente"},
+            "setas": {"quantity": "300 gramos", "prep": "En tiras"},
+            "pimentón": {"quantity": "1 cucharadita"},
+            "tomate": {"quantity": "50 gramos", "prep": "Triturado"},
+            "caldo": {"type": "Verduras"},
+            "cominos": {"quantity": "media cucharadita"},
+            "laurel": {"quantity": "1 hoja"}
         },
         "steps": [
             "Echamos en la cazuela los dientes de ajo junto a la cebolla troceados en daditos.",
@@ -294,17 +294,17 @@
         "tags": []
     },
     {
-        "name": "crema de calabaza con toque de especias",
+        "name": "Crema de calabaza con toque de especias",
         "ingredients": {
-            "calabaza": {},
-            "zanahoria": {},
-            "cebolla": {},
-            "ajo": {},
-            "curri": {},
+            "calabaza": {"quantity": "1 mediana", "type": "cacahuete"},
+            "zanahoria": {"quantity": "2 unidades"},
+            "cebolla": {"quantity": "1 grande"},
+            "ajo": {"quantity": "2 dientes"},
+            "curri": {"quantity": "media cucharadita"},
             "canela": {},
             "caldo": {},
             "salsa de soja": {},
-            "setas": {}
+            "setas": {"quantity": "una bolsa", "type": "congeladas"}
         },
         "steps": [
             "En una cazuela rehoga con un poco de caldo o agua la cebolla troceada y el ajo 4 minutos.",
@@ -323,19 +323,19 @@
     {
         "name": "Sopa de 3 legumbres",
         "ingredients": {
-            "cebolla": {},
-            "ajo": {},
-            "lentejas": {},
-            "caldo": {},
-            "alubias": {},
-            "garbanzos": {},
-            "espinacas": {},
-            "perejil": {},
-            "cebollino": {},
-            "cúrcuma": {},
-            "cilantro": {},
+            "cebolla": {"quantity": "1 unidad", "prep": "picada"},
+            "ajo": {"quantity": "4 dientes", "prep": "laminados"},
+            "lentejas": {"quantity": "media taza", "type": "marrones secas"},
+            "caldo": {"quantity": "1 litro"},
+            "alubias": {"quantity": "1 bote pequeño", "type": "rojas y blancas cocidas"},
+            "garbanzos": {"quantity":"1 bote pequeño", "type": "cocidos"},
+            "espinacas": {"quantity":"1 manojo", "prep": "troceadas" },
+            "perejil": {"prep": "picado"},
+            "cebollino": {"prep": "picado"},
+            "cúrcuma": {"quantity": "1 cucharada"},
+            "cilantro": {"quantity": "1 cucharadita", "type": "en polvo"},
             "cominos": {},
-            "jengibre": {},
+            "jengibre": {"type": "en polvo"},
             "pimentón": {},
             "tomillo": {},
             "orégano": {}
@@ -356,15 +356,15 @@
     {
         "name": "Curry de verduras con quinoa",
         "ingredients": {
-            "verduras": {},
-            "ajo": {},
-            "jengibre": {},
+            "menestra congelada": {"quantity": "1 bolsa"},
+            "ajo": {"quantity": "1 diente", "prep": "picado"},
+            "jengibre": {"type": "en polvo"},
             "cominos": {},
             "canela": {},
             "curri": {},
-            "leche de coco": {},
-            "cilantro": {},
-            "quinoa": {}
+            "leche de coco": {"quantity": "1 lata (400 ml)"},
+            "cilantro": {"type": "fresco"},
+            "quinoa": {"quantity": "media taza", "prep": "cocida"}
         },
         "steps": [
             "Lavar muy bien la quinoa.",
