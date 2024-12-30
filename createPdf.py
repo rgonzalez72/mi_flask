@@ -49,7 +49,14 @@ class PDF(FPDF):
 
         self.set_font('Times', '', 12)
         for i in  ingredients:
-            self.cell (0, 5, i)
+            ing_str = i + "."
+            if "quantity" in ingredients[i]:
+                ing_str += " " + ingredients[i]["quantity"] + "."
+            if "type" in ingredients[i]:
+                ing_str += " Tipo: " + ingredients[i]["type"] + "."
+            if "prep" in ingredients[i]:
+                ing_str += " Preparación: " + ingredients[i]["prep"] + "."
+            self.cell (0, 5, ing_str)
             self.ln()
         self.ln(2)
 

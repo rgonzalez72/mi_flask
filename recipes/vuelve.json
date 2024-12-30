@@ -432,14 +432,14 @@
     {
         "name": "Coliarroz marroquí",
         "ingredients": {
-            "coliflor": {},
-            "pimiento": {},
-            "zanahoria": {},
-            "calabacín": {},
-            "jengibre": {},
+            "coliflor": {"quantity": "1 pequeña o media", "prep": "lavada"},
+            "pimiento": {"quantity": "2 unidades", "type": "rojo y verde"},
+            "zanahoria": {"quantity": "1 unidad"},
+            "calabacín": {"quantity": "1 unidad pequeña"},
+            "jengibre": {"type": "en polvo"},
             "nuez moscada": {},
-            "dátil": {},
-            "anacardos": {}
+            "dátil": {"quantity": "2 unidades"},
+            "anacardos": {"quantity": "1 puñado"}
         },
         "steps": [
             "Ralla los arbolitos de la coliflor.",

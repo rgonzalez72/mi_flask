@@ -1,6 +1,5 @@
 from flask import Flask, request, session, redirect, make_response, send_file, render_template
 from flask_session import Session
-from fpdf import FPDF
 import json
 import sys
 import os
