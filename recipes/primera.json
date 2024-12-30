@@ -336,14 +336,28 @@
         ]
     },
     {
-        "name": "",
-        "ingredients": {},
+        "name": "Pasta con berenjena",
+        "ingredients": {
+            "pasta": {},
+            "berenjena": {"prep": "En daditos"},
+            "ajo": {},
+            "cebolla": {},
+            "tomate": {"prep": "Pelado"},
+            "laurel": {},
+            "aceite": {},
+            "orégano": {}
+        },
         "steps": [
-            "",
-            ""
+            "Cuece la pasta.",
+            "Para la salsa calienta un sartén con aceite.",
+            "Echa el ajo y cuando empieze a dorarse pon la cebolla.",
+            "Cuando se empieze a poner transparente echa la berenjena en daditos.",
+            "Sigue pochando un rato y pon el tomate pelado (puede ser de lata).",
+            "Añadir orégano y laurel.",
+            "Cuando el tomate este hecho, mezclar con la pasta."
         ],
         "tags": [
-            ""
+            "pasta"
         ]
     },
     {
