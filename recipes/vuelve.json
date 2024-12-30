@@ -159,12 +159,177 @@
         "steps": [
             "Proporciones: I70 gr de harina de garbanzos, 70 gr de harina de avena o harina de trigo sarraceno,",
             "150 gr de agua o leche vegetal, 1 huevo, 1 pizca de sal.",
-            "Opcional: 1 diente de ajo -1 oregano / albahaca/hierbas provenzales/cebolla en polvo, ajo en polvo, cúrcuma, pimienta.",
+            "Opcional: 1 diente de ajo -1 orégano / albahaca/hierbas provenzales/cebolla en polvo, ajo en polvo, cúrcuma, pimienta.",
             "Triturar todos los ingredientes de los creps, si queda muy espeso añadir un poco de agua.",
             "Hacer en la sartén con una gotita de aceite.",
             "Aproximadamente salen 8 tortitas pequeñas o 3-4 grandes."
         ],
         "tags": ["acompañamiento"]
+    },
+    {
+        "name": "Garbanzos con setas",
+        "ingredients": ["garbanzos", "cebolla", "ajo", "setas", "pimentón", "tomate", "caldo", "comino", "laurel" ],
+        "steps": [
+            "Echamos en la cazuela los dientes de ajo junto a la cebolla troceados en daditos.",
+            "Añadimos un poco de agua y sofreímos unos 10 min hasta que veamos que se empiezan a dorar.",
+            "Añadimos la salsa de tomate, el pimentón dulce, el comino molido, la sal y la pimienta negra y mezclamos.",
+            "Vertemos las setas troceadas, el laurel y rehogamos unos 5 min.",
+            "Añadimos el caldo y los garbanzos ya cocidos.",
+            "Cocinamos 20 minutos, a fuego medio.",
+            "Probamos para rectificar de especias y ya está listo para servir."
+        ],
+        "tags": []
+    },
+    {
+        "name": "crema de calabaza con toque de especias",
+        "ingredients": ["calabaza", "zanahoria", "cebolla", "ajo", "curri", "canela", "caldo", "salsa de soja", 
+            "setas"],
+        "steps": [
+            "En una cazuela rehoga con un poco de caldo o agua la cebolla troceada y el ajo 4 minutos.",
+            "Añade el resto de las verduras (menos las setas) troceadas, las especias y la sal, remueve.",
+            "Añade el caldo o agua hasta casi cubrir.",
+            "Tapa, lleva a ebullición y baja el fuego.",
+            "Deja cocer 20 minutos.",
+            "Añade la salsa de soja y bate.",
+            "Rehoga en una sartén las setas.",
+            "En un plato pon la crema y por encima las setas salteadas."
+        ],
+        "tags": ["sopa"]
+    },
+    {
+        "name": "Sopa de 3 legumbres",
+        "ingredients": ["cebolla", "ajo", "lentejas", "caldo", "alubias", "garbanzos", "espinacas", "perejil",
+            "cebollino", "cúrcuma", "cilantro", "comino", "jengibre", "pimentón", "tomillo", "orégano"],
+        "steps": [
+            "Calentar 1⁄4 taza de agua en una olla grande a fuego medio (o un poco de aceite de oliva).",
+            "Añadir la cebolla y el ajo y cocinar unos 5 minutos.",
+            "Añadir la cúrcuma, el cilantro, el comino y las lentejas junto con el caldo de verduras y llevar a ebullición.", 
+            "Bajar el fuego al mínimo y añadir el resto de legumbres.",
+            "Tapar y cocinar hasta que las lentejas estén cocinadas, en unos 30 minutos.",
+            "Añadir las espinacas, el perejil, el cebollino, la menta, la pimienta y la mezcla de especias y cocinar otros 10 minutos.", 
+            "Servir caliente."
+        ],
+        "tags": ["sopa"]
+    },
+    {
+        "name": "Curry de verduras con quinoa",
+        "ingredients": ["verduras", "ajo", "jengibre", "cominos", "canela", "curri", "leche de coco",
+            "cilantro", "quinoa" ],
+        "steps": [
+            "Lavar muy bien la quinoa.",
+            "Poner en una sartén los 2 ajos en láminas junto con el aceite para que se doren un poco.",
+            "Echar la quinoa en la sartén y rehogar.",
+            "Echar el agua y la sal.",
+            "Poner a fuego alto hasta que empiece a hervir.",
+            "Tapar y bajarlo a fuego medio durante 15 min.",
+            "Pasados esos 15 min. apagar y retirar del fuego dejando reposar otros 15 min con la sartén tapada.",
+            "Poner en un plato 4 cucharadas de quinoa y el resto de verduras al curry."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Tarta de manzana y zanahoria",
+        "ingredients": ["manzana", "zanahoria", "plátano", "avena", "pasas", "bicarbonato", "canela", "limón",
+            "yogurt"],
+        "steps": [
+            "Precalienta el horno a 170 ºC.",
+            "Pon todos los ingredientes en la batidor excepto el yogur.",
+            "Mezcla bien hasta crear una masa húmeda y homogénea.",
+            "Pon la masa en un molde de silicona o en un molde con papel de horno",
+            "(no hace falta poner ningún tipo de grasa ni harina en el molde) y",
+            "alisa la superficie con una espátula.",
+            "Hornea durante 50 minutos.",
+            "Deja enfriar la tarta por completo antes de desmoldarla.",
+            "Sirve con un poco de yogur de coco por encima."
+        ],
+        "tags": ["desayuno"]
+    },
+    {
+        "name": "Repollo al horno con salsa de tahini",
+        "ingredients": ["repollo", "granada", "aceite", "ajo", "yogur", "tahini", "limón", "cilantro" ],
+        "steps": [
+            "Precalienta el horno a 180º.",
+            "Corta en rodajas anchas el repollo y ponlas en la bandeja de horno encima de un papel.",
+            "En una mano échate el aceite, un poco de ajo en polvo y sal, unta las rodajas del repollo con la mezcla.",
+            "Mete en el horno durante 40 minutos.",
+            "Mientras prepara la salsa, mezcla 1 yogur, dos cucharadas de tahini, zumo de limón y cilantro fresco.",
+            "En un plato pon el repollo, por encima la salsa y los granos de media granada."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Coliarroz marroquí",
+        "ingredients": ["coliflor", "pimiento", "zanahoria", "calabacín", "jengibre", "nuez moscada",
+            "dátil", "anacardos" ],
+        "steps": [
+            "Ralla los arbolitos de la coliflor.",
+            "Trocear todas las verduras a cuadraditos pequeños.",
+            "Calentar una sartén al fuego.",
+            "Añadir una cucharada de aceite o agua y todas las verduras troceadas excepto la coliflor.",
+            "Saltear durante 6 o 7 minutos.",
+            "Reservar.",
+            "Volcar el cous cous de coliflor en la sartén y rehogar unos 10 minutos hasta que esté cocida.",
+            "Añadir las especias morunas (canela, clavo, cardamomo, cominos, jengibre, etc).",
+            "Añadir sal.",
+            "Cuando la coliflor esté lista agregamos las verduras ya rehogadas.",
+            "Removemos bien.",
+            "Añadimos los frutos secos y las pasas. Removemos bien y servimos."
+        ],
+        "tags": []
+    },
+    {
+        "name": "Batido verde",
+        "ingredients": ["piña", "espinacas", "pepino", "lima", "menta" ],
+        "steps": [
+            "Triturar todo con una batidora potente."
+        ],
+        "tags": ["licuado"]
+    },
+    {
+        "name": "Puré de patatas",
+        "ingredients": ["patata", "nuez moscada", "leche" ],
+        "steps": [
+            "Cuece las patata.",
+            "Haz el puré e incorpora leche, nuez moscada, sal y pimienta."
+        ],
+        "tags": ["acompañamiento"]
+    },
+    {
+        "name": "Banana Bread",
+        "ingredients": ["plátano", "aciete", "huevos", "dátil", "nueces", "arandanos", "chocolate", "avena",
+            "cacao", "canela", "levadura" ],
+        "steps": [
+            "Proporciones: 4 plátanos, 120ml de aceite de oliva, 2 huevos, 150 g de dátiles, 100 ml de agua,",
+            "50 g de nueces, 50 g de arándanos, 50 g de pepitas de chocolate negro,",
+            "250 g de harina integral de avena, 1 cucharadita sopera de cacao puro, 1 cucharadita sopera de canela,",
+            "1 cucharadita sopera de levadura.",
+            "Para la pasta de dátiles, en un cazo echamos los dátiles y el agua. Llevamos a ebullición, retiramos del fuego y trituramos el conjunto.",
+            "Precalentamos el horno a 180ºC.",
+            "En un bol mezclamos los 4 plátanos machacados, la pasta de dátiles, el aceite de oliva y los dos huevos.", 
+            "Cuando esté todo bien integrado, añadimos las nueces, los arándanos y las pepitas de chocolate negro.",
+            "Mezclamos bien e incorporamos la harina de avena, el cacao puro, la canela y la levadura.",
+            "Echamos la mezcla en un molde bien engrasado y decoramos con un plátano cortado en dos mitades.",
+            "Horneamos a 180ºC durante 45 minutos.",
+            "Cuando salga del horno lo pinchamos con un palillo y, si sale limpio, está listo.",
+            "Si no tienes arándanos puedes echar otra fruta o, incluso, no echar nada."
+        ],
+        "tags": ["desayuno"]
+    },
+    {
+        "name": "Tarta zanahoria y manzana",
+        "ingredients": ["manzana", "boniato", "zanahoria", "plátano", "avena", "pasas", "naranja", "levadura", "canela"],
+        "steps": [
+            "Proporciones: 2 manzanas, 1 boniato pequeño, 1 zanahoria, 1 plátano, 2 tazas de copos de avena,", 
+            "2 cucharada de pasas, 1/2 cucharadita de Bicarbonato, 1 cucharadita de canela.",
+            "Precalienta el horno a 170 ºC.",
+            "Pon todos los ingredientes en el procesador de alimentos.",
+            "Mezcla bien hasta crear una masa húmeda y homogénea.",
+            "Pon la masa en un molde de silicona o en un molde con papel de horno.",
+            "Alisa la superficie con una espátula.",
+            "Hornea durante 50 minutos.",
+            "Deja enfriar la tarta por completo antes de desmoldarla." 
+        ],
+        "tags": ["desayuno"]
     },
     {
         "name": "",
