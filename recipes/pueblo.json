@@ -1,7 +1,11 @@
 [
     {
         "name": "Migas",
-        "ingredients": ["pan", "ajo", "aceite" ],
+        "ingredients": {
+            "pan": {},
+            "ajo": {},
+            "aceite": {}
+        },
         "steps": [
             "Cortar el pan fino la noche anterior.",
             "Poner en remojo toda la noche, para que hidrate el pan (poca agua).",
@@ -9,6 +13,8 @@
             "Añadir el pan y mover hasta que las migas esten doradas y sueltas.",
             "Se puede freír por separado panceta, chorizo, pimientos, ..."
         ],
-        "tags": ["pueblo"]
+        "tags": [
+            "pueblo"
+        ]
     }
 ]

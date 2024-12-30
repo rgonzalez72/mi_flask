@@ -1,22 +1,38 @@
 [
     {
         "name": "Crepes de trigo sarraceno relleno de compota de manzana y plátano",
-        "ingredients": ["trigo sarraceno", "dátil", "leche", "canela", "aceite", "manzana", "plátano" ],
+        "ingredients": {
+            "trigo sarraceno": {},
+            "dátil": {},
+            "leche": {},
+            "canela": {},
+            "aceite": {},
+            "manzana": {},
+            "plátano": {}
+        },
         "steps": [
             "Poner los dátiles en agua una hora",
             "Se ponen en un recipiente con media taza de trigo sarraceno, un tercio de taza de leche, canela y sal",
             "Triturar hasta que quede homogéneo.",
-            "Calentar una sartén y engrasar con aceite.", 
+            "Calentar una sartén y engrasar con aceite.",
             "Extender una cucharra de masa y que cubra todo el fondo.",
             "Tras unos segundos dar la vuelta.",
             "Rellenar con compota de manzana y rodajas de plátano"
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Trufas de cacao",
-        "ingredients": ["calabacín", "tortitas de arroz inflado", "dátil", "cacao", "proteína de cacahuete",
-            "vainilla" ],
+        "ingredients": {
+            "calabacín": {},
+            "tortitas de arroz inflado": {},
+            "dátil": {},
+            "cacao": {},
+            "proteína de cacahuete": {},
+            "vainilla": {}
+        },
         "steps": [
             "Ralla un calabacín pequeño.",
             "Poner en el procesador junto con 5 tortitas de arroz, 6 dátiles, 2 cucharadas de cacao,",
@@ -24,23 +40,42 @@
             "Procesar hasta que haya hecho una masa.",
             "Forma bolitas y reserva en la nevera."
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Bolitas de tarta de zanahoria",
-        "ingredients": ["tortitas de arroz inflado", "zanahoria", "dátil", "vainilla", "canela", 
-            "proteína de cacahuete"],
+        "ingredients": {
+            "tortitas de arroz inflado": {},
+            "zanahoria": {},
+            "dátil": {},
+            "vainilla": {},
+            "canela": {},
+            "proteína de cacahuete": {}
+        },
         "steps": [
             "Rallar la zanahoria.",
             "Merclar con el resto de ingredientes y procesar.",
             "Hacer bolitas con la masa o servir en un cuenco con yogur de coco."
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Bolitas energéticas",
-        "ingredients": ["avena", "nueces", "dátil", "zanahoria", "naranja", "cúrcuma", "sirope", "canela",
-            "coco" ],
+        "ingredients": {
+            "avena": {},
+            "nueces": {},
+            "dátil": {},
+            "zanahoria": {},
+            "naranja": {},
+            "cúrcuma": {},
+            "sirope": {},
+            "canela": {},
+            "coco": {}
+        },
         "steps": [
             "Proporciones: 1 taza de copos de avena, media taza de nueces, 12 dátiles, 2 zanahorias ralladas, ",
             "ralladura de una naranja, una cucharadita de cúrcuma, 1 cucharada de sirope,",
@@ -50,95 +85,192 @@
             "Batir hasta que quede una masa.",
             "Formar una bola y rebozar con coco rallado"
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Ensalada de lentejas y mango",
-        "ingredients": ["lentejas", "mango", "remolacha", "cebolla", "pepino", "canónigos", "tahini",
-            "mostaza", "sirope", "limón", "aceite"],
+        "ingredients": {
+            "lentejas": {},
+            "mango": {},
+            "remolacha": {},
+            "cebolla": {},
+            "pepino": {},
+            "canónigos": {},
+            "tahini": {},
+            "mostaza": {},
+            "sirope": {},
+            "limón": {},
+            "aceite": {}
+        },
         "steps": [
             "Hacer el aliño: 2 cucharadas de tahini, 1 cucharadita de mostaza dulce,",
             "sirope de agave o miel, 2 cucharada de zumo limón, sal y aceite, remover.",
             "Mezclar con el resto de ingredientes."
         ],
-        "tags": ["ensalada"]
+        "tags": [
+            "ensalada"
+        ]
     },
     {
         "name": "Ensalada quinoa o bulgur con melocotón",
-        "ingredients": ["quinoa", "melocotón", "tomate", "cebolla", "aguacate", "rúcula",
-            "nectarina", "limón", "cilantro", "aceite"],
+        "ingredients": {
+            "quinoa": {},
+            "melocotón": {},
+            "tomate": {},
+            "cebolla": {},
+            "aguacate": {},
+            "rúcula": {},
+            "nectarina": {},
+            "limón": {},
+            "cilantro": {},
+            "aceite": {}
+        },
         "steps": [
             "Cocer la quinoa",
             "Poner en la batidora media nectarina, limón, cilantro, sal y aceite para el aliño.",
-            "Mezclar todos los ingredientes." 
+            "Mezclar todos los ingredientes."
         ],
-        "tags": ["ensalada"]
+        "tags": [
+            "ensalada"
+        ]
     },
     {
         "name": "Ensalada de sandía con tofu de albahaca",
-        "ingredients": ["sandía", "tofu", "cebolla", "tomate", "pepino", "espinacas", "limón", "cilantro",
-            "albahaca", "aceite"],
+        "ingredients": {
+            "sandía": {},
+            "tofu": {},
+            "cebolla": {},
+            "tomate": {},
+            "pepino": {},
+            "espinacas": {},
+            "limón": {},
+            "cilantro": {},
+            "albahaca": {},
+            "aceite": {}
+        },
         "steps": [
             "Cocinar el tofu, poner a calentar una sartén a fuego alto con un cucharadita de aceite de oliva.",
             "Cortar el tofu en cuadraditos e incorporar a la sartén para que se dore.",
             "Bajar a fuego medio/bajo e ir moviendo de vez en cuando para que se quede crujiente por todos los lados.",
             "Hacer el aliño con zumo de limón, hojas de cilantro y albahaca, sal y aceite"
         ],
-        "tags": ["ensalada"]
+        "tags": [
+            "ensalada"
+        ]
     },
     {
         "name": "Ensalada de pasta de lenteja roja",
-        "ingredients": ["pasta", "tomate", "pepino", "huevo", "pimiento", "cebolla", "aceite", "vinagre"],
+        "ingredients": {
+            "pasta": {},
+            "tomate": {},
+            "pepino": {},
+            "huevo": {},
+            "pimiento": {},
+            "cebolla": {},
+            "aceite": {},
+            "vinagre": {}
+        },
         "steps": [
             "Cocer la pasta.",
             "Cocer el huevo.",
             "Asar los pimientos rojos",
             "Hacer una vinagreta con pimiento, cebolla en daditos, aceite, sal y vinagre."
         ],
-        "tags": ["ensalada", "pasta"]
+        "tags": [
+            "ensalada",
+            "pasta"
+        ]
     },
     {
         "name": "Ensalada de verano",
-        "ingredients": ["patata", "zanahoria", "tomate", "pepino", "pimiento", "huevo", "cebolla", "aceite",
-            "vinagre" ],
+        "ingredients": {
+            "patata": {},
+            "zanahoria": {},
+            "tomate": {},
+            "pepino": {},
+            "pimiento": {},
+            "huevo": {},
+            "cebolla": {},
+            "aceite": {},
+            "vinagre": {}
+        },
         "steps": [
             "Cocer la patata y la zanahoria.",
             "Cocer el huevo.",
             "Asar el pimiento rojo",
             "Aliñar con aceite, vinagre y sal"
         ],
-        "tags": ["ensalada"]
+        "tags": [
+            "ensalada"
+        ]
     },
     {
         "name": "Crema de espárragos blancos",
-        "ingredients": ["espárragos de bote", "pepino", "pimiento", "cebolla", "calabacín", "aceite",
-            "vinagre" ],
+        "ingredients": {
+            "espárragos de bote": {},
+            "pepino": {},
+            "pimiento": {},
+            "cebolla": {},
+            "calabacín": {},
+            "aceite": {},
+            "vinagre": {}
+        },
         "steps": [
             "Poner todos los ingredientes en el procesador y triturar durante 1 minuto a velocidad máxima."
         ],
-        "tags": ["sopa", "frío"]
+        "tags": [
+            "sopa",
+            "frío"
+        ]
     },
     {
         "name": "Gazpacho de remolacha",
-        "ingredients": ["tomate", "pepino", "pimiento", "remolacha", "aceite", "cebolla", "ajo", "comino",
-            "vinagre" ],
+        "ingredients": {
+            "tomate": {},
+            "pepino": {},
+            "pimiento": {},
+            "remolacha": {},
+            "aceite": {},
+            "cebolla": {},
+            "ajo": {},
+            "comino": {},
+            "vinagre": {}
+        },
         "steps": [
             "Poner todos los ingredientes en el procesador y triturar durante 2 minutos a velocidad máxima."
         ],
-        "tags": ["sopa", "frío"]
+        "tags": [
+            "sopa",
+            "frío"
+        ]
     },
     {
         "name": "Crema de pepino",
-        "ingredients": ["pepino", "melón", "cebolla", "yogur", "limón" ],
+        "ingredients": {
+            "pepino": {},
+            "melón": {},
+            "cebolla": {},
+            "yogur": {},
+            "limón": {}
+        },
         "steps": [
             "Poner todos los ingredientes en el procesador y triturar durante 1 minuto a velocidad máxima hasta tener la textura deseada.",
             "Servir muy fría."
         ],
-        "tags": ["sopa", "frío"]
+        "tags": [
+            "sopa",
+            "frío"
+        ]
     },
     {
         "name": "Quinoa",
-        "ingredients": ["quinoa", "aceite", "ajo" ],
+        "ingredients": {
+            "quinoa": {},
+            "aceite": {},
+            "ajo": {}
+        },
         "steps": [
             "Lavar muy bien la quinoa.",
             "Poner en una sartén los 2 ajos en láminas junto con el aceite para que se doren un poco.",
@@ -148,12 +280,25 @@
             "Tapar y bajarlo a fuego medio durante 15 min.",
             "Pasados esos 15 min apagar y retirar del fuego dejando reposar otros 15 min con la sartén tapada."
         ],
-        "tags": ["acompañamiento"]
+        "tags": [
+            "acompañamiento"
+        ]
     },
     {
         "name": "Verduras a la mexicana con tofu o pollo",
-        "ingredients": ["tofu", "pollo", "pimiento", "calabacín", "ajo", "cebolla", "canela", "comino",
-            "pimentón", "orégano", "salsa de soja" ],
+        "ingredients": {
+            "tofu": {},
+            "pollo": {},
+            "pimiento": {},
+            "calabacín": {},
+            "ajo": {},
+            "cebolla": {},
+            "canela": {},
+            "comino": {},
+            "pimentón": {},
+            "orégano": {},
+            "salsa de soja": {}
+        },
         "steps": [
             "Marinar el tofu o el pollo, con especias y salsa de soja.",
             "Encendemos el horno a 180º.",
@@ -166,8 +311,16 @@
     },
     {
         "name": "Crema fría de vichyssoise con manzana y albahaca",
-        "ingredients": ["puerro", "calabacín", "manzana", "apio", "caldo", "patata", "nuez moscada",
-            "albahaca" ],
+        "ingredients": {
+            "puerro": {},
+            "calabacín": {},
+            "manzana": {},
+            "apio": {},
+            "caldo": {},
+            "patata": {},
+            "nuez moscada": {},
+            "albahaca": {}
+        },
         "steps": [
             "Poner todos los ingredientes en una cazuela a fuego medio excepto la albahaca, ir rehogando con un poquito de agua.",
             "Cubrir con agua o caldo y tapar a fuego alto.",
@@ -177,41 +330,93 @@
             "Triture hasta obtener textura deseada.",
             "Se puede tomar tanto fría como caliente."
         ],
-        "tags": ["sopa", "frío"]
+        "tags": [
+            "sopa",
+            "frío"
+        ]
     },
     {
         "name": "Salmorejo verde",
-        "ingredients": ["pepino", "calabacín", "melón", "aguacate", "pimiento", "cebolla",
-            "yogur", "limón"],
+        "ingredients": {
+            "pepino": {},
+            "calabacín": {},
+            "melón": {},
+            "aguacate": {},
+            "pimiento": {},
+            "cebolla": {},
+            "yogur": {},
+            "limón": {}
+        },
         "steps": [
             "Tritura todo en un procesador de alimentos con sal y pimienta.",
             "Se puede acompañar con huevo cocido."
         ],
-        "tags": ["sopa", "frío"]
+        "tags": [
+            "sopa",
+            "frío"
+        ]
     },
     {
         "name": "Ensalada tropical con salsa rosa",
-        "ingredients": ["tomate", "esparrágos de bote", "piña", "mango", "maíz", "aguacate", "manzana",
-            "zanahoria", "garbanzos", "lechuga", "yogur", "ketchup", "naranja", "salsa de soja"],
+        "ingredients": {
+            "tomate": {},
+            "espárragos de bote": {},
+            "piña": {},
+            "mango": {},
+            "maíz": {},
+            "aguacate": {},
+            "manzana": {},
+            "zanahoria": {},
+            "garbanzos": {},
+            "lechuga": {},
+            "yogur": {},
+            "ketchup": {},
+            "naranja": {},
+            "salsa de soja": {}
+        },
         "steps": [
             "Hacer la salsa rosa con yogur, ketchup, zumo de naranja y salsa de soja.",
             "Mezclar con los ingredientes de la ensalada."
         ],
-        "tags": ["ensalada"]
+        "tags": [
+            "ensalada"
+        ]
     },
     {
         "name": "Ensalada variada con salsa pimiento del piquillo y pera",
-        "ingredients": ["tomate", "cebolla", "maíz", "manzana", "aguacate", "zanahoria", "quinoa", "brotes",
-            "pimiento del piquillo", "ajo", "perejil", "pera", "aceite", "vinagre"],
+        "ingredients": {
+            "tomate": {},
+            "cebolla": {},
+            "maíz": {},
+            "manzana": {},
+            "aguacate": {},
+            "zanahoria": {},
+            "quinoa": {},
+            "brotes": {},
+            "pimiento del piquillo": {},
+            "ajo": {},
+            "perejil": {},
+            "pera": {},
+            "aceite": {},
+            "vinagre": {}
+        },
         "steps": [
             "Hervir la quinoa",
             "Hacer la salsa con pimiento del piquillo, ajo, perejil, pera, aceite, vinagre, sal y pimienta."
         ],
-        "tags": ["ensalada"]
+        "tags": [
+            "ensalada"
+        ]
     },
     {
         "name": "Verduras asadas",
-        "ingredients": ["calabaza", "boniato", "setas", "cebolla", "romero" ],
+        "ingredients": {
+            "calabaza": {},
+            "boniato": {},
+            "setas": {},
+            "cebolla": {},
+            "romero": {}
+        },
         "steps": [
             "Encender el horno a 200 grados.",
             "Poner en la bandeja de horno un papel de horno.",
@@ -222,12 +427,22 @@
             "Echar, el agua o caldo, el romero, sal y pimienta.",
             "Meterlo en el horno durante 30 min a 180 grados"
         ],
-        "tags": ["acompañamiento"]
+        "tags": [
+            "acompañamiento"
+        ]
     },
     {
         "name": "Garbanzos horneados con verduras",
-        "ingredients": ["pimiento", "cebolla", "tomate", "zanahoria", "garbanzos", "pimentón", "caldo", 
-            "comino"],
+        "ingredients": {
+            "pimiento": {},
+            "cebolla": {},
+            "tomate": {},
+            "zanahoria": {},
+            "garbanzos": {},
+            "pimentón": {},
+            "caldo": {},
+            "comino": {}
+        },
         "steps": [
             "Pela y pica la verdura muy pequeñita para que se cocine mejor.",
             "Escurre y lava los garbanzos cocidos.",
@@ -240,56 +455,68 @@
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     }
 ]

@@ -1,27 +1,51 @@
 [
-    { 
+    {
         "name": "Crema fría de espárragos blancos",
-        "ingredients": ["espárragos de bote", "huevo", "mahonesa"],
-        "steps": [ 
+        "ingredients": {
+            "espárragos de bote": {},
+            "huevo": {},
+            "mahonesa": {}
+        },
+        "steps": [
             "Cocer el huevo",
             "Mezclar todos los ingredientes con la batidora.",
-            "Añadir agua del bote de esparrágos para darle la textura adecuada."
+            "Añadir agua del bote de espárragos para darle la textura adecuada."
         ],
-        "tags": ["sopa", "frío"]
+        "tags": [
+            "sopa",
+            "frío"
+        ]
     },
     {
         "name": "Gazpacho",
-        "ingredients": ["pan", "ajo", "cebolla", "pimiento verde", "pepino", "tomate", "aceite" ],
+        "ingredients": {
+            "pan": {},
+            "ajo": {},
+            "cebolla": {},
+            "pimiento verde": {},
+            "pepino": {},
+            "tomate": {},
+            "aceite": {}
+        },
         "steps": [
             "Pon el pan en agua.",
             "Mezcla todos los ingredientes con la batidora",
             "Pon en la nevera para que se enfríe"
         ],
-        "tags": ["sopa", "frío", "pueblo"]
+        "tags": [
+            "sopa",
+            "frío",
+            "pueblo"
+        ]
     },
     {
         "name": "Avena de toda la noche",
-        "ingredients": ["avena", "leche", "pasas", "chía" ],
+        "ingredients": {
+            "avena": {},
+            "leche": {},
+            "pasas": {},
+            "chía": {}
+        },
         "steps": [
             "Mezclar leche y avena hasta que quede espeso.",
             "Opcionalmente incluir pasas o chía.",
@@ -29,11 +53,23 @@
             "Se puede usar yogur en lugar de leche",
             "Acompañar con nueces, chocolate, fruta cortada, ..."
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Sopa de miso",
-        "ingredients": ["miso", "bacon", "ajo", "cebolla", "pimiento", "zanahoria", "tofu", "konbu", "wakame" ],
+        "ingredients": {
+            "miso": {},
+            "bacon": {},
+            "ajo": {},
+            "cebolla": {},
+            "pimiento": {},
+            "zanahoria": {},
+            "tofu": {},
+            "konbu": {},
+            "wakame": {}
+        },
         "steps": [
             "Sofreír las verduras y el bacon en orden.",
             "Añadir agua alga konbu y wakame.",
@@ -44,11 +80,18 @@
             "Dejar unos 5 minutos que se mezcle pero no vuelva a hervir",
             "Si se usan fideos, cocer por separado y servir con la sopa"
         ],
-        "tags": ["sopa"]
+        "tags": [
+            "sopa"
+        ]
     },
     {
         "name": "Tortitas de avena y plátano",
-        "ingredients": ["avena", "huevo", "plátano", "levadura" ],
+        "ingredients": {
+            "avena": {},
+            "huevo": {},
+            "plátano": {},
+            "levadura": {}
+        },
         "steps": [
             "Aplastar un plátano con un tenedor en un bol.",
             "Echar un huevo, pizca de levadura química y pizca de sal.",
@@ -57,12 +100,26 @@
             "Echar la masa en la sartén hasta que salgan burbujitas.",
             "Dar la vuelta y hacer por el otro lado."
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Tofu marinado con setas",
-        "ingredients": ["tofu", "setas", "boletus", "ajo", "cebolla", "harina", "salsa de soja", "limón",
-            "mostaza", "sirope", "konbu", "anacardos" ],
+        "ingredients": {
+            "tofu": {},
+            "setas": {},
+            "boletus": {},
+            "ajo": {},
+            "cebolla": {},
+            "harina": {},
+            "salsa de soja": {},
+            "limón": {},
+            "mostaza": {},
+            "sirope": {},
+            "konbu": {},
+            "anacardos": {}
+        },
         "steps": [
             "Poner a hidratar los boletus deshidratados con un trozo de alga konbu.",
             "Dejar por lo menos tres horas.",
@@ -72,16 +129,22 @@
             "Saltear ajo y cebolla.",
             "Poner los boletus y las setas.",
             "Cuando este blando añadir una cucharada de harina y tostar un poco.",
-            "Añadir el tofu en dados y la marinada", 
+            "Añadir el tofu en dados y la marinada",
             "Dejar que se espese el caldo.",
             "Servir con anacardos machacados."
-
         ],
         "tags": []
     },
     {
         "name": "Pan de avena",
-        "ingredients": ["avena", "huevo", "yogur", "levadura", "pasas", "pipas" ],
+        "ingredients": {
+            "avena": {},
+            "huevo": {},
+            "yogur": {},
+            "levadura": {},
+            "pasas": {},
+            "pipas": {}
+        },
         "steps": [
             "Mezclar 3 tazas de copos de avena, unas pasas, con 2 huevos.",
             "Añadir 2 yogures poco a poco hasta que tenga la textura pastosa.",
@@ -90,69 +153,126 @@
             "Poner en el molde y decorar con pipas",
             "Hornear a 180 grados durante 35 minutos"
         ],
-        "tags": ["pan"]
+        "tags": [
+            "pan"
+        ]
     },
     {
         "name": "Ensalada de zanahorias",
-        "ingredients": ["zanahorias", "salsa de soja", "limón", "mostaza", "sirope" ],
+        "ingredients": {
+            "zanahorias": {},
+            "salsa de soja": {},
+            "limón": {},
+            "mostaza": {},
+            "sirope": {}
+        },
         "steps": [
             "Cortar la zanahoria en rodajas.",
             "Cocer las zanahorias 10 minutos, que queden ni muy duras ni muy blandas.",
             "Aliñar con el resto de ingredientes."
         ],
-        "tags": ["ensalada"]
+        "tags": [
+            "ensalada"
+        ]
     },
     {
         "name": "Crema de zanahorias",
-        "ingredients": ["zanahoria", "ajo", "cebolla", "miso", "cilantro", "patata", "aceite" ],
+        "ingredients": {
+            "zanahoria": {},
+            "ajo": {},
+            "cebolla": {},
+            "miso": {},
+            "cilantro": {},
+            "patata": {},
+            "aceite": {}
+        },
         "steps": [
             "En una olla rehogar ajo y cebolla con aciete.",
             "Añadir las zanahorias y las patatas.",
             "Echar agua hasta cubrir y cocer 20 minutos.",
             "Cuando acabe disolver una cucharada de miso en agua caliente o caldo de cocción.",
-            "Apagar el fuego y mezclar el miso en la olla.", 
+            "Apagar el fuego y mezclar el miso en la olla.",
             "Dejar 5 minutos y hacer la crema con la batidora."
         ],
-        "tags": ["sopa"]
+        "tags": [
+            "sopa"
+        ]
     },
     {
         "name": "Mejillones al curri",
-        "ingredients": ["mejillones", "laurel", "ajo", "cayena", "vino", "aceite", "cebolla", "harina",
-            "curi", "apio", "puerro", "perejil", "nata"  ],
+        "ingredients": {
+            "mejillones": {},
+            "laurel": {},
+            "ajo": {},
+            "cayena": {},
+            "vino": {},
+            "aceite": {},
+            "cebolla": {},
+            "harina": {},
+            "curi": {},
+            "apio": {},
+            "puerro": {},
+            "perejil": {},
+            "nata": {}
+        },
         "steps": [
             "Para comenzar, cocemos los mejillones.",
-            "Para ello, en un olla, ponemos un chorrito de aceite de oliva, el diente de ajo, el laurel y la cayena.", 
+            "Para ello, en un olla, ponemos un chorrito de aceite de oliva, el diente de ajo, el laurel y la cayena.",
             "Incorporamos los mejillones, regamos con el vino blanco y cocinamos hasta que se abran.",
             "Colamos los mejillones, quedándonos con el líquido y sacando la carne de las conchas.",
             "Después, picamos las cebollas y las rehogamos en un cazo con aceite de oliva durante tres minutos.",
             "Cuando estén transparentes, incorporamos el curry y la harina y cocinamos durante 3 minutos más.",
             "Pasado el tiempo, agregamos el caldo de los mejillones, el puerro y el apio.",
             "Dejamos que hierva y cocinamos durante 20 minutos.",
-            "Entonces, vertemos la nata y cocinamos 5 minutos más.", 
+            "Entonces, vertemos la nata y cocinamos 5 minutos más.",
             "Colamos y trituramos la salsa de curry resultante con la mitad de los mejillones.  Salpimentamos.",
             "Emplatamos la salsa de curry con mejillones y terminamos con los otros mejillones enteros.",
             "Decoramos con perejil picado y servimos."
         ],
-        "tags": ["pescado"]
+        "tags": [
+            "pescado"
+        ]
     },
     {
         "name": "Boniato otoñal",
-        "ingredients": ["boniato", "yogur", "granola", "granada" ],
+        "ingredients": {
+            "boniato": {},
+            "yogur": {},
+            "granola": {},
+            "granada": {}
+        },
         "steps": [
             "Lava el boniato pártelo por la mitad y ásalo en la airfryer o en el horno durante 30 min a 180º.",
             "Mezcla con el resto de ingredientes."
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Boloñesa de lentejas y tofu con calabacín",
-        "ingredients": ["calabacín", "aceite", "ajo", "cebolla", "zanahoria", "apio", "lentejas", "tofu",
-            "tomate", "levadura nutricional", "orégano", "pimentón", "comino", "salsa de soja", "sirope" ],
+        "ingredients": {
+            "calabacín": {},
+            "aceite": {},
+            "ajo": {},
+            "cebolla": {},
+            "zanahoria": {},
+            "apio": {},
+            "lentejas": {},
+            "tofu": {},
+            "tomate": {},
+            "levadura nutricional": {},
+            "orégano": {},
+            "pimentón": {},
+            "comino": {},
+            "salsa de soja": {},
+            "sirope": {}
+        },
         "steps": [
             "Mete en el horno el calabacín cortado a lo largo a la mitad durante 15-20min a 200ª.",
             "Desmenuza el tofu con las manos.",
-            "Incorpora en un bol el tofu desmenuzado, la levadura nutricional, el orégano, el pimentón ahumado,", 
-            "el ajo en polvo, la cebolla en polvo, el comino, el tamari y el jarabe de arce.",  
+            "Incorpora en un bol el tofu desmenuzado, la levadura nutricional, el orégano, el pimentón ahumado,",
+            "el ajo en polvo, la cebolla en polvo, el comino, el tamari y el jarabe de arce.",
             "Usa tus manos para mezclar los ingredientes hasta que estén completamente incorporados.",
             "Calienta 1 cucharada de aceite de oliva o un chorro de caldo o agua, en una sartén.",
             "Agrega la cebolla y las zanahorias y cocine por unos 3 minutos, o hasta que esté transparente.",
@@ -166,23 +286,41 @@
     },
     {
         "name": "Boloñesa de lentejas",
-        "ingredients": ["lentejas", "cebolla", "aceite", "ajo", "zanahoria", "apio", "vino", "orégano",
-        "tomate" ],
+        "ingredients": {
+            "lentejas": {},
+            "cebolla": {},
+            "aceite": {},
+            "ajo": {},
+            "zanahoria": {},
+            "apio": {},
+            "vino": {},
+            "orégano": {},
+            "tomate": {}
+        },
         "steps": [
             "Cocer las lentejas, si es necesario.",
             "Picar la verdura finita.",
-            "En una sartén sofreir el ajo y la cebolla.", 
+            "En una sartén sofreir el ajo y la cebolla.",
             "Añadir la zanahoria y el apio.",
             "Después incorporar el vino tinto. Dejar que se evapore el alcohol.",
-            "Añadir el tomate triturado y el orégano", 
+            "Añadir el tomate triturado y el orégano",
             "Dejar que se haga la salsa, que este un poco seca."
         ],
         "tags": []
     },
     {
         "name": "Crema verde con guisantes salteados",
-        "ingredients": ["cebolla", "ajo", "apio", "calabacín", "brócoli", "judías verdes", "guisantes",
-            "albahaca", "anacardos" ],
+        "ingredients": {
+            "cebolla": {},
+            "ajo": {},
+            "apio": {},
+            "calabacín": {},
+            "brócoli": {},
+            "judías verdes": {},
+            "guisantes": {},
+            "albahaca": {},
+            "anacardos": {}
+        },
         "steps": [
             "Rehogar la cebolla y los ajos con el aceite de oliva o agua en una cazuela.",
             "Añadir el resto de verduras troceadas (reservar la albahaca) y la sal.",
@@ -193,51 +331,63 @@
             "Rehogar los guisantes y echar por encima.",
             "Ajusta la sal y servir."
         ],
-        "tags": ["sopa"]
+        "tags": [
+            "sopa"
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     }
 ]

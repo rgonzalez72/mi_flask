@@ -1,9 +1,16 @@
 [
     {
         "name": "Granola",
-        "ingredients": ["avena", "frutos secos", "pipas", "sirope", "proteína de cacahuete", "naranja" ],
+        "ingredients": {
+            "avena": {},
+            "frutos secos": {},
+            "pipas": {},
+            "sirope": {},
+            "proteína de cacahuete": {},
+            "naranja": {}
+        },
         "steps": [
-            "1 taza de copos de avena.", 
+            "1 taza de copos de avena.",
             "1 taza de frutos secos crudos troceados (anacardos, almendras, avellanas, etc).",
             "1/2 taza de semillas de calabaza y girasol.",
             "1 cucharada de sirope de agave.",
@@ -12,12 +19,23 @@
             "Mezcla todo bien en la bandeja de horno (pon papel de hornear en la base).",
             "Hornea 20 minutos a 180 grados, remueve cada 7 minutos para que no se queme."
         ],
-        "tags": ["acompañamiento"]
+        "tags": [
+            "acompañamiento"
+        ]
     },
     {
         "name": "Boloñesa de calabaza con garbanzos",
-        "ingredients": ["cebolla", "ajo", "zanahoria", "apio", "calabaza", "tomate seco", "tomate", "laurel",
-            "garbanzos"],
+        "ingredients": {
+            "cebolla": {},
+            "ajo": {},
+            "zanahoria": {},
+            "apio": {},
+            "calabaza": {},
+            "tomate seco": {},
+            "tomate": {},
+            "laurel": {},
+            "garbanzos": {}
+        },
         "steps": [
             "Pica bien toda la verdura en trozos pequeños, cebolla, dientes de ajos, zanahoria, apio y calabaza.",
             "Pon toda la verdura en una cazuela de horno, echa los tomates secos en trocitos, incorpora el tomate tamizado, la hoja de laurel y la sal.",
@@ -28,8 +46,16 @@
     },
     {
         "name": "Crema de brócoli y alubias",
-        "ingredients": ["cebolla", "ajo", "brócoli", "alubias", "anacardos", "tamari", "miso",
-            "levadura nutricional" ],
+        "ingredients": {
+            "cebolla": {},
+            "ajo": {},
+            "brócoli": {},
+            "alubias": {},
+            "anacardos": {},
+            "tamari": {},
+            "miso": {},
+            "levadura nutricional": {}
+        },
         "steps": [
             "En una cazuela rehogar la cebolla y los ajos con un poco de agua durante 5 minutos.",
             "Añadir las judías blancas, un brócoli entero, un poco de sal cubrir con agua.",
@@ -39,11 +65,20 @@
             "y el tamari en una batidora potente y batir hasta que esté cremoso.",
             "Servir y decorar con el brócoli rehogado"
         ],
-        "tags": ["sopa"]
+        "tags": [
+            "sopa"
+        ]
     },
     {
         "name": "Lombarda con quinoa",
-        "ingredients": ["quinoa", "lombarda", "pasas", "manzana", "ajo", "pimentón" ],
+        "ingredients": {
+            "quinoa": {},
+            "lombarda": {},
+            "pasas": {},
+            "manzana": {},
+            "ajo": {},
+            "pimentón": {}
+        },
         "steps": [
             "Pica la lombarda en un procesador de alimentos.",
             "En una sartén pon un poco de agua.",
@@ -57,9 +92,13 @@
     },
     {
         "name": "Tortilla de calabacín y espárragos trigueros",
-        "ingredients": ["calabacín", "esparrágos", "huevos" ],
+        "ingredients": {
+            "calabacín": {},
+            "espárragos": {},
+            "huevos": {}
+        },
         "steps": [
-            "Poner los espárragos a hervir en un cacito hasta que estén tiernos.", 
+            "Poner los espárragos a hervir en un cacito hasta que estén tiernos.",
             "Sacar y hacer trozos de 1 centímetro.",
             "En una sartén antiadherente, saltear el calabacín y los espárragos con un poco de agua o caldo de verduras.",
             "Cuando estén tiernos y haya desaparecido el agua añade los huevos batidos y haz la tortilla.",
@@ -69,7 +108,14 @@
     },
     {
         "name": "Tofu salteado con alcachofas",
-        "ingredients": ["alcachofas", "tofu", "salsa de soja", "pimentón", "limón", "orégano" ],
+        "ingredients": {
+            "alcachofas": {},
+            "tofu": {},
+            "salsa de soja": {},
+            "pimentón": {},
+            "limón": {},
+            "orégano": {}
+        },
         "steps": [
             "Marinar el tofu en dados doce horas con:",
             "2 cucharadas de salsa de soja, ½ cucharadita de pimentón, ajo en polvo,",
@@ -82,7 +128,16 @@
     },
     {
         "name": "Tubérculos otoñales asados con quinoa",
-        "ingredients": ["calabaza", "boniato", "setas", "cebolla", "tofu", "caldo", "romero", "quinoa" ],
+        "ingredients": {
+            "calabaza": {},
+            "boniato": {},
+            "setas": {},
+            "cebolla": {},
+            "tofu": {},
+            "caldo": {},
+            "romero": {},
+            "quinoa": {}
+        },
         "steps": [
             "Cocer la quinoa.",
             "Encender el horno a 180 grados.",
@@ -99,11 +154,18 @@
     },
     {
         "name": "Pizza vegetal",
-        "ingredients": ["tortilla", "tomate", "calabacín", "cebolla", "pimiento", "champiñón" ],
+        "ingredients": {
+            "tortilla": {},
+            "tomate": {},
+            "calabacín": {},
+            "cebolla": {},
+            "pimiento": {},
+            "champiñón": {}
+        },
         "steps": [
             "Si tienes tomate tamizado o triturado para echar en la base usa ese sino tritura un tomate con un poco de sal y pimienta.",
             "Echar el tomate por encima a la tortilla.",
-            "Después pelar el calabacín en circulo y rellanar toda la tortilla, pimiento rojo y verde en tiras,", 
+            "Después pelar el calabacín en circulo y rellanar toda la tortilla, pimiento rojo y verde en tiras,",
             "Por último la cebolla y el champiñón laminados.",
             "Meter en la fryer durante (15min) o en el horno durante 20 min a 200º."
         ],
@@ -111,8 +173,22 @@
     },
     {
         "name": "Quesadillas con aguacate",
-        "ingredients": ["ajo", "sirope", "pimiento", "calabacín", "cebolla", "alubias", "lima", "aceite",
-            "cominos", "cilantro", "tortillas", "aguacate", "tomate", "brotes" ],
+        "ingredients": {
+            "ajo": {},
+            "sirope": {},
+            "pimiento": {},
+            "calabacín": {},
+            "cebolla": {},
+            "alubias": {},
+            "lima": {},
+            "aceite": {},
+            "cominos": {},
+            "cilantro": {},
+            "tortillas": {},
+            "aguacate": {},
+            "tomate": {},
+            "brotes": {}
+        },
         "steps": [
             "Para empezar, pon la lima, el aceite, los cominos, la pimienta, la sal, el ajo en trozos muy pequeños y el sirope en un cuenco y remueve.",
             "Añade entonces el pimiento, el calabacín y la cebolla. Remueve bien y deja reposar 30 minutos, para que todos se integre perfectamente.",
@@ -121,14 +197,22 @@
             "En otro cuenco, aplasta la pulpa de los aguacates con un tenedor.",
             "En una sartén con un pelín de aceite coloca 1 tortilla y déjala que se dore unos 4 minutos.",
             "Gírala y déjala 2 minutos más.",
-            "Unta la mitad de cada tortilla con la pasta de aguacate. Sal pimenta y añade un poco de salsa de tomate.", 
+            "Unta la mitad de cada tortilla con la pasta de aguacate. Sal pimenta y añade un poco de salsa de tomate.",
             "Añade una capa de verduras y frijoles y un puñado de brotes verdes, luego cierra la tortilla."
         ],
         "tags": []
     },
     {
         "name": "Purrusalda",
-        "ingredients": ["puerro", "zanahoria", "calabaza", "ajo", "cebolla", "patata", "quinoa" ],
+        "ingredients": {
+            "puerro": {},
+            "zanahoria": {},
+            "calabaza": {},
+            "ajo": {},
+            "cebolla": {},
+            "patata": {},
+            "quinoa": {}
+        },
         "steps": [
             "Pon en una cazuela un poco de agua o aceita, el puerro, la zanahoria, la calabaza, los ajos, y la cebolla.",
             "Rehoga todo durante 10 min. a fuego medio.",
@@ -136,15 +220,27 @@
             "Añada las patatas, la quinoa bien lavada y el agua y deje hervir durante 20 min.",
             "Apagamos y dejamos reposar otros 5 min."
         ],
-        "tags": ["sopa"]
+        "tags": [
+            "sopa"
+        ]
     },
     {
         "name": "Patatas en salsa verde",
-        "ingredients": ["patata", "ajo", "cebolla", "puerro", "guisantes", "caldo", "perejil",
-            "espárragos de bote", "alubias", "aceite"],
+        "ingredients": {
+            "patata": {},
+            "ajo": {},
+            "cebolla": {},
+            "puerro": {},
+            "guisantes": {},
+            "caldo": {},
+            "perejil": {},
+            "espárragos de bote": {},
+            "alubias": {},
+            "aceite": {}
+        },
         "steps": [
             "Sofríe la cebolla con el puerro y los dientes de ajo en una cazuela con fondo de agua o aceite.",
-            "Añade sal.", 
+            "Añade sal.",
             "Cuando la verdura esté al dente (unos 5-7 minutos a fuego medio).",
             "Añade las patatas laminadas (1cm de grosor aproximadamente) junto con los guisantes y las judías blancas lavadas, añade otra pizca de sal.",
             "Rehoga y cubre con el caldo vegetal (justo que cubra las patatas) y cocina durante 15 minutos con tapa.",
@@ -155,7 +251,12 @@
     },
     {
         "name": "Creps de garbanzos",
-        "ingredients": ["harina de garbanzos", "harina de avena", "leche", "huevo" ],
+        "ingredients": {
+            "harina de garbanzos": {},
+            "harina de avena": {},
+            "leche": {},
+            "huevo": {}
+        },
         "steps": [
             "Proporciones: I70 gr de harina de garbanzos, 70 gr de harina de avena o harina de trigo sarraceno,",
             "150 gr de agua o leche vegetal, 1 huevo, 1 pizca de sal.",
@@ -164,11 +265,23 @@
             "Hacer en la sartén con una gotita de aceite.",
             "Aproximadamente salen 8 tortitas pequeñas o 3-4 grandes."
         ],
-        "tags": ["acompañamiento"]
+        "tags": [
+            "acompañamiento"
+        ]
     },
     {
         "name": "Garbanzos con setas",
-        "ingredients": ["garbanzos", "cebolla", "ajo", "setas", "pimentón", "tomate", "caldo", "comino", "laurel" ],
+        "ingredients": {
+            "garbanzos": {},
+            "cebolla": {},
+            "ajo": {},
+            "setas": {},
+            "pimentón": {},
+            "tomate": {},
+            "caldo": {},
+            "comino": {},
+            "laurel": {}
+        },
         "steps": [
             "Echamos en la cazuela los dientes de ajo junto a la cebolla troceados en daditos.",
             "Añadimos un poco de agua y sofreímos unos 10 min hasta que veamos que se empiezan a dorar.",
@@ -182,8 +295,17 @@
     },
     {
         "name": "crema de calabaza con toque de especias",
-        "ingredients": ["calabaza", "zanahoria", "cebolla", "ajo", "curri", "canela", "caldo", "salsa de soja", 
-            "setas"],
+        "ingredients": {
+            "calabaza": {},
+            "zanahoria": {},
+            "cebolla": {},
+            "ajo": {},
+            "curri": {},
+            "canela": {},
+            "caldo": {},
+            "salsa de soja": {},
+            "setas": {}
+        },
         "steps": [
             "En una cazuela rehoga con un poco de caldo o agua la cebolla troceada y el ajo 4 minutos.",
             "Añade el resto de las verduras (menos las setas) troceadas, las especias y la sal, remueve.",
@@ -194,27 +316,56 @@
             "Rehoga en una sartén las setas.",
             "En un plato pon la crema y por encima las setas salteadas."
         ],
-        "tags": ["sopa"]
+        "tags": [
+            "sopa"
+        ]
     },
     {
         "name": "Sopa de 3 legumbres",
-        "ingredients": ["cebolla", "ajo", "lentejas", "caldo", "alubias", "garbanzos", "espinacas", "perejil",
-            "cebollino", "cúrcuma", "cilantro", "comino", "jengibre", "pimentón", "tomillo", "orégano"],
+        "ingredients": {
+            "cebolla": {},
+            "ajo": {},
+            "lentejas": {},
+            "caldo": {},
+            "alubias": {},
+            "garbanzos": {},
+            "espinacas": {},
+            "perejil": {},
+            "cebollino": {},
+            "cúrcuma": {},
+            "cilantro": {},
+            "comino": {},
+            "jengibre": {},
+            "pimentón": {},
+            "tomillo": {},
+            "orégano": {}
+        },
         "steps": [
             "Calentar 1⁄4 taza de agua en una olla grande a fuego medio (o un poco de aceite de oliva).",
             "Añadir la cebolla y el ajo y cocinar unos 5 minutos.",
-            "Añadir la cúrcuma, el cilantro, el comino y las lentejas junto con el caldo de verduras y llevar a ebullición.", 
+            "Añadir la cúrcuma, el cilantro, el comino y las lentejas junto con el caldo de verduras y llevar a ebullición.",
             "Bajar el fuego al mínimo y añadir el resto de legumbres.",
             "Tapar y cocinar hasta que las lentejas estén cocinadas, en unos 30 minutos.",
-            "Añadir las espinacas, el perejil, el cebollino, la menta, la pimienta y la mezcla de especias y cocinar otros 10 minutos.", 
+            "Añadir las espinacas, el perejil, el cebollino, la menta, la pimienta y la mezcla de especias y cocinar otros 10 minutos.",
             "Servir caliente."
         ],
-        "tags": ["sopa"]
+        "tags": [
+            "sopa"
+        ]
     },
     {
         "name": "Curry de verduras con quinoa",
-        "ingredients": ["verduras", "ajo", "jengibre", "cominos", "canela", "curri", "leche de coco",
-            "cilantro", "quinoa" ],
+        "ingredients": {
+            "verduras": {},
+            "ajo": {},
+            "jengibre": {},
+            "cominos": {},
+            "canela": {},
+            "curri": {},
+            "leche de coco": {},
+            "cilantro": {},
+            "quinoa": {}
+        },
         "steps": [
             "Lavar muy bien la quinoa.",
             "Poner en una sartén los 2 ajos en láminas junto con el aceite para que se doren un poco.",
@@ -229,8 +380,17 @@
     },
     {
         "name": "Tarta de manzana y zanahoria",
-        "ingredients": ["manzana", "zanahoria", "plátano", "avena", "pasas", "bicarbonato", "canela", "limón",
-            "yogurt"],
+        "ingredients": {
+            "manzana": {},
+            "zanahoria": {},
+            "plátano": {},
+            "avena": {},
+            "pasas": {},
+            "bicarbonato": {},
+            "canela": {},
+            "limón": {},
+            "yogurt": {}
+        },
         "steps": [
             "Precalienta el horno a 170 ºC.",
             "Pon todos los ingredientes en la batidor excepto el yogur.",
@@ -242,11 +402,22 @@
             "Deja enfriar la tarta por completo antes de desmoldarla.",
             "Sirve con un poco de yogur de coco por encima."
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Repollo al horno con salsa de tahini",
-        "ingredients": ["repollo", "granada", "aceite", "ajo", "yogur", "tahini", "limón", "cilantro" ],
+        "ingredients": {
+            "repollo": {},
+            "granada": {},
+            "aceite": {},
+            "ajo": {},
+            "yogur": {},
+            "tahini": {},
+            "limón": {},
+            "cilantro": {}
+        },
         "steps": [
             "Precalienta el horno a 180º.",
             "Corta en rodajas anchas el repollo y ponlas en la bandeja de horno encima de un papel.",
@@ -259,8 +430,16 @@
     },
     {
         "name": "Coliarroz marroquí",
-        "ingredients": ["coliflor", "pimiento", "zanahoria", "calabacín", "jengibre", "nuez moscada",
-            "dátil", "anacardos" ],
+        "ingredients": {
+            "coliflor": {},
+            "pimiento": {},
+            "zanahoria": {},
+            "calabacín": {},
+            "jengibre": {},
+            "nuez moscada": {},
+            "dátil": {},
+            "anacardos": {}
+        },
         "steps": [
             "Ralla los arbolitos de la coliflor.",
             "Trocear todas las verduras a cuadraditos pequeños.",
@@ -279,25 +458,50 @@
     },
     {
         "name": "Batido verde",
-        "ingredients": ["piña", "espinacas", "pepino", "lima", "menta" ],
+        "ingredients": {
+            "piña": {},
+            "espinacas": {},
+            "pepino": {},
+            "lima": {},
+            "menta": {}
+        },
         "steps": [
             "Triturar todo con una batidora potente."
         ],
-        "tags": ["licuado"]
+        "tags": [
+            "licuado"
+        ]
     },
     {
         "name": "Puré de patatas",
-        "ingredients": ["patata", "nuez moscada", "leche" ],
+        "ingredients": {
+            "patata": {},
+            "nuez moscada": {},
+            "leche": {}
+        },
         "steps": [
             "Cuece las patata.",
             "Haz el puré e incorpora leche, nuez moscada, sal y pimienta."
         ],
-        "tags": ["acompañamiento"]
+        "tags": [
+            "acompañamiento"
+        ]
     },
     {
         "name": "Banana Bread",
-        "ingredients": ["plátano", "aciete", "huevos", "dátil", "nueces", "arandanos", "chocolate", "avena",
-            "cacao", "canela", "levadura" ],
+        "ingredients": {
+            "plátano": {},
+            "aciete": {},
+            "huevos": {},
+            "dátil": {},
+            "nueces": {},
+            "arandanos": {},
+            "chocolate": {},
+            "avena": {},
+            "cacao": {},
+            "canela": {},
+            "levadura": {}
+        },
         "steps": [
             "Proporciones: 4 plátanos, 120ml de aceite de oliva, 2 huevos, 150 g de dátiles, 100 ml de agua,",
             "50 g de nueces, 50 g de arándanos, 50 g de pepitas de chocolate negro,",
@@ -305,7 +509,7 @@
             "1 cucharadita sopera de levadura.",
             "Para la pasta de dátiles, en un cazo echamos los dátiles y el agua. Llevamos a ebullición, retiramos del fuego y trituramos el conjunto.",
             "Precalentamos el horno a 180ºC.",
-            "En un bol mezclamos los 4 plátanos machacados, la pasta de dátiles, el aceite de oliva y los dos huevos.", 
+            "En un bol mezclamos los 4 plátanos machacados, la pasta de dátiles, el aceite de oliva y los dos huevos.",
             "Cuando esté todo bien integrado, añadimos las nueces, los arándanos y las pepitas de chocolate negro.",
             "Mezclamos bien e incorporamos la harina de avena, el cacao puro, la canela y la levadura.",
             "Echamos la mezcla en un molde bien engrasado y decoramos con un plátano cortado en dos mitades.",
@@ -313,13 +517,25 @@
             "Cuando salga del horno lo pinchamos con un palillo y, si sale limpio, está listo.",
             "Si no tienes arándanos puedes echar otra fruta o, incluso, no echar nada."
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Tarta zanahoria y manzana",
-        "ingredients": ["manzana", "boniato", "zanahoria", "plátano", "avena", "pasas", "naranja", "levadura", "canela"],
+        "ingredients": {
+            "manzana": {},
+            "boniato": {},
+            "zanahoria": {},
+            "plátano": {},
+            "avena": {},
+            "pasas": {},
+            "naranja": {},
+            "levadura": {},
+            "canela": {}
+        },
         "steps": [
-            "Proporciones: 2 manzanas, 1 boniato pequeño, 1 zanahoria, 1 plátano, 2 tazas de copos de avena,", 
+            "Proporciones: 2 manzanas, 1 boniato pequeño, 1 zanahoria, 1 plátano, 2 tazas de copos de avena,",
             "2 cucharada de pasas, 1/2 cucharadita de Bicarbonato, 1 cucharadita de canela.",
             "Precalienta el horno a 170 ºC.",
             "Pon todos los ingredientes en el procesador de alimentos.",
@@ -327,17 +543,21 @@
             "Pon la masa en un molde de silicona o en un molde con papel de horno.",
             "Alisa la superficie con una espátula.",
             "Hornea durante 50 minutos.",
-            "Deja enfriar la tarta por completo antes de desmoldarla." 
+            "Deja enfriar la tarta por completo antes de desmoldarla."
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     }
 ]

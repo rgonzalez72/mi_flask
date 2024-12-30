@@ -1,7 +1,11 @@
 [
     {
         "name": "Calabacín a la plancha con dorada al horno",
-        "ingredients": ["dorada", "calabacín", "aceite" ],
+        "ingredients": {
+            "dorada": {},
+            "calabacín": {},
+            "aceite": {}
+        },
         "steps": [
             "Pon la dorada en un recipiente de horno (o en el air fryer) a 170 grados.",
             "Ásala entre 15 y 20 minutos (cuando empiece a verse dorada).",
@@ -9,13 +13,21 @@
             "Servir conjuntamente.",
             "Puedes añadir unos tomates Cherry como acompañamiento o cualquier otra verdura cruda o cocinada."
         ],
-        "tags": ["pescado"]
+        "tags": [
+            "pescado"
+        ]
     },
     {
         "name": "Caldo con fideos",
-        "ingredients": ["caldo", "miso", "fideos", "puerro", "zanahoria" ],
+        "ingredients": {
+            "caldo": {},
+            "miso": {},
+            "fideos": {},
+            "puerro": {},
+            "zanahoria": {}
+        },
         "steps": [
-            "Cortar las verduras en juliana fina", 
+            "Cortar las verduras en juliana fina",
             "En un cazo rehogar las verduras con un poco de caldo.",
             "Cuando estén tiernas añadir el resto del caldo.",
             "Hervir 5 minutos. Añadir los fideos y dejar hervir lo que indique el paquete.",
@@ -23,24 +35,46 @@
             "Remover bien hasta que se disuelva.",
             "Servir."
         ],
-        "tags": ["sopa", "pasta"]
+        "tags": [
+            "sopa",
+            "pasta"
+        ]
     },
     {
         "name": "Ensalada de 5 verduras con quinoa",
-        "ingredients": ["lechuga", "albahaca", "zanahoria", "cebolla", "tomate", "lombarda", "manzana",
-            "maíz", "quinoa", "vinagre", "sirope", "proteína de cacahuete", "salsa de soja",
-            "levadura nutricional"],
+        "ingredients": {
+            "lechuga": {},
+            "albahaca": {},
+            "zanahoria": {},
+            "cebolla": {},
+            "tomate": {},
+            "lombarda": {},
+            "manzana": {},
+            "maíz": {},
+            "quinoa": {},
+            "vinagre": {},
+            "sirope": {},
+            "proteína de cacahuete": {},
+            "salsa de soja": {},
+            "levadura nutricional": {}
+        },
         "steps": [
             "Hierve la quinoa.",
             "Ralla la zanahoria",
             "En una ensaladera grande añadir todos los ingredientes.",
             "Añadir la vinagreta y remover."
         ],
-        "tags": ["ensalada"]
+        "tags": [
+            "ensalada"
+        ]
     },
     {
         "name": "Tortilla de ajos tiernos y espárragos",
-        "ingredients": ["ajetes", "espárragos", "huevo" ],
+        "ingredients": {
+            "ajetes": {},
+            "espárragos": {},
+            "huevo": {}
+        },
         "steps": [
             "Poner los espárragos a hervir en un cacito hasta que estén tiernos.",
             "Sacar y hacer trozos de 1 centímetro.",
@@ -52,8 +86,18 @@
     },
     {
         "name": "Lentejas con verduras",
-        "ingredients": ["lentejas", "caldo", "cebolla", "patata", "zanahoria", "pimiento", "laurel",
-            "cominos", "pimentón", "ajo"],
+        "ingredients": {
+            "lentejas": {},
+            "caldo": {},
+            "cebolla": {},
+            "patata": {},
+            "zanahoria": {},
+            "pimiento": {},
+            "laurel": {},
+            "cominos": {},
+            "pimentón": {},
+            "ajo": {}
+        },
         "steps": [
             "Trocea la cebolla y rehoga con un poco de caldo de verduras.",
             "Añade la zanahoria, la patata y el pimiento troceaditos.",
@@ -64,11 +108,17 @@
             "Lleva a ebullición y deja hervir 5 minutos.",
             "Añade las lentejas y deja cocer 10 minutos más."
         ],
-        "tags": ["sopa"]
+        "tags": [
+            "sopa"
+        ]
     },
     {
         "name": "Quinoa con brócoli al vapor",
-        "ingredients": ["quinoa", "brócoli", "curri" ],
+        "ingredients": {
+            "quinoa": {},
+            "brócoli": {},
+            "curri": {}
+        },
         "steps": [
             "Cuece la quinoa",
             "Corta el brócoli en arbolitos y embadúrnalo con las especias (curri, cebolla y ajo).",
@@ -79,18 +129,34 @@
     },
     {
         "name": "Pudding de chía y avena con frambuesas y arándanos",
-        "ingredients": ["chía", "avena", "yogur", "leche", "arándanos", "frambuesas" ],
+        "ingredients": {
+            "chía": {},
+            "avena": {},
+            "yogur": {},
+            "leche": {},
+            "arándanos": {},
+            "frambuesas": {}
+        },
         "steps": [
             "Mezclar todos los ingredientes en un bote de cristal.",
             "Dejar reposar en la nevera toda la noche.",
             "A la mañana siguiente puede calentarlo en el microondas si lo prefieres templado o caliente.",
             "También puedes también añadir un poco de leche vegetal si está muy espeso."
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Hervido valenciano con guisantes",
-        "ingredients": ["patata", "zanahoria", "boniato", "cebolla", "judías verdes", "guisantes" ],
+        "ingredients": {
+            "patata": {},
+            "zanahoria": {},
+            "boniato": {},
+            "cebolla": {},
+            "judías verdes": {},
+            "guisantes": {}
+        },
         "steps": [
             "Cortar las verduras en trozos medianos y ponerlas en una cazuela.",
             "Añadir agua hasta cubrir y sal al gusto.",
@@ -100,11 +166,16 @@
             "Añadir los guisantes y dejar hervir 10 minutos más.",
             "Puedes añadir un chorrito de vinagre."
         ],
-        "tags": ["sopa"]
+        "tags": [
+            "sopa"
+        ]
     },
     {
         "name": "Sardinas a la plancha con alcachofas hervidas",
-        "ingredients": ["alcachofas", "sardinas" ],
+        "ingredients": {
+            "alcachofas": {},
+            "sardinas": {}
+        },
         "steps": [
             "Poner agua con sal a hervir en una cazuela.",
             "Pelar las alcachofas y cortarlas por la mitad.",
@@ -112,48 +183,87 @@
             "Añadir las mitades de alcachofas y hervir entre 15 y 20 minutos.",
             "Mientras hierven las alcachofas, asar las sardinas en una sartén sin aceite añadido."
         ],
-        "tags": ["pescado"]
+        "tags": [
+            "pescado"
+        ]
     },
     {
         "name": "Volcán de chocolate al micro",
-        "ingredients": ["avena", "plátano", "lino", "leche", "coliflor", "cacao", "levadura", "dátil",
-            "sirope"],
+        "ingredients": {
+            "avena": {},
+            "plátano": {},
+            "lino": {},
+            "leche": {},
+            "coliflor": {},
+            "cacao": {},
+            "levadura": {},
+            "dátil": {},
+            "sirope": {}
+        },
         "steps": [
             "1 taza de avena, leche, agua y coliflor congelada.",
             "Mezclar 1 cucharada de sirope con leche y una cucharada cacao en polvo para la salsa de chocolate",
             "Mezcla el resto de ingredientes en una batidora y ponlo en un cuenco mediano.",
-            "Mételo en el microondas a máxima potencia durante 6 minutos, hasta que el exterior tenga aspecto de pastel y el centro esté cremoso.", 
+            "Mételo en el microondas a máxima potencia durante 6 minutos, hasta que el exterior tenga aspecto de pastel y el centro esté cremoso.",
             "Adórnalo con salsa de chocolate."
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Pasta de trigo sarraceno con verduras asadas al horno al pesto",
-        "ingredients": ["pasta", "cebolla", "remolacha", "brócoli", "zanahoria", "ajo", "albahaca", "levadura nutricional",
-            "limón", "piñones" ],
+        "ingredients": {
+            "pasta": {},
+            "cebolla": {},
+            "remolacha": {},
+            "brócoli": {},
+            "zanahoria": {},
+            "ajo": {},
+            "albahaca": {},
+            "levadura nutricional": {},
+            "limón": {},
+            "piñones": {}
+        },
         "steps": [
             "Hacer el pesto con albahaca fresca con levadura nutricional, limón, piñones, pimienta, sal y agua",
-            "Hervir la pasta según las indicaciones del paquete.", 
+            "Hervir la pasta según las indicaciones del paquete.",
             "Trocear las verduras y ponerlas en una fuente de horno con un poco de caldo de verduras y sal",
-            "Asar hasta que estén doradas (unos 40 minutos a 200º).", 
+            "Asar hasta que estén doradas (unos 40 minutos a 200º).",
             "Añadir una cucharada de pesto a las verduras y servirlas junto con la pasta."
         ],
-        "tags": ["pasta"]
+        "tags": [
+            "pasta"
+        ]
     },
     {
         "name": "Caldo con miso y judías verdes",
-        "ingredients": ["caldo", "miso", "judías verdes" ],
+        "ingredients": {
+            "caldo": {},
+            "miso": {},
+            "judías verdes": {}
+        },
         "steps": [
             "Hierve las judías verdes durante 18 minutos en agua hasta cubrir.",
             "Calienta una taza de caldo de verduras.",
             "Añade en el tazón de caldo una cucharadita de siro miso.",
             "Servir las judías verdes en un plato y degustar mientras bebes el caldo calentito."
         ],
-        "tags": ["sopa"]
+        "tags": [
+            "sopa"
+        ]
     },
     {
         "name": "Pastel de chocolate",
-        "ingredients": ["avena", "cacao", "levadura", "leche", "yogur", "azúcar", "proteína de cacahuete" ],
+        "ingredients": {
+            "avena": {},
+            "cacao": {},
+            "levadura": {},
+            "leche": {},
+            "yogur": {},
+            "azúcar": {},
+            "proteína de cacahuete": {}
+        },
         "steps": [
             "¾ taza de copos de avena, 1 cucharada de cacao en polvo, ½ cucharadita de levadura royal",
             "1 taza (250 ml) de leche vegetal, 1 yogur de soja, 1 cucharada de azúcar de coco",
@@ -162,12 +272,28 @@
             "En un cuenco mezcla todos los ingredientes.",
             "Pon en un recipiente pequeño en el que puedas hornear y hornea a 180º"
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Ensalada crujiente de lentejas de bote",
-        "ingredients": ["lentejas", "pimentón", "quinoa", "lechuga", "limón", "ajo", "sirope", "mostaza",
-            "tahini", "pepino", "pimiento", "apio", "nueces", "perejil"],
+        "ingredients": {
+            "lentejas": {},
+            "pimentón": {},
+            "quinoa": {},
+            "lechuga": {},
+            "limón": {},
+            "ajo": {},
+            "sirope": {},
+            "mostaza": {},
+            "tahini": {},
+            "pepino": {},
+            "pimiento": {},
+            "apio": {},
+            "nueces": {},
+            "perejil": {}
+        },
         "steps": [
             "Puedes asar las lentejas en el air fryer 15 minutos.",
             "En el horno para que estén más crujientes (opcional): Precalienta el horno a 200º.",
@@ -187,19 +313,32 @@
             "Invierte el frasco y agítelo sobre un tazón mediano en el que has puesto rúcula o lechuga.",
             "Mezclar para combinar.",
             "Agrega sal, pimienta y más jugo de limón al gusto."
- 
         ],
-        "tags": ["ensalada"]
+        "tags": [
+            "ensalada"
+        ]
     },
     {
         "name": "Verduras orientales con guisantes",
-        "ingredients": ["repollo", "brócoli", "coliflor", "ajetes", "ajo", "guisantes", "salsa de soja",
-            "vinagre", "sirope", "miso", "jengibre", "maicena" ],
+        "ingredients": {
+            "repollo": {},
+            "brócoli": {},
+            "coliflor": {},
+            "ajetes": {},
+            "ajo": {},
+            "guisantes": {},
+            "salsa de soja": {},
+            "vinagre": {},
+            "sirope": {},
+            "miso": {},
+            "jengibre": {},
+            "maicena": {}
+        },
         "steps": [
             "Pon el repollo cortado a tiras en el fondo de una sartén grande y profunda.",
             "Añade la soja y el agua.",
             "Enciende el fuego a tope.",
-            "Añade encima las verduras congeladas, los ajos chafados, los guisantes y tapa.", 
+            "Añade encima las verduras congeladas, los ajos chafados, los guisantes y tapa.",
             "Si las verduras son frescas tendrás que añadir más agua para que se cuezan al vapor.",
             "No añadas sal, basta con la soja y la salsa.",
             "Mientras se cocinan las verduras haz la salsa en un cacito.",
@@ -214,8 +353,20 @@
     },
     {
         "name": "Hummus de lenteja roja con coliflor y zanahoria asadas",
-        "ingredients": ["pimentón", "cominos", "ajo", "cúrcuma", "orégano", "canela", "coliflor", "zanahoria",
-            "perejil", "lentejas", "tahini", "limón"],
+        "ingredients": {
+            "pimentón": {},
+            "cominos": {},
+            "ajo": {},
+            "cúrcuma": {},
+            "orégano": {},
+            "canela": {},
+            "coliflor": {},
+            "zanahoria": {},
+            "perejil": {},
+            "lentejas": {},
+            "tahini": {},
+            "limón": {}
+        },
         "steps": [
             "Precalienta el horno a 200 grados.",
             "Pon papel de horno en una bandeja.",
@@ -233,7 +384,12 @@
     },
     {
         "name": "Revuelto de huevo con espinacas y boniato asado",
-        "ingredients": ["espinacas", "ajo", "boniato", "huevo" ],
+        "ingredients": {
+            "espinacas": {},
+            "ajo": {},
+            "boniato": {},
+            "huevo": {}
+        },
         "steps": [
             "Asa el boniato",
             "Pon las espinacas y los ajos en una sartén, a fuego medio, añade sal y tapa.",
@@ -245,8 +401,22 @@
     },
     {
         "name": "Tacos veganos",
-        "ingredients": ["tofu", "salsa de soja", "cominos", "pimentón", "tortillas", "tomate",
-            "cebolla", "ajo", "zumo de naranja", "cilantro", "yogur", "tahini", "limón", "sirope" ],
+        "ingredients": {
+            "tofu": {},
+            "salsa de soja": {},
+            "cominos": {},
+            "pimentón": {},
+            "tortillas": {},
+            "tomate": {},
+            "cebolla": {},
+            "ajo": {},
+            "zumo de naranja": {},
+            "cilantro": {},
+            "yogur": {},
+            "tahini": {},
+            "limón": {},
+            "sirope": {}
+        },
         "steps": [
             "Prepara salsa verde con cilantro, ajo, yogur, tahini, zumo de limón, miel o sirope y cominos",
             "Rallar el tofu con un rallador.",
@@ -258,12 +428,23 @@
             "Añadir el tofu cuando esté ya horneado y remover.",
             "Montar los tacos con el tofu, la salsa y un poco de tomate troceado, cilantro, cebolla picada, lechuga al gusto."
         ],
-        "tags": ["tacos"]
+        "tags": [
+            "tacos"
+        ]
     },
     {
         "name": "Boniato asado con garbanzos y crumble",
-        "ingredients": ["garbanzos", "ajo", "cebolla", "orégano", "nueces", "romero", "sirope", "rúcula", 
-            "Arándanos secos"],
+        "ingredients": {
+            "garbanzos": {},
+            "ajo": {},
+            "cebolla": {},
+            "orégano": {},
+            "nueces": {},
+            "romero": {},
+            "sirope": {},
+            "rúcula": {},
+            "Arándanos secos": {}
+        },
         "steps": [
             "Asa el boniato",
             "Mezcla los garbanzos con ajo y cebolla en polvo y orégano.",
@@ -277,18 +458,39 @@
     },
     {
         "name": "Ensalada arcoíris",
-        "ingredients": ["pimiento", "zanahoria", "calabacín", "remolacha", "nueces", "manzana", "lechuga",
-            "mostaza", "sirope", "vinagre", "aceite" ],
+        "ingredients": {
+            "pimiento": {},
+            "zanahoria": {},
+            "calabacín": {},
+            "remolacha": {},
+            "nueces": {},
+            "manzana": {},
+            "lechuga": {},
+            "mostaza": {},
+            "sirope": {},
+            "vinagre": {},
+            "aceite": {}
+        },
         "steps": [
             "Cortar en juliana y mezclar todo en un cuenco y servir encima de hojas de lechuga de roble.",
             "Preparar la vinagreta y mezclar."
         ],
-        "tags": ["ensalada"]
+        "tags": [
+            "ensalada"
+        ]
     },
     {
         "name": "Pizza de patata",
-        "ingredients": ["patata", "arroz", "levadura nutricional", "vinagre", "leche", "tomate", "champiñón",
-            "espinacas"],
+        "ingredients": {
+            "patata": {},
+            "arroz": {},
+            "levadura nutricional": {},
+            "vinagre": {},
+            "leche": {},
+            "tomate": {},
+            "champiñón": {},
+            "espinacas": {}
+        },
         "steps": [
             "Cuece unas patatas.",
             "Haz puré algunas patatas y haz una bola",
@@ -301,33 +503,66 @@
             "Luego los toppings (tomate en rodajas, espinacas) y finalmente la crema.",
             "Hornea 10 minutos más o hasta que esté lista."
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "Gazpacho de fresa",
-        "ingredients": ["fresas", "tomate", "cebolla", "ajo", "pimiento", "pepino", "vinagre", "aceite" ],
+        "ingredients": {
+            "fresas": {},
+            "tomate": {},
+            "cebolla": {},
+            "ajo": {},
+            "pimiento": {},
+            "pepino": {},
+            "vinagre": {},
+            "aceite": {}
+        },
         "steps": [
             "Poner todos los ingredientes en la batidora y batir hasta que esté cremoso.",
             "Si lo prefieres puedes colarlo para eliminar piel y semillas.",
-            "Puedes añadir un poco de agua fría si te gusta más líquido", 
+            "Puedes añadir un poco de agua fría si te gusta más líquido",
             "También opcional trocitos de las verduras y las fresas que has utilizado para decorar."
         ],
-        "tags": ["sopa", "frío"]
+        "tags": [
+            "sopa",
+            "frío"
+        ]
     },
     {
         "name": "Pudding de chía con cacao y frutas",
-        "ingredients": ["leche", "cacao", "plátano", "chía", "proteína de cacahuete", "canela", "vainilla",
-            "mango"],
+        "ingredients": {
+            "leche": {},
+            "cacao": {},
+            "plátano": {},
+            "chía": {},
+            "proteína de cacahuete": {},
+            "canela": {},
+            "vainilla": {},
+            "mango": {}
+        },
         "steps": [
             "La noche anterior batir bien todos los ingredientes menos el mango y ponerlos en un bote.",
             "Por la mañana añadir el mango encima del pudding y tapar el bote si te lo vas a llevar."
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Ensalada cremosa de espinacas",
-        "ingredients": ["espinacas", "tomate", "pasas", "cañamones", "levadura nutricional", "dátil", "apio",
-            "limón", "pimentón"],
+        "ingredients": {
+            "espinacas": {},
+            "tomate": {},
+            "pasas": {},
+            "cañamones": {},
+            "levadura nutricional": {},
+            "dátil": {},
+            "apio": {},
+            "limón": {},
+            "pimentón": {}
+        },
         "steps": [
             "Trocea los tomates y las espinacas, si son grandes, y ponlas en un cuenco.",
             "Añade las pasas.",
@@ -335,16 +570,27 @@
             "Añade la salsa al cuenco, remueve bien.",
             "Espolvorea con semillas de cáñamo peladas y con levadura nutricional."
         ],
-        "tags": ["ensalada"]
+        "tags": [
+            "ensalada"
+        ]
     },
     {
         "name": "Patatas al curri con acelgas",
-        "ingredients": ["cebolla", "ajo", "cominos", "patata", "tomate", "curri", "cilantro", "acelgas",
-            "cúrcuma" ],
+        "ingredients": {
+            "cebolla": {},
+            "ajo": {},
+            "cominos": {},
+            "patata": {},
+            "tomate": {},
+            "curri": {},
+            "cilantro": {},
+            "acelgas": {},
+            "cúrcuma": {}
+        },
         "steps": [
             "En una sartén tuesta las semillas (si las vas a utilizar).",
             "Añade la cebolla y el ajo y un poco de agua y saltea hasta que estén tiernos.",
-            "Añade las patatas troceadas, la cúrcuma, los cominos, el curri, el cilantro seco, sal y ½ taza de agua.", 
+            "Añade las patatas troceadas, la cúrcuma, los cominos, el curri, el cilantro seco, sal y ½ taza de agua.",
             "Saltea 5 minutos.",
             "Añade los tomates troceados y las acelgas troceadas y continua añadiendo poco a poco agua hasta que las patatas estén cocinadas.",
             "Sirve y decora con cilantro fresco."
@@ -353,26 +599,48 @@
     },
     {
         "name": "Barcas de endivias con hummus y tomate",
-        "ingredients": ["endivia", "garbanzos", "tahini", "cominos", "tomate" ],
+        "ingredients": {
+            "endivia": {},
+            "garbanzos": {},
+            "tahini": {},
+            "cominos": {},
+            "tomate": {}
+        },
         "steps": [
             "Prepara el hummus con garbanzos cocidos",
             "Trocear el tomate",
             "Montar las barcas de endivias con el hummus y el tomate troceado."
         ],
-        "tags": ["canapé"]
+        "tags": [
+            "canapé"
+        ]
     },
     {
         "name": "Mousse de cacao",
-        "ingredients": ["leche", "aguacate", "sirope", "dátil", "canela", "vainilla", "proteína de cacahuete" ],
+        "ingredients": {
+            "leche": {},
+            "aguacate": {},
+            "sirope": {},
+            "dátil": {},
+            "canela": {},
+            "vainilla": {},
+            "proteína de cacahuete": {}
+        },
         "steps": [
             "Batir todo bien batido.",
             "Servir en un cuenquito."
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Patatas hervidas con coliarroz",
-        "ingredients": ["coliflor", "patata", "curri" ],
+        "ingredients": {
+            "coliflor": {},
+            "patata": {},
+            "curri": {}
+        },
         "steps": [
             "Rehogar la coliflor troceada como si fuera arroz en la sartén con un poco de caldo.",
             "Seguir hasta que empiece a dorarse.",
@@ -382,19 +650,42 @@
     },
     {
         "name": "Cuscús raw especial",
-        "ingredients": ["brócoli", "aguacate", "mango", "tomate", "pepino", "pimiento", "pasas", "pipas",
-            "cilantro", "proteína de cacahuete", "salsa de soja", "vinagre", "sirope", "ajo", "jengibre" ],
+        "ingredients": {
+            "brócoli": {},
+            "aguacate": {},
+            "mango": {},
+            "tomate": {},
+            "pepino": {},
+            "pimiento": {},
+            "pasas": {},
+            "pipas": {},
+            "cilantro": {},
+            "proteína de cacahuete": {},
+            "salsa de soja": {},
+            "vinagre": {},
+            "sirope": {},
+            "ajo": {},
+            "jengibre": {}
+        },
         "steps": [
             "Preparar la vinagreta con la proteína, soja, vinagre, sirope, ajo en polvo y jengibre.",
             "Trocea el brócoli con la batidora con textura de cuscús.",
             "Trocea el resto de los ingredientes a cuadraditos.",
             "Pon todo en un recipiente y remueve."
         ],
-        "tags": ["ensalada"]
+        "tags": [
+            "ensalada"
+        ]
     },
     {
         "name": "Crema de calabaza con champiñones",
-        "ingredients": ["calabaza", "cebolla", "caldo", "champiñón", "perejil" ],
+        "ingredients": {
+            "calabaza": {},
+            "cebolla": {},
+            "caldo": {},
+            "champiñón": {},
+            "perejil": {}
+        },
         "steps": [
             "Poner en la cazuela la cebolla troceada y rehogar con un poco de caldo de verduras hasta que esté tierna.",
             "Añadir la calabaza asada (o cruda), añadir caldo y dejar cocer con la cazuela tapada:",
@@ -405,12 +696,26 @@
             "Rellenar los huecos con perejil y ajo en polvo y meter en el airfryer o en el horno o en una sartén con tapa.",
             "Asar 15 minutos y servir con la sopa."
         ],
-        "tags": ["sopa"]
+        "tags": [
+            "sopa"
+        ]
     },
     {
         "name": "Sopa de cúrcuma y quinoa",
-        "ingredients": ["cebolla", "ajo", "pimiento", "zanahoria", "brócoli", "coliflor", "caldo", "quinoa",
-            "leche", "cúrcuma", "jengibre", "cilantro" ],
+        "ingredients": {
+            "cebolla": {},
+            "ajo": {},
+            "pimiento": {},
+            "zanahoria": {},
+            "brócoli": {},
+            "coliflor": {},
+            "caldo": {},
+            "quinoa": {},
+            "leche": {},
+            "cúrcuma": {},
+            "jengibre": {},
+            "cilantro": {}
+        },
         "steps": [
             "Lava la quinoa y reserva.",
             "Pocha cebolla y ajo picado en una olla con aceite caliente.",
@@ -418,15 +723,28 @@
             "Luego añade el pimiento rojo, la zanahoria, el brócoli, la coliflor, la cúrcuma y el jengibre.",
             "Saltea unos minutos para que se tuesten ligeramente.",
             "Baja el fuego y añade el resto de los ingredientes.",
-            "Deja que todo se cocine durante 12 minutos.", 
+            "Deja que todo se cocine durante 12 minutos.",
             "Sirve con cilantro fresco."
         ],
-        "tags": ["sopa"]
+        "tags": [
+            "sopa"
+        ]
     },
     {
         "name": "Tajine de verduras",
-        "ingredients": ["cebolla", "ajo", "jengibre", "boniato", "calabaza", "zanahoria", "pimiento", 
-            "repollo", "tomate", "cominos", "garbanzos"],
+        "ingredients": {
+            "cebolla": {},
+            "ajo": {},
+            "jengibre": {},
+            "boniato": {},
+            "calabaza": {},
+            "zanahoria": {},
+            "pimiento": {},
+            "repollo": {},
+            "tomate": {},
+            "cominos": {},
+            "garbanzos": {}
+        },
         "steps": [
             "Añade aceite a una olla y cuando está caliente pocha la cebolla, ajo y jengibre.",
             "Añade el boniato, calabaza, zanahoria, pimiento, repollo y cocina 10 minutos.",
@@ -439,7 +757,16 @@
     },
     {
         "name": "Crema de calabaza y zanahoria con tofu ahumado",
-        "ingredients": ["calabaza", "zanahoria", "cebolla", "ajo", "caldo", "nuez moscada", "perejil", "tofu" ],
+        "ingredients": {
+            "calabaza": {},
+            "zanahoria": {},
+            "cebolla": {},
+            "ajo": {},
+            "caldo": {},
+            "nuez moscada": {},
+            "perejil": {},
+            "tofu": {}
+        },
         "steps": [
             "En una fuente para horno coloca la calabaza y las zanahorias lavadas sin pelar,",
             "la cebolla pelada y los ajos enteros.",
@@ -451,23 +778,50 @@
             "Remueve 3 minutos más.",
             "Decora la crema con el tofu salteado y servir."
         ],
-        "tags": ["sopa"]
+        "tags": [
+            "sopa"
+        ]
     },
     {
         "name": "Ensalada 5 verduras con lubina",
-        "ingredients": ["lechuga", "pimiento", "zanahoria", "tomate", "cebolla", "manzana", "maíz", "lubina",
-            "vinagre", "sirope", "proteína de cacahuete", "salsa de soja", "mostaza", "levadura nutricional"],
+        "ingredients": {
+            "lechuga": {},
+            "pimiento": {},
+            "zanahoria": {},
+            "tomate": {},
+            "cebolla": {},
+            "manzana": {},
+            "maíz": {},
+            "lubina": {},
+            "vinagre": {},
+            "sirope": {},
+            "proteína de cacahuete": {},
+            "salsa de soja": {},
+            "mostaza": {},
+            "levadura nutricional": {}
+        },
         "steps": [
             "Prepara vinagreta",
             "Asar la lubina en el horno o airfryer. 20 minutos a 200 grados.",
             "Rallar la zanahoria y trocear el resto de vegetales y mezclar con la vinagreta"
         ],
-        "tags": ["pescado"]
+        "tags": [
+            "pescado"
+        ]
     },
     {
         "name": "Tarta de zanahoria rápida",
-        "ingredients": ["avena", "leche", "zanahoria", "canela", "nuez moscada", "pasas", "yogur", "nueces",
-            "sirope" ],
+        "ingredients": {
+            "avena": {},
+            "leche": {},
+            "zanahoria": {},
+            "canela": {},
+            "nuez moscada": {},
+            "pasas": {},
+            "yogur": {},
+            "nueces": {},
+            "sirope": {}
+        },
         "steps": [
             "Poner los copos de avena en el fondo de un cuenco, añadir la bebida vegetal",
             "Añadir canela y nuez moscada al gusto.",
@@ -476,15 +830,33 @@
             "Verter el yogur encima.",
             "Decorar con las nueces y el sirope"
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Sopa especial pro longevidad",
-        "ingredients": ["alubias", "maíz", "aceite", "zanahoria", "apio", "hinojo", "puerro", "ajo", "tomate",
-            "boniato", "perejil", "caldo", "laurel", "orégano", "cúrcuma", "albahaca"],
+        "ingredients": {
+            "alubias": {},
+            "maíz": {},
+            "aceite": {},
+            "zanahoria": {},
+            "apio": {},
+            "hinojo": {},
+            "puerro": {},
+            "ajo": {},
+            "tomate": {},
+            "boniato": {},
+            "perejil": {},
+            "caldo": {},
+            "laurel": {},
+            "orégano": {},
+            "cúrcuma": {},
+            "albahaca": {}
+        },
         "steps": [
             "Si las legumbres están secas ponlas a remojo durante la noche en abundante agua.",
-            "En una cazuela grande rehoga el ajo y la cebolla con un poco de aceite, hasta que estén tiernos.", 
+            "En una cazuela grande rehoga el ajo y la cebolla con un poco de aceite, hasta que estén tiernos.",
             "Añade el tomate concentrado.",
             "Añade el apio y la zanahoria y rehoga 5 minutos.",
             "Añade el hinojo, los puerros, el tomate y el resto de las verduras.",
@@ -495,30 +867,51 @@
             "Si las legumbres son de bote, ya hervidas, necesitarás menos caldo y unos 20 minutos de cocción.",
             "Añade perejil al gusto."
         ],
-        "tags": ["sopa"]
+        "tags": [
+            "sopa"
+        ]
     },
     {
         "name": "Muffins de cacao y calabacín",
-        "ingredients": ["calabacín", "plátano", "sirope", "vainilla", "vinagre", "avena", "cacao",
-            "bicarbonato", "levadura", "lino" ],
+        "ingredients": {
+            "calabacín": {},
+            "plátano": {},
+            "sirope": {},
+            "vainilla": {},
+            "vinagre": {},
+            "avena": {},
+            "cacao": {},
+            "bicarbonato": {},
+            "levadura": {},
+            "lino": {}
+        },
         "steps": [
             "Proporciones: 2 calabacines, 2 platanos maduros, ¼ de taza de miel o sirope de ágave o de arce,",
             "1 cucharadita de vainilla en polvo, 1 cucharada de vinagre de manzana, 2,5 tazas de harina de avena (u otra al gusto)",
             "½ taza de cacao puro en polvo, 1 cucharadita de bicarbonato, 2 cucharaditas de levadura royal en polvo,",
             "2 cucharadas de semillas de lino molidas",
             "Una pizca de sal y chips de chocolate negro (opcional).",
-            "Ralla los calabacines y ponlos en un cuenco grande.", 
+            "Ralla los calabacines y ponlos en un cuenco grande.",
             "Incluye los plátanos hechos puré, el sirope, la vainilla y el vinagre de manzana.",
             "Mezcla bien.",
-            "Añade la harina, el cacao en polvo, la levadura, el bicarbonato, las semillas de lino molidas y la sal y mezcla de nuevo.", 
+            "Añade la harina, el cacao en polvo, la levadura, el bicarbonato, las semillas de lino molidas y la sal y mezcla de nuevo.",
             "Si quieres añadir chips de chocolate negro hazlo ahora.",
             "Pon la masa en los moldes de muffins y hornea de 25 a 30 minutos en el horno precalentado a 180º."
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Untable rosa con pan de centeno",
-        "ingredients": ["alubias", "remolacha", "tahini", "ajo", "limón", "pipas" ],
+        "ingredients": {
+            "alubias": {},
+            "remolacha": {},
+            "tahini": {},
+            "ajo": {},
+            "limón": {},
+            "pipas": {}
+        },
         "steps": [
             "Batir todo con la minipimer o el procesador de comida.",
             "Servir con un poco de cebollino y semillas de sésamo y calabaza por encima.",
@@ -528,8 +921,23 @@
     },
     {
         "name": "Tacos de lentejas y nueces",
-        "ingredients": ["caldo", "cebolla", "ajo", "lentejas", "nueces", "cominos", "pimentón", "chili",
-            "tomate", "salsa de soja", "cilantro", "lima", "tortillas", "aguacate", "yogur", "cilantro"],
+        "ingredients": {
+            "caldo": {},
+            "cebolla": {},
+            "ajo": {},
+            "lentejas": {},
+            "nueces": {},
+            "cominos": {},
+            "pimentón": {},
+            "chili": {},
+            "tomate": {},
+            "salsa de soja": {},
+            "cilantro": {},
+            "lima": {},
+            "tortillas": {},
+            "aguacate": {},
+            "yogur": {}
+        },
         "steps": [
             "Calienta la sartén y añade la cebolla y los ajos y un poco de caldo de verduras.",
             "Rehoga 3 minutos.",
@@ -545,44 +953,94 @@
             "Para la salsa mezcla ½ aguacate con 1 yogur de soja, 1 ajo, cilantro, zumo de lima y sal",
             "Añade un poco de agua si queda muy espesa."
         ],
-        "tags": ["tacos"]
+        "tags": [
+            "tacos"
+        ]
     },
     {
         "name": "Ensalada en bote con quinoa y judías verdes",
-        "ingredients": ["judías verdes", "quinoa", "tomate", "manzana", "cebolla", "pimiento", "rúcula",
-            "proteína de cacahuete", "salsa de soja", "limón", "mostaza", "ajo", "levadura nutricional",
-            "sirope"],
+        "ingredients": {
+            "judías verdes": {},
+            "quinoa": {},
+            "tomate": {},
+            "manzana": {},
+            "cebolla": {},
+            "pimiento": {},
+            "rúcula": {},
+            "proteína de cacahuete": {},
+            "salsa de soja": {},
+            "limón": {},
+            "mostaza": {},
+            "ajo": {},
+            "levadura nutricional": {},
+            "sirope": {}
+        },
         "steps": [
             "En un tupper o tarro grande de cristal poner lo primero la salsa, echar todos los ingredientes de la salsa y remover",
             "Una vez que tienes la salsa añade el resto de ingredientes."
         ],
-        "tags": ["ensalada"]
+        "tags": [
+            "ensalada"
+        ]
     },
     {
         "name": "Salmorejo sin pan con huevo duro",
-        "ingredients": ["calabacín", "tomate", "ajo", "vinagre", "aceite", "huevo" ],
+        "ingredients": {
+            "calabacín": {},
+            "tomate": {},
+            "ajo": {},
+            "vinagre": {},
+            "aceite": {},
+            "huevo": {}
+        },
         "steps": [
             "Cocer el huevo.",
             "Tritura todo en un procesador de alimentos menos el huevo duro.",
             "En un cuenco echa la mezcla y pon por encima el huevo en trocitos."
         ],
-        "tags": ["sopa", "frío"]
+        "tags": [
+            "sopa",
+            "frío"
+        ]
     },
     {
         "name": "Ensalada con pasta y tofu ahumado",
-        "ingredients": ["pasta", "tofu", "tomate", "pepino", "cebolla", "pimiento", "maíz",
-            "brotes", "yogur", "cilantro", "limón", "mostaza"],
+        "ingredients": {
+            "pasta": {},
+            "tofu": {},
+            "tomate": {},
+            "pepino": {},
+            "cebolla": {},
+            "pimiento": {},
+            "maíz": {},
+            "brotes": {},
+            "yogur": {},
+            "cilantro": {},
+            "limón": {},
+            "mostaza": {}
+        },
         "steps": [
             "Cocer la pasta. Por ejemplo, pasta de lenteja roja.",
             "Hacer la vinagreta.",
             "Mezclar con los ingredientes de la ensalada."
         ],
-        "tags": ["pasta", "ensalada"]
+        "tags": [
+            "pasta",
+            "ensalada"
+        ]
     },
     {
         "name": "Crema de lombarda y pera",
-        "ingredients": ["aceite", "cebolla", "lombarda", "patata", "pera", "caldo", "limón",
-            "nuez moscada"],
+        "ingredients": {
+            "aceite": {},
+            "cebolla": {},
+            "lombarda": {},
+            "patata": {},
+            "pera": {},
+            "caldo": {},
+            "limón": {},
+            "nuez moscada": {}
+        },
         "steps": [
             "Pochar la cebolla picada 5 minutos.",
             "Añadir la col picada fina, la patata en cubos, la pera pelada y despepitada.",
@@ -590,11 +1048,20 @@
             "Mientras tanto, hacer taquitos con las otras peras y saltearlos en una sartén.",
             "Emplatar la crema, echar el zumo de limón y poner los taquitos de pera por encima"
         ],
-        "tags": ["sopa"]
+        "tags": [
+            "sopa"
+        ]
     },
     {
         "name": "Remolacha asada con alioli de alubias",
-        "ingredients": ["remolacha", "aceite", "ajo", "alubias", "limón", "albahaca" ],
+        "ingredients": {
+            "remolacha": {},
+            "aceite": {},
+            "ajo": {},
+            "alubias": {},
+            "limón": {},
+            "albahaca": {}
+        },
         "steps": [
             "Pela la remolacha y corta en cubos.",
             "Pon sobre papel de hornear con aceite de oliva virgen extra, sal, pimienta y hierbas.",
@@ -610,9 +1077,18 @@
     },
     {
         "name": "Tacos arcoíris",
-        "ingredients": ["tortillas", "cilantro", "zanahoria", "pimiento", "ajo", "cebolla", "aguacate", "lima" ],
+        "ingredients": {
+            "tortillas": {},
+            "cilantro": {},
+            "zanahoria": {},
+            "pimiento": {},
+            "ajo": {},
+            "cebolla": {},
+            "aguacate": {},
+            "lima": {}
+        },
         "steps": [
-            "En una sartén cocinar las verduras, echar un poco de agua o aceite e incorporar la cebolla y los ajos.", 
+            "En una sartén cocinar las verduras, echar un poco de agua o aceite e incorporar la cebolla y los ajos.",
             "Rehogar unos minutos, incorporar la zanahoria rehogar 2 minutos.",
             "Incorporar los pimientos, tapar e ir removiendo de vez en cuanto durante 15 minutos.",
             "Cuando las verduras ya estén hechas al dente salpimentar y reservar.",
@@ -620,12 +1096,23 @@
             "Tostar ligeramente las tortitas en una sartén, sin aceite ni nada.",
             "Poner el guacamole machado de la tortita y a continuación las verduritas."
         ],
-        "tags": ["tacos"]
+        "tags": [
+            "tacos"
+        ]
     },
     {
         "name": "Arroz chino mandarín",
-        "ingredients": ["arroz", "guisantes", "zanahoria", "espárragos", "ajo", "cebolla", "limón", 
-            "salsa de soja", "sirope"],
+        "ingredients": {
+            "arroz": {},
+            "guisantes": {},
+            "zanahoria": {},
+            "espárragos": {},
+            "ajo": {},
+            "cebolla": {},
+            "limón": {},
+            "salsa de soja": {},
+            "sirope": {}
+        },
         "steps": [
             "Cocer el arroz integral.",
             "En una sartén o wok cocinar las verduras.",
@@ -637,11 +1124,21 @@
             "Mezclar un ajo machacado, zumo de limón, salsa de soja, sal y sirope. Reservar.",
             "A la hora de consumirlo, regar por encima el aderezo."
         ],
-        "tags": ["arroz"]
+        "tags": [
+            "arroz"
+        ]
     },
     {
         "name": "Cookies de melaza de caña",
-        "ingredients": ["sirope", "manzana", "avena", "canela", "bicarbonato", "nuez moscada", "jengibre" ],
+        "ingredients": {
+            "sirope": {},
+            "manzana": {},
+            "avena": {},
+            "canela": {},
+            "bicarbonato": {},
+            "nuez moscada": {},
+            "jengibre": {}
+        },
         "steps": [
             "Proporciones: 4 cucharadas de melaza de caña, 4 cucharadas de puré de manzana,",
             "2 tazas colmadas de harina de avena, 1 cucharadita de canela, 1 cucharadita de bicarbonato,",
@@ -655,23 +1152,48 @@
             "Puedes aplanar las bolitas con un tenedor.",
             "Hornea 10 minutos a 200 grados."
         ],
-        "tags": ["desayuno"]
+        "tags": [
+            "desayuno"
+        ]
     },
     {
         "name": "Ensalada 5 estrellas con piña",
-        "ingredients": ["lechuga", "col", "eneldo", "cebolla", "pepino", "remolacha", "piña", "tomate",
-            "nueces", "dátil", "limón", "ajo"],
+        "ingredients": {
+            "lechuga": {},
+            "col": {},
+            "eneldo": {},
+            "cebolla": {},
+            "pepino": {},
+            "remolacha": {},
+            "piña": {},
+            "tomate": {},
+            "nueces": {},
+            "dátil": {},
+            "limón": {},
+            "ajo": {}
+        },
         "steps": [
             "Mezclar con la batidora 3 cucharadas de nueces, 2 dátiles, medio limón pelado, un diente de ajo,",
             "eneldo seco y agua",
             "Mezclar el aderezo con la ensalada."
         ],
-        "tags": ["ensalada"]
+        "tags": [
+            "ensalada"
+        ]
     },
     {
         "name": "Tofu marinado con salsa de cilantro y champiñones",
-        "ingredients": ["tofu", "sirope", "salsa de soja", "orégano", "maicena", "ajo", 
-            "cilantro", "yogur", "mostaza"],
+        "ingredients": {
+            "tofu": {},
+            "sirope": {},
+            "salsa de soja": {},
+            "orégano": {},
+            "maicena": {},
+            "ajo": {},
+            "cilantro": {},
+            "yogur": {},
+            "mostaza": {}
+        },
         "steps": [
             "Cortar el taco de tofu en barritas largas rectangulares.",
             "En un cuenco mezclar una cucharada de miel (o sirope), 2 cucharadas de salsa de soja,",
@@ -689,8 +1211,18 @@
     },
     {
         "name": "Revuelto de tofu con boniato y aguacate",
-        "ingredients": ["tofu", "cebolla", "boniato", "ajo", "tomate", "cúrcuma", "caldo", 
-            "levadura nutricional", "aguacate", "lechuga"],
+        "ingredients": {
+            "tofu": {},
+            "cebolla": {},
+            "boniato": {},
+            "ajo": {},
+            "tomate": {},
+            "cúrcuma": {},
+            "caldo": {},
+            "levadura nutricional": {},
+            "aguacate": {},
+            "lechuga": {}
+        },
         "steps": [
             "Asa el boniato",
             "Pela el boniato asado y trocéalo en cubos.",
@@ -704,20 +1236,39 @@
     },
     {
         "name": "Sopa de tomates asados",
-        "ingredients": ["tomate", "ajo", "cebolla", "caldo", "alubias", "pimentón", "albahaca" ],
+        "ingredients": {
+            "tomate": {},
+            "ajo": {},
+            "cebolla": {},
+            "caldo": {},
+            "alubias": {},
+            "pimentón": {},
+            "albahaca": {}
+        },
         "steps": [
             "Hornear los tomates con sal y pimienta 40 minutos a 200 grados.",
             "Saltear, en una cazuela la cebolla y el ajo picados con caldo de verduras.",
-            "Si horneas los tomates con antelación puedes reservarlos en un tupper hasta el día que los vayas a comer.", 
+            "Si horneas los tomates con antelación puedes reservarlos en un tupper hasta el día que los vayas a comer.",
             "Batir en la batidora con el caldo, las judías blancas y el pimentón.",
             "Servir y decorar con unas hojas de albahaca."
         ],
-        "tags": ["sopa"]
+        "tags": [
+            "sopa"
+        ]
     },
     {
         "name": "Pasta longevity",
-        "ingredients": ["pasta", "brócoli", "alubias", "limón", "levadura nutricional", "nueces", "ajo",
-            "pimiento", "chili"],
+        "ingredients": {
+            "pasta": {},
+            "brócoli": {},
+            "alubias": {},
+            "limón": {},
+            "levadura nutricional": {},
+            "nueces": {},
+            "ajo": {},
+            "pimiento": {},
+            "chili": {}
+        },
         "steps": [
             "Pon a calentar el agua y cuece la pasta.",
             "Cuando falten 3 minutos añade el brócoli.",
@@ -729,19 +1280,30 @@
             "Añade la levadura nutricional, sal y pimienta y remueve.",
             "Sirve en un plato y espolvorea con nueces picadas"
         ],
-        "tags": ["pasta"]
+        "tags": [
+            "pasta"
+        ]
     },
     {
         "name": "Milanesa de berenjena",
-        "ingredients": ["berenjena", "huevo", "orégano", "romero", "pan rallado", "yogur", "limón", "harina",
-            "aceite"],
+        "ingredients": {
+            "berenjena": {},
+            "huevo": {},
+            "orégano": {},
+            "romero": {},
+            "pan rallado": {},
+            "yogur": {},
+            "limón": {},
+            "harina": {},
+            "aceite": {}
+        },
         "steps": [
             "Haz una salsa con yogur, ajo en polvo, zumo de limón, cilantro fresco, sal y pimienta.",
             "Lava la berenjena y córtala por la mitad a lo largo sin quitar el rabito.",
             "Calienta el horno 200º y asa durante 30 min con la piel hacia arriba.",
             "Bate el huevo con sal, orégano, romero, ...",
             "Tritura los crackers de centeno para obtener un pan rallado más saludable",
-            "Una vez que ya están horneadas, deja enfriar un poco para poder quitar la piel.", 
+            "Una vez que ya están horneadas, deja enfriar un poco para poder quitar la piel.",
             "Aplasta la berenjena para que quede como un filete, pásala por harina, huevo y pan rallado.",
             "Coloca las berenjenas en el horno, pulveriza con aceite de oliva y hornea a 200 grados 30 minutos (que queden doraditas)"
         ],
@@ -749,8 +1311,22 @@
     },
     {
         "name": "Dahl de lentejas a nuestra manera",
-        "ingredients": ["lentejas", "leche de coco", "cebolla", "zanahoria", "boniato", "brócoli", "jengibre",
-            "ajo", "tomate", "caldo", "curri", "cominos", "canela", "cúrcuma" ],
+        "ingredients": {
+            "lentejas": {},
+            "leche de coco": {},
+            "cebolla": {},
+            "zanahoria": {},
+            "boniato": {},
+            "brócoli": {},
+            "jengibre": {},
+            "ajo": {},
+            "tomate": {},
+            "caldo": {},
+            "curri": {},
+            "cominos": {},
+            "canela": {},
+            "cúrcuma": {}
+        },
         "steps": [
             "Pon a cocinar el brócoli al vapor aparte.",
             "Sofríer en una cazuela la cebolla y los ajos con caldo.",
@@ -765,107 +1341,142 @@
     },
     {
         "name": "Arroz a la cubana con tomate tamizado, verduras al vapor y plátano macho.",
-        "ingredients": ["plátano macho", "arroz", "tomate", "coliflor", "cebolla", "ajo" ],
+        "ingredients": {
+            "plátano macho": {},
+            "arroz": {},
+            "tomate": {},
+            "coliflor": {},
+            "cebolla": {},
+            "ajo": {}
+        },
         "steps": [
             "Hervir el arroz con el doble de agua (si es blanco) o con el triple (si es integral).",
             "Poner a guisar las verduras al vapor o en el air fryer o rehogadas o ligeramente hervidas.",
-            "Hacerle un corte a la piel al plátano macho y meterlo en el microondas 6 minutos a máxima potencia.", 
+            "Hacerle un corte a la piel al plátano macho y meterlo en el microondas 6 minutos a máxima potencia.",
             "Sacarlo, dejarlo enfriar un poco y retirar la piel.",
             "Reservar.",
             "Servir el arroz y el plátano en la mitad del plato.",
             "Llenar el resto del plato con verduras.",
             "Añadir tomate tamizado."
         ],
-        "tags": ["arroz"]
+        "tags": [
+            "arroz"
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "",
-        "ingredients": ["", "" ],
+        "ingredients": {},
         "steps": [
             "",
             ""
         ],
-        "tags": [""]
+        "tags": [
+            ""
+        ]
     },
     {
         "name": "Caldo de verduras",
-        "ingredients": ["zanahoria", "apio", "brócoli", "cebolla", "lombarda" ],
+        "ingredients": {
+            "zanahoria": {},
+            "apio": {},
+            "brócoli": {},
+            "cebolla": {},
+            "lombarda": {}
+        },
         "steps": [
             "Hervir durante 60 minutos desde agua fría y colar.",
             "Con la verdura puedes preparar una crema de verduras."
         ],
-        "tags": ["caldo"]
+        "tags": [
+            "caldo"
+        ]
     }
 ]
