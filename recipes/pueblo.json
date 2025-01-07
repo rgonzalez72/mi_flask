@@ -1,5 +1,83 @@
 [
     {
+        "name": "Ensalada de repollo.",
+        "ingredients": {
+            "repollo": {"prep": "troceado pequeño"},
+            "tomate": {"type": "pera"},
+            "ajo": {}
+        },
+        "steps": [
+            "Rallar un diente de ajo.",
+            "Sin limpiar el rallo, rallar el tomate encima.",
+            "Aliñar el tomate rallado con sal, aceite y vinagre.",
+            "Mezclar el tomate con el repollo troceado."
+        ],
+        "tags": [
+            "ensalada", "pueblo"
+        ]
+    },
+    {
+        "name": "Ensalada de escarola y granada",
+        "ingredients": {
+            "escarola": {"prep": "lavada y troceada"},
+            "granada": {},
+            "ajo": {}
+        },
+        "steps": [
+            "Freír un par de dientes de ajo en láminas.",
+            "Mezclar el aceite de freír, incluyendo los ajos, con escarola.",
+            "Añadir unos granos de granada", 
+            "Ojo, no poner sal"
+        ],
+        "tags": [
+            "ensalada", "pueblo"
+        ]
+    },
+    {
+        "name": "",
+        "ingredients": {},
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "ingredients": {},
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "ingredients": {},
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "ingredients": {},
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
         "name": "Migas",
         "ingredients": {
             "pan": {},

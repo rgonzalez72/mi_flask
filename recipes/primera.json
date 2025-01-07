@@ -361,14 +361,22 @@
         ]
     },
     {
-        "name": "",
-        "ingredients": {},
+        "name": "Ensalada americana.",
+        "ingredients": {
+            "repollo": {},
+            "zanahoria": {},
+            "cebolla": {},
+            "mahonesa": {},
+            "mostaza": {}
+        },
         "steps": [
-            "",
-            ""
+            "Cortar el repollo y la zanahoria en juliana finita.",
+            "Rallar la zanahoria.",
+            "Mezclar todo con mahonesa y mostaza.",
+            "Opcionalmente se puede añadir manzana y/o pasas."
         ],
         "tags": [
-            ""
+            "ensalada"
         ]
     },
     {
