@@ -361,7 +361,7 @@
         ]
     },
     {
-        "name": "Ensalada americana.",
+        "name": "Ensalada americana",
         "ingredients": {
             "repollo": {},
             "zanahoria": {},
@@ -380,25 +380,42 @@
         ]
     },
     {
-        "name": "",
-        "ingredients": {},
+        "name": "Untable de tomates secos",
+        "ingredients": {
+            "tomates secos": {"prep": "rehidratados y puestos en aceite" },
+            "pimentón": {"type": "dulce" },
+            "ajo":  {"type": "en polvo" },
+            "almendra": {"type": "molida" }
+
+        },
         "steps": [
-            "",
+            "Batir todo en la batidora, incluido el aceite de los tomates, hasta que quede bien mezclado y con textura uniforme.",
             ""
         ],
         "tags": [
-            ""
+            "canapé"
         ]
     },
     {
-        "name": "",
-        "ingredients": {},
+        "name": "Paté de pipas de girasol y tomates secos",
+        "ingredients": {
+            "pipas": {"type": "girasol", "quantity": "150g" },
+            "tomates secos": {"prep": "rehidratados", "quantity": 3},
+            "tahini": {},
+            "limón": {"prep": "Sacar zumo y rallar la piel"},
+            "pimentón": {},
+            "aceite": {}
+        },
         "steps": [
-            "",
-            ""
+            "Rehidratar el tomate, y, opcionalmente, poner en aceite.",
+            "Lavar y dejar a remojo las pipas unas 2-4 horas.",
+            "Enjuagar bien.", 
+            "Volcar las pipas en el robot de cocina junto al resto de ingredientes.", 
+            "Triturar hasta alcanzar una pasta homogénea.",
+            "Una vez listo, servir con una pizca de oliva y pimentón dulce. "
         ],
         "tags": [
-            ""
+            "canapé"
         ]
     },
     {
