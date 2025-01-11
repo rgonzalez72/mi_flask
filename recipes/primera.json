@@ -419,6 +419,134 @@
         ]
     },
     {
+        "name": "Berenjenas con salsa de yogur",
+        "ingredients": {
+            "berenjena": {},
+            "yogur": {},
+            "limón": {},
+            "tahini": {},
+            "aceite": {"type": "sésamo" }
+        },
+        "steps": [
+            "Hacer rodajas de berenjena.",
+            "Cocinar al vapor.",
+            "Hacer una salsa con yogur, sal, zumo de limón, tahini y aceite de sésamo", 
+            "Opcionalmente se puede añadir tomate frito también."
+        ],
+        "tags": [
+        ]
+    },
+    {
+        "name": "",
+        "ingredients": {},
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "ingredients": {},
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "ingredients": {},
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "ingredients": {},
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "ingredients": {},
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "ingredients": {},
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "ingredients": {},
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "ingredients": {},
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "ingredients": {},
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "ingredients": {},
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
         "name": "",
         "ingredients": {},
         "steps": [
