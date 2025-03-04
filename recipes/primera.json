@@ -436,14 +436,28 @@
         ]
     },
     {
-        "name": "",
-        "ingredients": {},
+        "name": "Galletas de avena",
+        "ingredients": {
+            "avena": {"quantity": "una taza"},
+            "harina": {"quantity": "2 cucharadas y media", "type": "avena"},
+            "agua": {},
+            "canela": {"type": "en polvo"},
+            "yogur": {"quantity": "2 cucharadas"},
+            "levadura": {},
+            "pasas": {},
+            "aceite": {"type": "girasol", "quantity": "1 cucharada"}
+        },
         "steps": [
-            "",
-            ""
+            "Mezclar muy bien, la avena, levadura, aceite, canela y una pizca de sal con dos cucharadas de agua caliente.",
+            "Dejar reposar 5 minutos.",
+            "Incluir en la mezcla el yogurt, la harina de avena, las pasas u otras frutas deshidratadas y tres cucharadas de agua caliente.",
+            "Mezclar muy bien",
+            "Con las manos mojadas dar forma a las galletas. En este punto hay dos opciones: ",
+            "Uno. Hacerlas un poco gorditas, entonces hacer en la sartén 10 minutos por cada lado con tapa.",
+            "Dos. Hacerlas muy finas, entonces hacerlas en la sartén 5, 7 minutos sin tapar."
         ],
         "tags": [
-            ""
+            "desayuno"
         ]
     },
     {
