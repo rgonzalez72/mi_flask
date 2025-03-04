@@ -214,7 +214,7 @@
             "quinoa": {}
         },
         "steps": [
-            "Pon en una cazuela un poco de agua o aceita, el puerro, la zanahoria, la calabaza, los ajos, y la cebolla.",
+            "Pon en una cazuela un poco de agua o aceite, el puerro, la zanahoria, la calabaza, los ajos, y la cebolla.",
             "Rehoga todo durante 10 min. a fuego medio.",
             "Incorpora agua de poquito en poquito para que no se pegue.",
             "Añada las patatas, la quinoa bien lavada y el agua y deje hervir durante 20 min.",
@@ -548,6 +548,65 @@
         ],
         "tags": [
             "desayuno"
+        ]
+    },
+    {
+        "name": "Ensalada de invierno",
+        "ingredients": {
+            "boniato": {},
+            "calabaza": {"quantity": "una rodaja"},
+            "cominos": {},
+            "cilantro": {},
+            "aceite": {"quantity": "una cucharada"},
+            "pipas": {"quantity": "una cucharada"},
+            "manzana": {"quantity": "una", "prep": "trozeada"},
+            "granada": {"quantity": "una", "prep": "desgranada"},
+            "quinoa": {"quantity": "50 gramos"},
+            "rúcula": {},
+            "perejil": {},
+            "yogur": {},
+            "tahini": {"quantity": "una cucharada"},
+            "limón": {"prep": "ralladura"},
+            "mostaza": {"quantity": "una cucharadita"}
+        },
+        "steps": [
+            "Precalentar el horno a 200 grados.",
+            "Trocear el boniato y la calabaza y sazonar con cominos, cilantro, sal y aceite.",
+            "Hornear 35 minutos o hasta que esten tiernas.",
+            "Cuece la quinoa.",
+            "Prepara la salsa mezclando, el perejil, yogur, tahini, limón y mostaza.",
+            "Mezcla todos los ingredientes y la salsa."
+        ],
+        "tags": [
+            "ensalada"
+        ]
+    },
+    {
+        "name": "Verduras variadas asadas",
+        "ingredients": {
+            "menestra congelada": {"quantity": "una bolsa" },
+            "calabacín": {"quantity": "uno"},
+            "aceite": {},
+            "romero": {},
+            "tahini": {"quantity": "una cucharada"},
+            "yogur": {"quantity": "una cucharada"},
+            "menta": {},
+            "ajo": {"quantity": "un diente"},
+            "limón": {"quantity": "medio"},
+            "mostaza": {"quantity": "una cucharadita"},
+            "salsa de soja": {"quantity": "una cucharada"},
+            "sirope": {}
+        },
+        "steps": [
+            "Asar o cocer las bolsa de verduras congeladas con sal y romero. (180 grados, 30 minutos)",
+            "Salsa 1. Mutabal.",
+            "Asar y triturar el calabacín.",
+            "Mezclar con tahini, yogur, menta, ajo, limón y sal.",
+            "Salsa 2. Salsa de tahini.",
+            "Mezclar tahini, yogur, mostaza, salsa de soja, sirope, ajo en polvo, limón y sal."
+        ],
+        "tags": [
+            ""
         ]
     },
     {
