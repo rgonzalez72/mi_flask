@@ -1452,14 +1452,22 @@
         ]
     },
     {
-        "name": "",
-        "ingredients": {},
+        "name": "Batido de naranja y chocolate",
+        "ingredients": {
+            "coliflor": {"type": "congelada", "quantity": "1 taza"},
+            "naranja": {"quantity": "2"},
+            "cacao": {"quantity": "2 cucharadas"},
+            "platano": {"quantity": "3", "prep": "congelados"},
+            "vainilla": {},
+            "leche": {"quantity": "1 taza"},
+            "garbanzos": {"quantity": "1/2 taza"},
+            "dátil": {"quantity": "1"}
+        },
         "steps": [
-            "",
-            ""
+            "Batir bien y servir."
         ],
         "tags": [
-            ""
+            "desayuno", "licuado"
         ]
     },
     {
