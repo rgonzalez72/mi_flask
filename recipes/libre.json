@@ -1364,25 +1364,51 @@
         ]
     },
     {
-        "name": "",
-        "ingredients": {},
+        "name": "Crema de zanahoria y champiñón",
+        "ingredients": {
+            "zanahoria": {},
+            "curri": {},
+            "ajo": {},
+            "jengibre": {},
+            "cebolla": {},
+            "caldo": {},
+            "leche de coco": {},
+            "lima": {},
+            "champiñón": {}
+        },
         "steps": [
-            "",
-            ""
+            "Rehoga en una cazuela el jengibre, el ajo, la cebolla y las zanahorias.",
+            "Añade el curri deja un par de minutos.",
+            "Añade el caldo y deja cocer 20 minutos.",
+            "Rehoga los champiñones laminados con un poco de aceite.",
+            "Añade medio bote de leche de coco a las zanahorias.",
+            "Prepara una crema.",
+            "Sirve con los champiñones rehogados y un chorrito de zumo de lima."
         ],
         "tags": [
-            ""
+            "puré"
         ]
     },
     {
-        "name": "",
-        "ingredients": {},
+        "name": "Salmón con costra de avellanas.",
+        "ingredients": {
+            "avellana": {"quantity": "20g"},
+            "perejil": {"prep": "picado"},
+            "limón": {},
+            "yogur": {"quantity": "2 cucharadas"},
+            "mostaza": {},
+            "eneldo": {},
+            "salmón": {}
+        },
         "steps": [
-            "",
-            ""
+            "Moler los frutos secos, o pipas, evitando que se haga una pasta.",
+            "Mezclar con el perejil ralladura de limón, yogur, mostaza, eneldo y sal.",
+            "Rebozamos el salmón con mezcla.",
+            "Hacemos el salmón en una sartén 5 minutos por cada lado.",
+            "Servir con ensalada."
         ],
         "tags": [
-            ""
+            "pescado"
         ]
     },
     {
