@@ -1412,8 +1412,144 @@
         ]
     },
     {
+        "name": "Crema de calabacín y espárragos",
+        "ingredients": {
+            "calabacín": {},
+            "cebolla": {},
+            "espárrago": {},
+            "caldo": {},
+            "nuez moscada": {}
+        },
+        "steps": [
+            "Trocea la cebolla y el calabacín.",
+            "Saltea las verduras con aceite.",
+            "Añade el caldo y deja cocer 18 minutos.",
+            "Añade la nuez moscada y mezcla todo con la batidora.",
+            "Haz los espárragos en una sartén con aceite.",
+            "Sirve la crema con los espárragos por encima"
+        ],
+        "tags": [
+            "puré"
+        ]
+    },
+    {
+        "name": "Langostinos al curri",
+        "ingredients": {
+            "langostinos": {"prep": "pelados"},
+            "lima": {},
+            "cebolla": {},
+            "ajo": {},
+            "jengibre": {},
+            "curri": {},
+            "calabacín": {},
+            "brócoli": {},
+            "tomate": {"type": "triturado"}
+        },
+        "steps": [
+            "Rociar los langostinos con lima.",
+            "Sofreir el ajo, jengibre y cebolla en una sartén.",
+            "Agregamos arbolitos de brócoli y rehogamos unos 5 minutos.",
+            "Agregamos el curri, el calabacín y unos tomates cherry.",
+            "Dejamos 3 minutos.",
+            "Se incluye el tomate triturado y se deja cocer con tapa unos 20 minutos.",
+            "Se incluyen los langostinos y se deja cocer 4 minutos.",
+            "Se sirve immediatamente."
+        ],
+        "tags": [
+            "pescado"
+        ]
+    },
+    {
+        "name": "Overnight carrot cake",
+        "ingredients": {
+            "zanahoria": {"prep": "rallada"},
+            "plátano": {},
+            "avena": {},
+            "canela": {},
+            "leche": {"quantity": "1/2 taza"},
+            "pasas": {},
+            "nueces": {},
+            "yogur": {"quantity": "2 cucharadas"}
+        },
+        "steps": [
+            "Machaca el plátano con el tenedor.",
+            "Mezcla el resto de ingredientes, excepto el yogur",
+            "Pon la mezcla en un tarro, pon el yogur por encima y tapa.", 
+            "Dejar en la nevera toda la noche."
+        ],
+        "tags": [
+            "desayuno"
+        ]
+    },
+    {
+        "name": "Sardinas al horno con ensalada de pepino.",
+        "ingredients": {
+            "sardina": {},
+            "pepino": {},
+            "aceite": {"type": "sésamo"},
+            "vinagre": {},
+            "chili": {},
+            "ajo": {},
+            "sésamo": {"prep": "molido"}
+        },
+        "steps": [
+            "Poner las sardinas en el horno a 180 grados con una pizca de sal.",
+            "Cortar el pepino en rodajas finas.",
+            "Mezclar el resto de ingredientes para la ensalada."
+        ],
+        "tags": [
+            "pescado"
+        ]
+    },
+    {
+        "name": "Hummus de pimiento del piquillo",
+        "ingredients": {
+            "garbanzos": {"quantity": "un bote pequeño"},
+            "tahini": {},
+            "ajo": {},
+            "limón": {},
+            "cominos": {},
+            "pimiento": {"type": "piquillo"},
+            "zanahoria": {"prep": "palitos"},
+            "pepino": {"prep": "palitos"}
+        },
+        "steps": [
+            "Hacer el hummus con todos lo ingredientes menos la zanahora y el pepino, que se usan para mojar."
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "name": "Tostas de boniato con aguacate y huevo.",
+        "ingredients": {
+            "boniato": {},
+            "aguacate": {},
+            "huevo": {},
+            "cebolla": {},
+            "lechuga": {}
+        },
+        "steps": [
+            "Pelar y cortar el boniato en rodajas.",
+            "Hornear 20 minutos a 180 grados.",
+            "Dejar reposar al menos 12 horas",
+            "Luego preparar una mezcla de aguate y huevo que se unta y se ponen las hojas verdes encima."
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
         "name": "",
-        "ingredients": {},
+        "ingredients": {
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {}
+        },
         "steps": [
             "",
             ""
@@ -1424,7 +1560,15 @@
     },
     {
         "name": "",
-        "ingredients": {},
+        "ingredients": {
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {}
+        },
         "steps": [
             "",
             ""
@@ -1435,7 +1579,15 @@
     },
     {
         "name": "",
-        "ingredients": {},
+        "ingredients": {
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {}
+        },
         "steps": [
             "",
             ""
@@ -1446,7 +1598,15 @@
     },
     {
         "name": "",
-        "ingredients": {},
+        "ingredients": {
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {}
+        },
         "steps": [
             "",
             ""
@@ -1457,7 +1617,15 @@
     },
     {
         "name": "",
-        "ingredients": {},
+        "ingredients": {
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {}
+        },
         "steps": [
             "",
             ""
@@ -1468,7 +1636,53 @@
     },
     {
         "name": "",
-        "ingredients": {},
+        "ingredients": {
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {}
+        },
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "ingredients": {
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {}
+        },
+        "steps": [
+            "",
+            ""
+        ],
+        "tags": [
+            ""
+        ]
+    },
+    {
+        "name": "",
+        "ingredients": {
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {},
+            "": {}
+        },
         "steps": [
             "",
             ""
