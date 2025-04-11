@@ -461,14 +461,19 @@
         ]
     },
     {
-        "name": "",
-        "ingredients": {},
+        "name": "Pancakes de maíz",
+        "ingredients": {
+            "huevo": {},
+            "maíz": {"type": "de lata"},
+            "levadura": {},
+            "harina": {"type": "maíz precocida"}
+        },
         "steps": [
-            "",
-            ""
+            "Mezclar los ingredientes hasta darle una textura espesa a la masa.",
+            "Calentar la sartén y hacer las tortitas."
         ],
         "tags": [
-            ""
+            "acompañamiento"
         ]
     },
     {
