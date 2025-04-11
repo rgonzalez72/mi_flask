@@ -1540,41 +1540,20 @@
         ]
     },
     {
-        "name": "",
+        "name": "Pudding otoñal",
         "ingredients": {
-            "": {},
-            "": {},
-            "": {},
-            "": {},
-            "": {},
-            "": {},
-            "": {}
+            "caqui": {},
+            "plátano": {},
+            "cacao": {},
+            "cacahuete": {"type": "crema"},
+            "leche": {}
         },
         "steps": [
-            "",
-            ""
+            "Mezclar todo con la batidora.",
+            "Opcional incluir calabaza o boniato asado."
         ],
         "tags": [
-            ""
-        ]
-    },
-    {
-        "name": "",
-        "ingredients": {
-            "": {},
-            "": {},
-            "": {},
-            "": {},
-            "": {},
-            "": {},
-            "": {}
-        },
-        "steps": [
-            "",
-            ""
-        ],
-        "tags": [
-            ""
+            "desayuno"
         ]
     },
     {
