@@ -477,11 +477,20 @@
         ]
     },
     {
-        "name": "",
-        "ingredients": {},
+        "name": "Quiche de verduras",
+        "ingredients": {
+            "verduras": {"prep": "En daditos"},
+            "huevo": {"quantity": "3"},
+            "nata": {},
+            "hojaldre": {}
+        },
         "steps": [
-            "",
-            ""
+            "Calentar el horno a 200 grados.",
+            "Poner todas las verduras con sal, aceite y salsa de soja.",
+            "Poner 15 minutos en el horno.",
+            "Mezclar las verduras con los huevos y la nata.",
+            "Montar la quiche con el hojaldre. Acordarse se pinchar el hojaldre.",
+            "Poner 40 minutos en el horno."
         ],
         "tags": [
             ""
