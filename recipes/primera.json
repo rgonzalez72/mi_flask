@@ -497,14 +497,24 @@
         ]
     },
     {
-        "name": "",
-        "ingredients": {},
+        "name": "Arroz de sushi",
+        "ingredients": {
+            "arroz": { "type": "redondo"},
+            "vinagre": { "type": "de arroz" },
+            "sal": {},
+            "azucar": {}
+        },
         "steps": [
-            "",
-            ""
+            "Lavar el arroz 6-8 veces hasta que salga transparente.",
+            "Cocer una cantidad de agua 1 y medio con el arroz.",
+            "Sin quitar la tapa cocer 5 minutos a fuego fuerte y 10 a fuego suave.",
+            "Reposar 10 minutos.",
+            "Aliño (1 a 5 con el arroz). Proporción 5 vinagre 2 azucar 1 sal.",
+            "Extender el arroz en una bandeja que no sea de metal.",
+            "Mezclar el arroz y el aliño mientras se abanica."
         ],
         "tags": [
-            ""
+            "arroz", "acompañamiento"
         ]
     },
     {
